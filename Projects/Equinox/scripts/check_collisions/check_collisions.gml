@@ -41,7 +41,7 @@ function check_collisions_pixel_perfect_old() { /// @description old pixel perfe
 
 	//Snap
 	if place_meeting(x + sign(xSpeed), y, objBlock) {
-	    var wall = instance_place(x + sign(xSpeed), y, objBlock);
+	    var wall = instance_place(x + xSpeed, y, objBlock);
 	    if (xSpeed > 0)
 		{ //right
 	        x = (wall.bbox_left - 1) - sprite_bbox_right;
@@ -85,8 +85,8 @@ function check_collisions_pixel_perfect() { /// @description the pixel perfect c
 
 
 	//Snap
-	if place_meeting(x + sign(xSpeed), y, objBlock) {
-		var wall = instance_place(x + sign(xSpeed), y, objBlock);
+	if place_meeting(x + xSpeed, y, objBlock) {
+		var wall = instance_place(x + xSpeed, y, objBlock);
 		if (xSpeed > 0)
 		{ //right
 			x = (wall.bbox_left - 1) - sprite_bbox_right;
@@ -101,8 +101,8 @@ function check_collisions_pixel_perfect() { /// @description the pixel perfect c
 	x += xSpeed;
 
 	//Vertical collisions
-	if place_meeting(x, y + sign(ySpeed), objBlock) {
-		var wall = instance_place(x, y + sign(ySpeed), objBlock);
+	if place_meeting(x, y + ySpeed, objBlock) {
+		var wall = instance_place(x, y + ySpeed, objBlock);
 		if (ySpeed > 0)
 		{ //down
 			y = (wall.bbox_top - 1) - sprite_bbox_bottom;

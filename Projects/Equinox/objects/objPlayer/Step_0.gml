@@ -3,13 +3,11 @@ player_buttons_init();
 
 #region//checking is on ground, if it is stop y move, if it isn't apply grav
 //onGround and Onwall controls
-onGround	= check_below(objBlock);
-onWall		= place_meeting(x+facing, y, objBlock);
+onGround	= place_meeting(x, y + 1, objBlock);
+onWall		= place_meeting(x + facing, y, objBlock);
 
-//applying gSpeed
-if (onGround == false) {
-	ySpeed += gSpeed;
-}
+
+
 #endregion
 
 
@@ -44,7 +42,12 @@ switch (state) {
 
 }
 
+//applying gSpeed
+if (!onGround) {
+	ySpeed += gSpeed;
+}
 
+ySpeed = clamp(ySpeed, -2.5, 2.5);
 
 //horizontal and vertical collisions
 check_collisions_pixel_perfect();

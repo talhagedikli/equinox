@@ -1,13 +1,8 @@
-#region//macros
 //camera
 #macro VIEW view_camera[0]
 #macro GUI_W display_get_gui_width()
 #macro GUI_H display_get_gui_height()
 
-
-#endregion
-
-#region//enums
 enum states {
 	//PLAYER
 	normal,
@@ -31,5 +26,8 @@ enum states {
 	swappos,
 	seek
 }
-#endregion
+
+
+#macro c_crimson	make_color_rgb(184, 15, 10)
+#macro c_lmchiffon	make_color_rgb(255, 249, 204)
 

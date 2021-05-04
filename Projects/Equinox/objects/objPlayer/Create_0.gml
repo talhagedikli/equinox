@@ -7,11 +7,11 @@ state	= states.normal;
 //speed variables
 xSpeed			= 0;
 ySpeed			= 0;
-gSpeed			= 0.25;
+gSpeed			= 0.05;
 
-jPower			= -5;
+jPower			= -2;
 jumps			= 0;
-jumpsMax		= 2;
+jumpsMax		= 1;
 
 wallJumpX		= 3;
 wallJumpY		= -5;
@@ -24,14 +24,14 @@ dashY			= 0;
 //accel, decel and max speed
 aSpeed			= 0.2;
 dSpeed			= 0.5;
-mSpeed			= 3;
+mSpeed			= 2.5;
 
 //accels and decel variables
-groundAccel		= 0.3;
-groundDecel		= 0.5;
+groundAccel		= 0.1;
+groundDecel		= 0.15;
 
-airAccel		= 0.2;
-airDecel		= 0.15;
+airAccel		= 0.1;
+airDecel		= 0.075;
 
 /* 
 dashAccel		= 2;
@@ -48,11 +48,18 @@ bufferMax		= 8;
 coyoteCounter	= 0;
 coyoteMax		= 6;
 
+doubleJump		= false;
+
 grabCounter		= 0;
 grabMax			= 50;
 grabFallDown	= 20;
 
-
+//Backpack
+packPower		= 0;
+packPowerMax	= 0.25;
+gas				= 0;
+gasMax			= 100;
+gasRate			= 0;
 
 //control point variables
 landed			= false;		//edited

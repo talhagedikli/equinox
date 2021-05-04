@@ -4,7 +4,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "InputManager",
+    "path": "objects/InputManager/InputManager.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -17,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Objects/game/Rooms.yy",
+    "name": "Input Manager",
+    "path": "folders/Objects/game/Input Manager.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objRoomChanger",
+  "name": "AIInputManager",
   "tags": [],
   "resourceType": "GMObject",
 }

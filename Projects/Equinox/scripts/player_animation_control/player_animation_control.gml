@@ -21,16 +21,16 @@ function player_animation_control(){
 			{
 	            if (keyLeft or keyRight)
 				{
-	                sprite = sprPlayerRun;
+	                sprite = sprPlayer;
 	            }
 				else
 				{
-	                sprite = sprPlayerIdle;
+	                sprite = sprPlayer;
 	            }
 	        }
 			else
 			{
-	            sprite = sprPlayerIdle;
+	            sprite = sprPlayer;
 	            if (ySpeed < -1)
 				{
 	                frame = 2;
@@ -63,7 +63,7 @@ function player_animation_control(){
 
 	    case states.crouch:
 	        
-			sprite = sprPlayerCrouch;
+			sprite_index = sprPlayerCrouch;
 			
 		break;
 		
@@ -79,7 +79,7 @@ function player_animation_control(){
 	            facing = 1;
 	        }
 			*/
-			sprite = sprPlayerDash;
+			sprite = sprPlayer;
 			
 		break;
 		
@@ -89,13 +89,13 @@ function player_animation_control(){
 				facing = -facing;
 			}
 			
-			sprite = sprPlayerIdle;
+			sprite = sprPlayer;
 			frame = 2;
 			
 		break;
 			
 		case states.stop:
-			sprite = sprPlayerIdle;
+			sprite = sprPlayer;
 		
 		break;
 

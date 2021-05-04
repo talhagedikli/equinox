@@ -25,6 +25,8 @@ function player_buttons_init()
 	mouseLPressed	= mouse_check_button_pressed(mb_left);
 	mouseRPressed	= mouse_check_button_pressed(mb_right);
 	
+	keyPush			= keyboard_check(vk_alt);
+	
 }
 
 /// @description
@@ -42,7 +44,6 @@ function animation_init()
 	angle  = 0;
 	color  = c_white;
 	alpha  = 1
-	mask = mask_index;
 
 	//animation
 	frameSpeed = 0.15;

@@ -5,6 +5,7 @@ draw_sprite_ext(sprite, frame, xPos, yPos, xScale * facing, yScale,
 //						image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 
 
+//Draw the fuel tank
 
 
 

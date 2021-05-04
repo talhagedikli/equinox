@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "gui",
-    "path": "folders/Objects/gui.yy",
+    "name": "UI",
+    "path": "folders/Objects/game/UI.yy",
   },
   "resourceVersion": "1.0",
   "name": "objTextboxGui",
