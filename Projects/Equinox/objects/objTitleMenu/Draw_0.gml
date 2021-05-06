@@ -1,15 +1,28 @@
 /// @description 
-if keyboard_check_pressed(vk_shift) {
-	menuLevel = menuLevel == 0 ? 1 : 0;
-}
+//if keyboard_check_pressed(vk_shift) {
+//	menuLevel++;
+//	menuLevel = menuLevel mod menus.length;
+//}
 
 
-var length = array_length(menu[menuLevel]);
+var length	= array_length(menu[menuLevel]);
+var midX	= CAM_X + CAM_W/2;
+var midy	= CAM_Y + CAM_H/2 - CAM_H/6;
 
 
 var i = 0; repeat (length) {
+	draw_set_valign(fa_center);
+	draw_set_halign(fa_center);
+	draw_set_font(fntMenu);
 	
-	draw_text(x, y + i*(string_height("TEST") + 1), menu[menuLevel][i]);
+	var c = pos == i ? C_CRIMSON : c_white;
+	var a = pos == i ? asin(current_time / 10) : 1;
+	
+	
+	draw_text_color(midX, midy + i*(string_height("TEST") + 1), menu[menuLevel][i], c, c, c, c, a);
+	draw_set_valign(fa_top);
+	draw_set_halign(fa_left);
+	draw_set_alpha(1);
 	
 	
 	i++;	

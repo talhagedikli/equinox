@@ -1,6 +1,20 @@
  //animation
 animation_init();
 
+enum states {
+	//PLAYER
+	normal,
+	crouch,
+	dash,
+	grab,
+	climb,
+	
+	rock,
+	
+	dead,
+	stop,
+}
+
 //state
 state	= states.normal;
 
@@ -28,7 +42,7 @@ mSpeed			= 2.5;
 
 //accels and decel variables
 groundAccel		= 0.1;
-groundDecel		= 0.15;
+groundDecel		= 0.1;
 
 airAccel		= 0.1;
 airDecel		= 0.075;
@@ -57,8 +71,8 @@ grabFallDown	= 20;
 //Backpack
 packPower		= 0;
 packPowerMax	= 0.25;
-gas				= 0;
-gasMax			= 100;
+gasMax			= 128;
+gas				= gasMax;
 gasRate			= 0;
 
 //control point variables

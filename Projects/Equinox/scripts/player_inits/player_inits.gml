@@ -25,7 +25,7 @@ function player_buttons_init()
 	mouseLPressed	= mouse_check_button_pressed(mb_left);
 	mouseRPressed	= mouse_check_button_pressed(mb_right);
 	
-	keyPush			= keyboard_check(vk_alt);
+	keyAlt			= keyboard_check(vk_alt);
 	
 }
 

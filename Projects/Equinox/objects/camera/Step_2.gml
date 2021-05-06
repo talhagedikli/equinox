@@ -3,16 +3,12 @@ camX	= camera_get_view_x(VIEW);
 camY	= camera_get_view_y(VIEW);
 
 //set camera's size
-if (global.zoom)
-{
+if (global.zoom) {
 	camW = lerp(camW, newW, zoomSpd);
 	camH = lerp(camH, newH, zoomSpd);
-}
-else
-{
+} else {
 	camW = lerp(camW, defaultW, zoomSpd);
 	camH = lerp(camH, defaultH, zoomSpd);
-
 }
 
 camera_set_view_size(VIEW, camW, camH);
@@ -95,10 +91,11 @@ if (layer_sequence_exists("transitions", global.sequenceLayer))
 	layer_sequence_y(global.sequenceLayer, camY);
 }
 
-//parallax background
-if (layer_exists("orwanBG"))
-{
-	layer_x("orwanBG", camX/16);
+//Parallax background
+var sky = "Sky";
+if (layer_exists(sky)) {
+	layer_x(sky, camX/12);
+
 }
 
 

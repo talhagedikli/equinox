@@ -48,6 +48,7 @@ if (!onGround) {
 }
 
 ySpeed = clamp(ySpeed, -2.5, 2.5);
+xSpeed = clamp(xSpeed, -mSpeed, mSpeed);
 
 //horizontal and vertical collisions
 check_collisions_pixel_perfect();

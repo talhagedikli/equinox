@@ -16,8 +16,7 @@ test[4][1] = objPlayer.gSpeed;
 test[5][0] = "net force"
 test[5][1] = objPlayer.gSpeed - objPlayer.packPower;
 
-test[6][0] = "horizontal input"
-test[6][1] = InputManager.horizontalInput;
+
 
 
 

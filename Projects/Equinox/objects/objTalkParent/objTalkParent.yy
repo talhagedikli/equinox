@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "parents",
-    "path": "folders/Objects/parents.yy",
+    "name": "UI",
+    "path": "folders/Objects/game/UI.yy",
   },
   "resourceVersion": "1.0",
   "name": "objTalkParent",

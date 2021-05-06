@@ -6,7 +6,7 @@
     "path": "folders/Scripts/inits.yy",
   },
   "resourceVersion": "1.0",
-  "name": "constants",
+  "name": "macros",
   "tags": [],
   "resourceType": "GMScript",
 }

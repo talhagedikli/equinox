@@ -14,12 +14,12 @@ gasRate = lerp(gasRate, rate, 0.1);
 
 var tankl = gh - tanky - gasRate * tankh - 1;		//-1 is a just a line at bottom of the tank
 
-var ctank = rate < 0.5 ? c_crimson : c_lmchiffon;
+var atank = rate < 0.5 ? abs(dsin(current_time))*0.8 : 0.8;
 
 //Actual draw phase
-draw_set_alpha(0.8);
+draw_set_alpha(atank);
 draw_set_color(c_white);
-draw_set_color(ctank);
+
 
 
 draw_roundrect(tankx, gh - tanky, tankw, tankl, false);

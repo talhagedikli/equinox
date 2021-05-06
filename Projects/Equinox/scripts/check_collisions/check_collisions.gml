@@ -82,9 +82,6 @@ function check_collisions_pixel_perfect() { /// @description the pixel perfect c
 	var sprite_bbox_left	= sprite_get_bbox_left(sprite_index)	- sprite_get_xoffset(sprite_index);
 
 	//Horizontal collisions
-
-
-	//Snap
 	if place_meeting(x + xSpeed, y, objBlock) {
 		var wall = instance_place(x + xSpeed, y, objBlock);
 		if (xSpeed > 0)

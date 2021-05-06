@@ -10,5 +10,3 @@ keyDown		= vk_down;
 keyUp		= vk_up;
 keySpace	= vk_space;
 keyAlt		= vk_alt;
-
-xx = 20;

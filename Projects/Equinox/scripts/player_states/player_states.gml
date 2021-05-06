@@ -1,6 +1,6 @@
 /// @description player normal state
 function player_state_normal() {
-    #region //MOVEMENT SECTION////////////////////////////////////////////////////////////////
+    #region //Movement phase
     if (keyLeft) {
         xSpeed = approach(xSpeed, -mSpeed, aSpeed);
     } else if (keyRight) {
@@ -19,7 +19,7 @@ function player_state_normal() {
     }
     #endregion
 
-    #region //JUMP SECTION///////////////////////////////////////////////////////////////////	
+    #region //Jumping phase
     //Coyote time
     if (onGround == false) {
         if (coyoteCounter > 0) {
@@ -74,14 +74,14 @@ function player_state_normal() {
     }
 
     //variable jump height
-    //if (onGround == false)
-    //{
-    //	if (ySpeed < 0 and !keyJump)		
-    //	{
-    //		//if keyJump is not pressed, slow down by 50 percent
-    //	    ySpeed *= 0.5;
-    //	}
-    //}
+    if (onGround == false)
+    {
+    	if (ySpeed < 0 and !keyJump && !keyAlt)		
+    	{
+    		//if keyJump is not pressed, slow down by 50 percent
+    	    ySpeed *= 0.95;
+    	}
+    }
 
     //landed
     if (onGround == true) {
@@ -97,7 +97,7 @@ function player_state_normal() {
 
 
     #region //Flying section
-    //if (keyPush and gas > 0) {
+    //if (keyAlt and gas > 0) {
     //	gas--;
     //	packPower = approach(packPower, packPowerMax, 0.05);
 
@@ -110,11 +110,11 @@ function player_state_normal() {
     static time = 0;
     time++;
 
-    if (keyPush) {
+    if (keyAlt) {
         if (gas > 0) {
             gas--;
             packPower = approach(packPower, packPowerMax, 0.005);
-            if (time mod 5 == 0)
+            if (time mod 5 == 0) //Creating some particles when flying
                 part_particles_create(_ptSystem, x + random_range(-8, 8), y + sprite_yoffset, _pt, 1);
         } else {
             packPower = 0;
@@ -132,8 +132,8 @@ function player_state_normal() {
 
     #endregion
 
-
-    #region //SWITCHING STATEMENT SECTION///////////////////////////////////////////////////
+	
+	#region //Switching state phase
     //switch to crouch state
     if (onGround and keyDown) {
         squash_stretch(0.7, 1.2);

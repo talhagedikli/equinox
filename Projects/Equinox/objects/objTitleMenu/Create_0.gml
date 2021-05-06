@@ -1,16 +1,24 @@
 /// @description 
 
-
+enum menus {
+	main,
+	start,
+	settings,
+	quit,
+	length
+}
 
 
 menu = [
-	[["Start"],["World", "Back"]], 
-	[["Settings"],["Resolution", "Sound", "Back"]], 
-	[["quit"]]
+	["START", "SETTINGS", "QUIT"],		// Main
+	[ ],								// Start
+	["VOLUME", "RESOLUTION", "BACK"],	// Settings
+	[ ]									// Quit
 ];
 
 
-menuLevel = 0;
+menuLevel = menus.main;
+pos = 0;
 
 
 
