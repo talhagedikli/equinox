@@ -10,3 +10,8 @@ function chance(_percent)
 	return _percent > random(1);
 
 }
+
+
+
+
+

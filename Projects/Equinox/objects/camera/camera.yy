@@ -30,11 +30,11 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "game",
-    "path": "folders/Objects/game.yy",
+    "name": "Game",
+    "path": "folders/Objects/Game.yy",
   },
   "resourceVersion": "1.0",
-  "name": "camera",
+  "name": "Camera",
   "tags": [],
   "resourceType": "GMObject",
 }

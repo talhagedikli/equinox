@@ -35,7 +35,7 @@ alarm[0] = 1;
 
 //re-set surface and gui 
 surface_resize(application_surface, viewWidth*windowScale, viewHeight*windowScale);
-//display_set_gui_size(viewWidth*windowScale, viewHeight*windowScale);
+display_set_gui_size(viewWidth * windowScale, viewHeight * windowScale);
 
 
 //shake

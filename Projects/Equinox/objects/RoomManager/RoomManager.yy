@@ -25,10 +25,12 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Room Manager",
-    "path": "folders/Objects/game/Room Manager.yy",
+    "path": "folders/Objects/Game/Room Manager.yy",
   },
   "resourceVersion": "1.0",
   "name": "RoomManager",
-  "tags": [],
+  "tags": [
+    "manager",
+  ],
   "resourceType": "GMObject",
 }

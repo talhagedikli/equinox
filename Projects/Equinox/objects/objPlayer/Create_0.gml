@@ -71,7 +71,7 @@ grabFallDown	= 20;
 //Backpack
 packPower		= 0;
 packPowerMax	= 0.25;
-gasMax			= 1280;
+gasMax			= 128;
 gas				= gasMax;
 gasRate			= 0;
 

@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Menus",
-    "path": "folders/Objects/game/UI/Menus.yy",
+    "path": "folders/Objects/UI/Menus.yy",
   },
   "resourceVersion": "1.0",
   "name": "objTitleMenu",

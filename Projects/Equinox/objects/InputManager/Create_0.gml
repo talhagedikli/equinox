@@ -8,3 +8,5 @@ keyUp		= 0;
 // These values will be used in step event for all other objects
 horizontalInput		= 0;
 verticalInput		= 0;
+
+global.control		= true;

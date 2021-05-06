@@ -1,9 +1,9 @@
 /// @description player normal state
 function player_state_normal() {
     #region //Movement phase
-    if (keyLeft) {
+    if (InputManager.keyLeft) {
         xSpeed = approach(xSpeed, -mSpeed, aSpeed);
-    } else if (keyRight) {
+    } else if (InputManager.keyRight) {
         xSpeed = approach(xSpeed, mSpeed, aSpeed);
     } else {
         xSpeed = approach(xSpeed, 0, dSpeed);
@@ -30,7 +30,7 @@ function player_state_normal() {
     }
 
     //real jump section
-    if (keyJump and canJump == true and coyoteCounter > 0) {
+    if (InputManager.keySpace and canJump == true and coyoteCounter > 0) {
 
         ySpeed = jPower;
         canJump = false;
@@ -39,12 +39,12 @@ function player_state_normal() {
         squash_stretch(0.7, 1.3);
     }
     //to prevent the jump loop by holding down the key(canJump used for this)
-    else if (!keyJump and onGround == true) {
+    else if (!InputManager.keySpace and onGround == true) {
         canJump = true;
     }
 
     //jump buffer
-    if (keyJumpPressed) {
+    if (InputManager.keySpacePressed) {
         bufferCounter = bufferMax;
     }
 
@@ -63,7 +63,7 @@ function player_state_normal() {
 
 
     //double jump section
-    if (jumps > 0 and keyJumpPressed and doubleJump) {
+    if (jumps > 0 and InputManager.keySpacePressed and doubleJump) {
         //reduce jumps variable by 1 every step
         jumps -= 1;
         ySpeed = jPower;
@@ -76,9 +76,9 @@ function player_state_normal() {
     //variable jump height
     if (onGround == false)
     {
-    	if (ySpeed < 0 and !keyJump && !keyAlt)		
+    	if (ySpeed < 0 and !InputManager.keySpace && !InputManager.keyAlt)		
     	{
-    		//if keyJump is not pressed, slow down by 50 percent
+    		//if InputManager.keySpace is not pressed, slow down by 50 percent
     	    ySpeed *= 0.95;
     	}
     }
@@ -97,20 +97,12 @@ function player_state_normal() {
 
 
     #region //Flying section
-    //if (keyAlt and gas > 0) {
-    //	gas--;
-    //	packPower = approach(packPower, packPowerMax, 0.05);
-
-    //} else if (!onGround){
-    //	packPower = approach(packPower, 0, 5);
-    //	gas = gasMax;
-    //}
     static _ptSystem = global.partSystem;
     static _pt = global.ptDashPixels;
     static time = 0;
     time++;
 
-    if (keyAlt) {
+    if (InputManager.keyAlt) {
         if (gas > 0) {
             gas--;
             packPower = approach(packPower, packPowerMax, 0.005);
@@ -120,25 +112,25 @@ function player_state_normal() {
             packPower = 0;
         }
 
-        if (place_meeting(x, y - 1, objBlock)) packPower = 0;
+        if (place_meeting(x, y - 1, objBlock)) packPower = 0;	// If head hits roof, cut the power
 
     } else {
         packPower = 0;
-        if (onGround) {
+        if (onGround) {	
             gas = gasMax;
         }
     }
-    ySpeed -= packPower;
+    ySpeed -= packPower;										// Apply packpower
 
     #endregion
 
 	
 	#region //Switching state phase
     //switch to crouch state
-    if (onGround and keyDown) {
-        squash_stretch(0.7, 1.2);
-        state = states.crouch;
-    }
+    //if (onGround and InputManager.keyDown) {
+    //    squash_stretch(0.7, 1.2);
+    //    state = states.crouch;
+    //}
 
     ////switch to dash state
     //if (keyDashPressed and canDash == true and stopDashing == false)
@@ -184,9 +176,9 @@ function player_state_dash() {
     //apply new gSpeed
     gSpeed = _newGraw;
 
-    if (keyLeft) {
+    if (InputManager.keyLeft) {
         facing = -1;
-    } else if (keyRight) {
+    } else if (InputManager.keyRight) {
         facing = 1;
     }
 
@@ -206,13 +198,13 @@ function player_state_dash() {
 
     //calculating dash speeds (dashX and dashY just once)
     if (isDashing == false) {
-        if (keyRight or keyLeft) {
+        if (InputManager.keyRight or InputManager.keyLeft) {
             dashX = facing * xDashPower;
             squash_stretch(1.3, 0.6);
 
-            if (keyUp) {
+            if (InputManager.keyUp) {
                 dashY = yDashPower;
-            } else if (keyDown) {
+            } else if (InputManager.keyDown) {
                 dashY = -yDashPower;
             } else {
                 dashY = 0;
@@ -220,10 +212,10 @@ function player_state_dash() {
         } else //if nothing pressed but up and down
         {
             dashX = 0;
-            if (keyUp) {
+            if (InputManager.keyUp) {
                 dashY = yDashPower;
                 squash_stretch(0.6, 1.4);
-            } else if (keyDown) {
+            } else if (InputManager.keyDown) {
                 dashY = -yDashPower;
                 squash_stretch(0.6, 1.4);
             } else //actual nothing pressed				
@@ -279,7 +271,7 @@ function player_state_crouch() {
     squash_stretch(1.4, 0.6);
 
     //switch statement
-    if (!keyDown) {
+    if (!InputManager.keyDown) {
         state = states.normal;
     }
 
@@ -309,7 +301,7 @@ function player_state_grab() {
     }
 
     //if walljump, switch to normal state EDITED - facing edited in animation control
-    if (keyJumpPressed) {
+    if (InputManager.keySpacePressed) {
         squash_stretch(0.7, 1.3);
 
         facing = -facing;

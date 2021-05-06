@@ -28,7 +28,9 @@
     "path": "folders/Objects/Effects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objParticles",
-  "tags": [],
+  "name": "ParticleManager",
+  "tags": [
+    "manager",
+  ],
   "resourceType": "GMObject",
 }

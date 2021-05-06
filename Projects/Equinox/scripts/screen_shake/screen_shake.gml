@@ -5,7 +5,7 @@
 /// @description    Set the screenshake object variables.
 //for in game
 function screen_shake(_time, _magnitude, _fade){
-	with (camera)
+	with (Camera)
 	{
 	    shake = true;
 	    shake_time = _time;

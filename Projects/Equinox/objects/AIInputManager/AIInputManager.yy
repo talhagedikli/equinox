@@ -25,10 +25,12 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Input Manager",
-    "path": "folders/Objects/game/Input Manager.yy",
+    "path": "folders/Objects/Game/Input Manager.yy",
   },
   "resourceVersion": "1.0",
   "name": "AIInputManager",
-  "tags": [],
+  "tags": [
+    "manager",
+  ],
   "resourceType": "GMObject",
 }

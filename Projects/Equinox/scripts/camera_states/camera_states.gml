@@ -14,7 +14,7 @@ function camera_states_cell(){
 function zoom_in(_target)
 {
 
-	with (camera)
+	with (Camera)
 	{
 		//save the latest following object and state before zooming
 		global.lastCamFollowing = following;
@@ -30,7 +30,7 @@ function zoom_in(_target)
 
 function zoom_out()
 {
-	with (camera)
+	with (Camera)
 	{
 		//switch to oldest state and following object that you saved before
 		state		= global.lastCamState;

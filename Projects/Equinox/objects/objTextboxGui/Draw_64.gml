@@ -1,13 +1,9 @@
 //general variables  and calculations
 //gui width and height
-var _guiW = display_get_gui_width();
-var _guiH = display_get_gui_height();
-
-//textbox's start and finish points
 var _xStart = 32;
-var _yStart = 3*(_guiH/4);
-var _xEnd = _guiW-32;
-var _yEnd = _guiH-16;
+var _yStart = 3*(GUI_H/4);
+var _xEnd = GUI_W-32;
+var _yEnd = GUI_H-16;
 
 //textbox's width and height
 var _boxW = abs(_xEnd - _xStart);

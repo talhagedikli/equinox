@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "collisions",
-    "path": "folders/Scripts/collisions.yy",
+    "name": "Collisions",
+    "path": "folders/Scripts/Collisions.yy",
   },
   "resourceVersion": "1.0",
   "name": "check_collisions",

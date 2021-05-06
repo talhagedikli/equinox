@@ -22,10 +22,12 @@
   "overriddenProperties": [],
   "parent": {
     "name": "UI",
-    "path": "folders/Objects/game/UI.yy",
+    "path": "folders/Objects/UI.yy",
   },
   "resourceVersion": "1.0",
   "name": "objParMinimap",
-  "tags": [],
+  "tags": [
+    "parent",
+  ],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 /// @description
 function player_animation_control(){
-	xScale = approach(xScale,1,0.03);
-	yScale = approach(yScale,1,0.03);
+	xScale = approach(xScale, 1, 0.03);
+	yScale = approach(yScale, 1, 0.03);
 
 	//animation control    
 	switch state 
@@ -108,4 +108,34 @@ function player_animation_control(){
 	    frame = 0;
 	}
 
+}
+	
+
+/// @description
+//checks one time(create event)
+function animation_init()
+{
+	//initialize variables for drawing, and animation.
+	//draw
+	sprite = sprite_index;
+	frame  = 0;
+	xPos   = x;
+	yPos   = y;
+	xScale = 1;
+	yScale = 1;
+	angle  = 0;
+	color  = c_white;
+	alpha  = 1
+
+	//animation
+	frameSpeed = 0.15;
+	facing = 1;
+	lastSprite = sprite;
+	
+	/*key mapping
+	keyboard_set_map(vk_up, ord("W"));
+	keyboard_set_map(vk_left, ord("A"));
+	keyboard_set_map(vk_down, ord("S"));
+	keyboard_set_map(vk_right, ord("D"));
+	*/
 }

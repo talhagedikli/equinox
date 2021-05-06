@@ -33,11 +33,11 @@ if (global.showMinimap) {
 		var pY = (objPlayer.y / room_height) * mapSize;
 							
 		var minScl = 2;											// Minimap downscale
-		draw_set_circle_precision(8);
+		//draw_set_circle_precision(8);
 		draw_circle(mapSize/2, mapSize/2, mapSize/2, false);	// Minimap background
 
 		with(objParMinimap) { 
-			draw_set_color(c_black);
+			draw_set_color(C_CRIMSON);
 			draw_set_alpha(1);
 			draw_circle(mapSize/2, mapSize/2, radius, false);
 		} 
