@@ -15,7 +15,7 @@
 
 #region DISPLAY VARIABLES AND NAMES
 //set font
-draw_set_font(fntWriter);
+draw_set_font(fntText);
 //array length
 var _arrayL = array_length(test);
 

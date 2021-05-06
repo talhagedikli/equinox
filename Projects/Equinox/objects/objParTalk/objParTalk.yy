@@ -29,7 +29,7 @@
     "path": "folders/Objects/game/UI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objTalkParent",
+  "name": "objParTalk",
   "tags": [],
   "resourceType": "GMObject",
 }

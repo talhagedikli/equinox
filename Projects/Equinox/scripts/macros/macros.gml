@@ -5,6 +5,7 @@
 
 #macro CAM_W	camera_get_view_width(VIEW)
 #macro CAM_H	camera_get_view_height(VIEW)
+
 #macro CAM_X	camera_get_view_x(VIEW)
 #macro CAM_Y	camera_get_view_y(VIEW)
 

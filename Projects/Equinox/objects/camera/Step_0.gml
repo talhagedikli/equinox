@@ -13,3 +13,4 @@
 //	surface_resize(application_surface, _ww, _wh);
 //	display_set_gui_size(_ww, _wh);
 //}
+

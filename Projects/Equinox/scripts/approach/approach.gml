@@ -13,3 +13,8 @@ function approach(argument0, argument1, argument2) {
 
 
 }
+
+function normalize(value, min, max) {
+	var normalized = (value - min) / (max - min);
+	return normalized;
+}

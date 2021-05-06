@@ -4,8 +4,8 @@ var gh = display_get_gui_height();
 
 //Draw the fuel tank
 //Variables
-var tankx	= 16;
-var tanky	= 16;
+var tankx	= 10;
+var tanky	= 10;
 var tankw	= 48;
 var tankh	= 150;
 
