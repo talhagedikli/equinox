@@ -4,6 +4,9 @@ if (global.showMinimap) {
 	var mapSize = 100;
 	var gap		= 10;
 	var radius	= 2;
+	//display_set_gui_size(1366, 768);
+	//draw_circle(600, 300, 50, false);
+	//display_set_gui_size(-1, -1);
 	
 	// Create the minimap surface
 	if(!surface_exists(minimap)) {

@@ -12,9 +12,10 @@ if (focus = true) {
 	 if (keyboard_check_pressed(vk_enter)) {
 		 focus	= false;
 		 output = string_copy(input, 1, maxCharacters);
+		 lastInput = output;
+		 fadeTimer = fadeMax;
 		 input = "";
 		 keyboard_string = input;
-		 show_message(output);
 	 }
 }
 

@@ -15,3 +15,11 @@ cursorTime = 0;
 cursor = "|";
 delay = 20;
 //alarm[0] = delay;
+
+command = undefined;
+commlen = undefined;
+value	= undefined;
+lastInput = undefined;
+fadeTimer	= 0;
+fadeMax		= 40;
+fadeX		= 15;

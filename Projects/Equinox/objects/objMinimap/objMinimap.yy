@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "UI",
-    "path": "folders/Objects/UI.yy",
+    "name": "Minimap",
+    "path": "folders/Objects/UI/Minimap.yy",
   },
   "resourceVersion": "1.0",
   "name": "objMinimap",

@@ -22,6 +22,12 @@ test[6][1] = APP_W;
 test[7][0] = "apph"
 test[7][1] = APP_H;
 
+test[8][0] = "gspeed"
+test[8][1] = instance_exists(objPlayer) == true ? objPlayer.gSpeed : 0;
+
+test[9][0] = "mspeed"
+test[9][1] = instance_exists(objPlayer) == true ? objPlayer.mSpeed : 0;
+
 
 
 
