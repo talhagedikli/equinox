@@ -5,7 +5,7 @@ var tanky	= 40;
 var tankw	= 48;
 var tankh	= 150;
 
-var rate = gas / global.test.gasMax;
+var rate = gas / gasMax;
 gasRate = lerp(gasRate, rate, 0.1);
 
 var tankl = GUI_H - tanky - gasRate * tankh - 1;		//-1 is a just a line at bottom of the tank

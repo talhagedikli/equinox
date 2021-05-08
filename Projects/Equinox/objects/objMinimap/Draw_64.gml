@@ -23,7 +23,7 @@ if (global.showMinimap) {
 		with(objParMinimap) { 
 			draw_set_color(c_black);
 			draw_set_alpha(1);
-			draw_circle(x/room_width * mapSize, y/room_height * mapSize, radius, false);
+			draw_circle(remap(x, 0, room_width, 0, mapSize), y/room_height * mapSize, radius, false);
 			//draw_point(lerp(0, mapSize, x/room_width), lerp(0, mapSize, y/room_height));
 		}
 	}

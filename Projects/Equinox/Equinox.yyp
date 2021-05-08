@@ -50,6 +50,7 @@
     {"id":{"name":"shInvisible","path":"shaders/shInvisible/shInvisible.yy",},"order":13,},
     {"id":{"name":"ParticleManager","path":"objects/ParticleManager/ParticleManager.yy",},"order":0,},
     {"id":{"name":"objTextInput","path":"objects/objTextInput/objTextInput.yy",},"order":5,},
+    {"id":{"name":"test_value","path":"scripts/test_value/test_value.yy",},"order":5,},
     {"id":{"name":"squash_stretch","path":"scripts/squash_stretch/squash_stretch.yy",},"order":4,},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},
     {"id":{"name":"sprPlayerCrouch","path":"sprites/sprPlayerCrouch/sprPlayerCrouch.yy",},"order":1,},

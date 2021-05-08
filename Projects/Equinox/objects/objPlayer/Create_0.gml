@@ -21,7 +21,7 @@ state	= states.normal;
 //speed variables
 xSpeed			= 0;
 ySpeed			= 0;
-global.test.gSpeed			= 0.05;
+gSpeed			= 0.05;
 
 jPower			= -2;
 jumps			= 0;
@@ -38,8 +38,8 @@ dashY			= 0;
 //accel, decel and max speed
 aSpeed			= 0.2;
 dSpeed			= 0.5;
-global.test.hMaxSpeed		= 2.5;
-global.test.vMaxSpeed		= 2.5;
+hMaxSpeed		= 2.5;
+vMaxSpeed		= 2.5;
 
 //accels and decel variables
 groundAccel		= 0.1;
@@ -72,8 +72,8 @@ grabFallDown	= 20;
 //Backpack
 packPower		= 0;
 packPowerMax	= 0.25;
-global.test.gasMax			= 128;
-gas				= global.test.gasMax;
+gasMax			= 128;
+gas				= gasMax;
 gasRate			= 0;
 
 //control point variables
@@ -101,6 +101,7 @@ isDashing		= false;
 //tLight			= undefined;
 //oLight			= noone;
 //pLight			= undefined;
+
 
 
 

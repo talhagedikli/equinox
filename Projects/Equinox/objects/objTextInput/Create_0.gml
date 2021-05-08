@@ -35,8 +35,17 @@ fadeXMax		= 215;
 
 global.test		= {
 	
-	
 };
+
+// Player 
+set_val("gasmax", undefined);
+set_val("hmax", undefined);
+set_val("vmax", undefined);
+set_val("gspeed", undefined);
+
+// Camera
+set_val("camw", undefined);
+set_val("camh", undefined);
 
 
 

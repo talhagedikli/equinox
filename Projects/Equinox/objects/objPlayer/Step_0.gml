@@ -44,11 +44,11 @@ switch (state) {
 
 //applying gSpeed
 if (!onGround) {
-	ySpeed += global.test.gSpeed;
+	ySpeed += gSpeed;
 }
 
-ySpeed = clamp(ySpeed, -global.test.vMaxSpeed, global.test.vMaxSpeed);
-xSpeed = clamp(xSpeed, -global.test.hMaxSpeed, global.test.hMaxSpeed);
+ySpeed = clamp(ySpeed, -vMaxSpeed, vMaxSpeed);
+xSpeed = clamp(xSpeed, -hMaxSpeed, hMaxSpeed);
 
 //horizontal and vertical collisions
 check_collisions_pixel_perfect();

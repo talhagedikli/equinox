@@ -2,9 +2,9 @@
 function player_state_normal() {
     #region //Movement phase
     if (InputManager.keyLeft) {
-        xSpeed = approach(xSpeed, -global.test.hMaxSpeed, aSpeed);
+        xSpeed = approach(xSpeed, -hMaxSpeed, aSpeed);
     } else if (InputManager.keyRight) {
-        xSpeed = approach(xSpeed, global.test.hMaxSpeed, aSpeed);
+        xSpeed = approach(xSpeed, hMaxSpeed, aSpeed);
     } else {
         xSpeed = approach(xSpeed, 0, dSpeed);
     }
@@ -117,7 +117,7 @@ function player_state_normal() {
     } else {
         packPower = 0;
         if (onGround) {	
-            gas = global.test.gasMax;
+            gas = gasMax;
         }
     }
     ySpeed -= packPower;										// Apply packpower
@@ -240,12 +240,12 @@ function player_state_dash() {
         /*
         if (xSpeed != 0)
         {
-        	xSpeed = facing*global.test.hMaxSpeed;
+        	xSpeed = facing*hMaxSpeed;
         }*/
 
         //smooth stopping
-        ySpeed = sign(ySpeed) * global.test.hMaxSpeed;
-        xSpeed = sign(xSpeed) * global.test.hMaxSpeed;
+        ySpeed = sign(ySpeed) * hMaxSpeed;
+        xSpeed = sign(xSpeed) * hMaxSpeed;
 
         //set dashCounter to 0
         dashCounter = 0;
