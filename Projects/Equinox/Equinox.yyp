@@ -37,7 +37,6 @@
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},"order":0,},
     {"id":{"name":"objParMinimap","path":"objects/objParMinimap/objParMinimap.yy",},"order":0,},
     {"id":{"name":"objParTalk","path":"objects/objParTalk/objParTalk.yy",},"order":1,},
-    {"id":{"name":"objInputTester","path":"objects/objInputTester/objInputTester.yy",},"order":6,},
     {"id":{"name":"sprSky","path":"sprites/sprSky/sprSky.yy",},"order":0,},
     {"id":{"name":"GuiElements","path":"objects/GuiElements/GuiElements.yy",},"order":2,},
     {"id":{"name":"shOverlayColour","path":"shaders/shOverlayColour/shOverlayColour.yy",},"order":6,},

@@ -44,11 +44,11 @@ switch (state) {
 
 //applying gSpeed
 if (!onGround) {
-	ySpeed += gSpeed;
+	ySpeed += global.test.gSpeed;
 }
 
-ySpeed = clamp(ySpeed, -2.5, 2.5);
-xSpeed = clamp(xSpeed, -mSpeed, mSpeed);
+ySpeed = clamp(ySpeed, -global.test.vMaxSpeed, global.test.vMaxSpeed);
+xSpeed = clamp(xSpeed, -global.test.hMaxSpeed, global.test.hMaxSpeed);
 
 //horizontal and vertical collisions
 check_collisions_pixel_perfect();
@@ -62,6 +62,7 @@ frame_reset();
 //tracking position
 xPos = x;
 yPos = y;
+
 
 
 

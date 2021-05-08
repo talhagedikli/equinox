@@ -1,38 +1,37 @@
 /// @description 
-///Text Input Step Script
-//check if box is focused
+if (keyboard_check_pressed(vk_tab)) { focus = !focus };
+
 if (focus = true) {
-	//if is focused, check for user hitting enter to stop input
-     //Get input up to max characters.
 	if (string_length(keyboard_string) < maxCharacters) 
 		input = keyboard_string;
-	else
-		keyboard_string = input;
 		
 	 if (keyboard_check_pressed(vk_enter)) {
 		 focus	= false;
 		 output = string_copy(input, 1, maxCharacters);
 		 lastInput = output;
-		 fadeTimer = fadeMax;
 		 input = "";
 		 keyboard_string = input;
+		 fadeX = 15;
+		 fadeTimer = fadeMax;
 	 }
 }
 
-if (keyboard_check_pressed(vk_tab)) { focus = !focus };
- 
- if (focus) { 
+
+if (focus) { // Stuff to do in focus mode
 	 global.control = false;
+	 
 	 cursor = current_time/100 mod 10 > 5 ? "|" : "";
-	 alpha	= lerp(alpha, 0.8, 0.1);
+	 barAlpha	= lerp(barAlpha, 0.8, 0.1);
+	 
 	 if (keyboard_check_pressed(vk_escape)) { focus = false };
 	 
 
-} else { 
+} else { // Stuff to do in !focus mode
 	 global.control = true 
+	 
 	 cursor = "";
-	 alpha	= lerp(alpha, 0.2, 0.1);
-	 //keyboard_string = "";
+	 barAlpha	= lerp(barAlpha, 0.2, 0.1);
+	 
 	 input	= "";
 	 keyboard_string = input;
 }

@@ -29,6 +29,17 @@ function acos(time) {
 	
 }
 
+/*      
+value = 110;      
+m = Map(value, 0, 100, -20, -10);      
+// m = -9      
+*/     
+     
+///Map(val, min1, max1, min2, max2)   
+function remap(value, min1, max1, min2, max2) {
+	return min2 + (max2 - min2) * ((value - min1) / (max1 - min1));
+}
+
 
 
 

@@ -1,6 +1,7 @@
 /// @description 
 if (output == undefined) exit;
 
+// Get command name, type and value
 var i = 1; repeat (string_length(output)) {
 	var c = string_char_at(output, i);
 	
@@ -18,18 +19,38 @@ var i = 1; repeat (string_length(output)) {
 	i++;	
 }
 
+// After getting them set output to undefined
 if (output != undefined) output = undefined;
+
+// Value tester
+if (command != undefined)
+	global.test[$ command]		= value;
+
+// Main commands
+if (command == "show") {
+	show_message(global.test[$ value]);
+}
+else if (command == "room_goto") {
+	room_goto(value);
+}
+
+// Player commands
 with (objPlayer) {
-	if (other.command == "gspeed") {
-		gSpeed	= other.type == str.digits ? other.value : gSpeed;
-	} else if (other.command == "mspeed") {
-		mSpeed	= other.type == str.digits ? other.value : mSpeed;	
-	} else if (other.command == "gas") { 
-		gasMax		= other.type == str.digits ? other.value : gasMax;
-		gas			= gasMax;
+	if (other.command == "player_x") {
+		x	= other.type == str.digits ? other.value : x;
+	} 
+	else if (other.command == "player_y") {
+		y	= other.type == str.digits ? other.value : y;	
 	}
 }
 
+// After using them set command name, type and value to default
+if (command != undefined || commlen != undefined || type != undefined || value != undefined ) {
+	command		= undefined;
+	commlen		= undefined;
+	type		= undefined;
+	value		= undefined;
+}
 
 
 
