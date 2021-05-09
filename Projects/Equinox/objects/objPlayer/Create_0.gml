@@ -71,6 +71,8 @@ grabFallDown	= 20;
 
 //Backpack
 packPower		= 0;
+packPowerAccel	= 0;
+packPowerDecel	= 0;
 packPowerMax	= 0.25;
 gasMax			= 128;
 gas				= gasMax;
@@ -102,10 +104,10 @@ isDashing		= false;
 //oLight			= noone;
 //pLight			= undefined;
 
-gasBar			= new GuiBar();
+gasBar			= new GuiBar;
 gasBar.create(10,			 GUI_H - 40, 25, -150);
 
-testbar			= new GuiBar();
+testbar			= new GuiBar;
 testbar.create(10 + 25 + 10, GUI_H - 40, 25, -150);
 
 

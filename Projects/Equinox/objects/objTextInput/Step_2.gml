@@ -27,9 +27,6 @@ if (output != undefined) output = undefined;
 if (command != undefined)
     global.test[$ command] = value;
 
-if (command != undefined)
-    newtest[$ command] = value;
-	
 	
 // Live variable tester
 if (instance_exists(objPlayer)) {
@@ -38,6 +35,8 @@ if (instance_exists(objPlayer)) {
 		vMaxSpeed	= get_val(vMaxSpeed,	"vmax");
 		gSpeed		= get_val(gSpeed,		"gspeed");
 		gasMax		= get_val(gasMax,		"gasmax");
+		packPowerMax= get_val(packPowerMax,		"maxpower");
+		
 	}
 	
 		

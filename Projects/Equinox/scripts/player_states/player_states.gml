@@ -278,7 +278,8 @@ function player_state_crouch() {
 }
 
 /// @description quick and dynamic guibar setup
-function GuiBar() constructor {
+
+function makeGuiBar() constructor { #macro GuiBar makeGuiBar()
 	
 	static create = function(x1, y1, barw, barh){
 		xone = x1;

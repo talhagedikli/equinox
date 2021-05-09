@@ -15,7 +15,7 @@ barY	= GUI_H - gap - barH;
 textX	= barX + gap/2;
 textY	= barY + gap/3;
 
-typeBar = new GuiBar();
+typeBar = new GuiBar;
 typeBar.create(10, GUI_H - 10, 200, -20);
 
 // Cursor variables
