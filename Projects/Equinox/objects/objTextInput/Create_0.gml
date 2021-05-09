@@ -15,6 +15,9 @@ barY	= GUI_H - gap - barH;
 textX	= barX + gap/2;
 textY	= barY + gap/3;
 
+typeBar = new GuiBar();
+typeBar.create(10, GUI_H - 10, 200, -20);
+
 // Cursor variables
 barAlpha		= 1;
 cursor			= "|";
@@ -46,6 +49,7 @@ set_val("gspeed", undefined);
 // Camera
 set_val("camw", undefined);
 set_val("camh", undefined);
+
 
 
 

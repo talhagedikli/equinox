@@ -26,6 +26,9 @@ if (output != undefined) output = undefined;
 // Value setter
 if (command != undefined)
     global.test[$ command] = value;
+
+if (command != undefined)
+    newtest[$ command] = value;
 	
 	
 // Live variable tester

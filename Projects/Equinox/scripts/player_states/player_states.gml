@@ -277,66 +277,63 @@ function player_state_crouch() {
 
 }
 
-/// @description player grab state
-function player_state_grab() {
-    //variables
-    static _oldGraw = gSpeed;
-    static _newGraw = 0;
-    static _fSpd = 0.1;
-    //gSpeed in grab state
-    gSpeed = _newGraw;
+/// @description quick and dynamic guibar setup
+function GuiBar() constructor {
+	
+	static create = function(x1, y1, barw, barh){
+		xone = x1;
+		yone = y1;
+		
+		rate = 1;
+		smtRate = rate;
+	
+		width = barw;
+		height = barh;
+	};
+	
+	static step = function(val, valMax) {
+		rate = val / valMax;
+		smtRate = lerp(smtRate, rate, 0.1);
+	}
+		
+	static drawGui = function(type, alpha, color, bottomline) {
+		draw_set_alpha(alpha);
+		draw_set_color(color);
+		if (type == "vertical")
+			draw_roundrect(xone, yone, xone + width, 
+							yone + height * smtRate + (bottomline ? sign(height) : 0), false);
+		else if (type == "horizontal")
+			draw_roundrect(xone, yone, 
+							xone + width * smtRate + (bottomline ? sign(width) : 0), yone + height, false);
 
-    //counter calculating
-    grabCounter += 1;
+		draw_set_alpha(1);
+		draw_set_color(c_white);
+		
+	};
+	
+	
+	
+	
+};
+	
+	
+//function TestVar() constructor {
+//	static create = function(key, value) {
+//		key = value;	
+//	}
+	
+//	static step = function() {
+//		static newvalue = undefined;
+//		var value = global.test[$ key];
+//		if (value == "undefined") value = undefined;
 
-    //stop character when just grab the wall-- you can add if onWall top of here
-    if (grabCounter > grabMax) {
-        //ySpeed = approach(ySpeed, 4, _oldGraw);
-        gSpeed = _oldGraw;
-    } else if (grabCounter > grabFallDown) {
-        ySpeed = approach(ySpeed, 0.1, _oldGraw);
-    } else {
-        xSpeed = 0;
-        ySpeed = 0;
-    }
+//		newvalue = newvalue != value ? value : variable;
+	
+//		if (global.test[$ key] != undefined)
+//			return newvalue;
+//		else 
+//			return variable;	
+//	}
+	
+//}
 
-    //if walljump, switch to normal state EDITED - facing edited in animation control
-    if (InputManager.keySpacePressed) {
-        squash_stretch(0.7, 1.3);
-
-        facing = -facing;
-
-        ySpeed = wallJumpY;
-        xSpeed = facing * wallJumpX;
-        gSpeed = _oldGraw;
-
-        state = states.normal; //NOTE - we dont have to switch statement
-    }
-
-    //switch to dash state EDITED - facing keys edited in animation control
-    if (keyDashPressed and canDash == true) {
-        gSpeed = _oldGraw;
-
-        state = states.dash;
-    }
-
-    //if keygrab is released or grabCounter reaches grabMax, switch to normal state
-    if (onGround == true or!keyGrab or onWall == false) {
-        gSpeed = _oldGraw;
-        state = states.normal;
-    }
-
-}
-
-/// @description player dead state
-function player_state_dead() {
-
-    xSpeed = 0;
-    gSpeed = 0.0025;
-
-}
-
-// @description player stop state
-function player_state_stop() {
-    xSpeed = approach(xSpeed, 0, dSpeed);
-}

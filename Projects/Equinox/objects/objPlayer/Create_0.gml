@@ -102,6 +102,12 @@ isDashing		= false;
 //oLight			= noone;
 //pLight			= undefined;
 
+gasBar			= new GuiBar();
+gasBar.create(10,			 GUI_H - 40, 25, -150);
+
+testbar			= new GuiBar();
+testbar.create(10 + 25 + 10, GUI_H - 40, 25, -150);
+
 
 
 

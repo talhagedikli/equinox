@@ -27,18 +27,6 @@ switch (state) {
 	case states.dash:
 		player_state_dash();
 		break;
-	
-	case states.grab:
-		player_state_grab();
-		break;
-		
-	case states.dead:
-		player_state_dead();
-		break;
-		
-	case states.stop:
-		player_state_stop();
-		break;
 
 }
 
@@ -62,6 +50,9 @@ frame_reset();
 //tracking position
 xPos = x;
 yPos = y;
+
+gasBar.step(gas, gasMax);
+testbar.step(gas, gasMax);
 
 
 

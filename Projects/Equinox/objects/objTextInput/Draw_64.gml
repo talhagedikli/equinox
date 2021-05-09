@@ -2,7 +2,7 @@
 // Draw bar
 draw_set_alpha(barAlpha);
 draw_set_color(c_dkgray);
-draw_roundrect(barX, barY, barX + barW, barY + barH, false);
+typeBar.drawGui("horizontal", barAlpha, c_dkgray);
 
 // Draw the last input
 if (lastInput != undefined) {
