@@ -51,8 +51,10 @@ frame_reset();
 xPos = x;
 yPos = y;
 
-gasBar.step(gas, gasMax);
-testbar.step(gas, gasMax);
+gasRate = gas/gasMax;
+
+//gasBar.step(gas, gasMax);
+//testbar.step(gas, gasMax);
 
 
 

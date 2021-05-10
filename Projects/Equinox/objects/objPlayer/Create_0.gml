@@ -76,7 +76,7 @@ packPowerDecel	= 0;
 packPowerMax	= 0.25;
 gasMax			= 128;
 gas				= gasMax;
-gasRate			= 0;
+gasRate			= gas/gasMax;
 
 //control point variables
 landed			= false;		//edited
@@ -104,11 +104,11 @@ isDashing		= false;
 //oLight			= noone;
 //pLight			= undefined;
 
-gasBar			= new GuiBar;
-gasBar.create(10,			 GUI_H - 40, 25, -150);
+//gasBar			= new GuiBar;
+//gasBar.create(10,			 GUI_H - 40, 25, -150);
 
-testbar			= new GuiBar;
-testbar.create(10 + 25 + 10, GUI_H - 40, 25, -150);
+//testbar			= new GuiBar;
+//testbar.create(10 + 25 + 10, GUI_H - 40, 25, -150);
 
 
 

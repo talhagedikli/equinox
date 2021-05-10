@@ -310,14 +310,45 @@ function makeGuiBar() constructor { #macro GuiBar makeGuiBar()
 		draw_set_alpha(1);
 		draw_set_color(c_white);
 		
-	};
+	};	
 	
+};
+
+function drawBar(x1, y1, width, height, rate, type, rounded, color, alpha, bottomline, lrp, lrp_rate) {
+	static setRate = 1;
+	if (rate != noone) {
+		setRate = lrp ? lerp(setRate, rate, lrp_rate) : rate;	
+	}
+	
+	draw_set_alpha(alpha);
+	draw_set_color(color);
+	if (type == "vertical") {
+		if (rounded) {
+		draw_roundrect(x1, y1, x1 + width, 
+			y1 + height * (rate == noone ? 1 : setRate) + (bottomline ? sign(height) : 0), false);
+		} else { draw_rectangle(x1, y1, x1 + width, 
+			y1 + height * (rate == noone ? 1 : setRate) + (bottomline ? sign(height) : 0), false);
+		}
+	} else if (type == "horizontal") {
+		if (rounded) {
+		draw_roundrect(x1, y1, 
+			x1 + width * (rate == noone ? 1 : setRate) + (bottomline ? sign(width) : 0), y1 + height, false);
+		} else { draw_rectangle(x1, y1, 
+			x1 + width * (rate == noone ? 1 : setRate) + (bottomline ? sign(width) : 0), y1 + height, false);
+		}	
+		
+	}
+	draw_set_alpha(1);
+	draw_set_color(c_white);		
 	
 	
 	
 };
 	
-	
+
+
+
+
 //function TestVar() constructor {
 //	static create = function(key, value) {
 //		key = value;	

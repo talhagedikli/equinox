@@ -42,13 +42,13 @@ if (instance_exists(objPlayer)) {
 		
 }
 
-//if (instance_exists(Camera)) {
-//	with (Camera) {
-//		defaultW	= get_val(defaultW,	"camw");
-//		defaultH	= get_val(defaultH,	"camh");
-//	}
+if (instance_exists(Camera)) {
+	with (Camera) {
+		defaultW	= get_val(defaultW,	"camw");
+		defaultH	= get_val(defaultH,	"camh");
+	}
 		
-//}
+}
 
 
 
