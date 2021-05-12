@@ -1,4 +1,10 @@
 /// @description Display the bar and input text
+
+barX	= gap;
+barY	= GUI_H - gap - barH;
+textX	= barX + gap/2;
+textY	= barY + gap/3;
+
 // Draw bar
 draw_set_alpha(barAlpha);
 draw_set_color(c_dkgray);

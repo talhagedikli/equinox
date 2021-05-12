@@ -16,6 +16,24 @@ function get_val(variable, key) {
 	
 }
 
+function getVal(owner, variable, key) {
+	static newvalue = undefined;
+	var value = global.test[$ key];
+	if (value == "undefined") value = undefined;
+
+	newvalue = newvalue != value ? value : variable;
+	if (instance_exists(owner)) {
+		if (global.test[$ key] != undefined)
+			owner.variable = newvalue;
+		else 
+			owner.variable = variable;
+
+	}
+	
+	
+	
+	
+}
 
 
 

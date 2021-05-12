@@ -42,6 +42,7 @@ if (instance_exists(objPlayer)) {
 		
 }
 
+
 if (instance_exists(Camera)) {
 	with (Camera) {
 		defaultW	= get_val(defaultW,	"camw");

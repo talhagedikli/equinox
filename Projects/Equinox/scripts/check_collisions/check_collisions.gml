@@ -2,9 +2,9 @@
 //
 function check_collisions_classic(){
 	//horizontal collision
-	if (place_meeting(x+xSpeed, y, objBlock))
+	if (tile_meeting(x+xSpeed, y, "Rocks"))
 	{
-		while (!place_meeting(x+sign(xSpeed), y, objBlock))
+		while (tile_meeting(x+sign(xSpeed), y, "Rocks"))
 		{
 			x = x + sign(xSpeed);
 		}
@@ -14,9 +14,9 @@ function check_collisions_classic(){
 	x = x + xSpeed;
 
 	//vertical collision
-	if (place_meeting(x, y+ySpeed, objBlock))
+	if (tile_meeting(x, y+ySpeed, "Rocks"))
 	{
-		while (!place_meeting(x, y+sign(ySpeed), objBlock))
+		while (!tile_meeting(x, y+sign(ySpeed), "Rocks"))
 		{
 			y = y + sign(ySpeed);
 		}
