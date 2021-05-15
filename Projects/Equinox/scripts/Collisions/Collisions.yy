@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Effects",
-    "path": "folders/Scripts/Effects.yy",
+    "name": "Collisions",
+    "path": "folders/Scripts/Collisions.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Transitions",
+  "name": "Collisions",
   "tags": [],
   "resourceType": "GMScript",
 }

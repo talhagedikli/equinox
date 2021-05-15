@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Effects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Transitions",
+  "name": "Effects",
   "tags": [],
   "resourceType": "GMScript",
 }

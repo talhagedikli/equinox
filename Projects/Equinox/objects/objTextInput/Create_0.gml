@@ -39,6 +39,26 @@ global.test		= {
 	
 };
 
+
+// Methods to set and get variables for test struct
+set_val = function (key, value) {
+	global.test[$ key] = value;
+}
+
+get_val = function (variable, key) {
+	static newvalue = undefined;
+	var value = global.test[$ key];
+	if (value == "undefined") value = undefined;
+
+	newvalue = newvalue != value ? value : variable;
+	
+	if (global.test[$ key] != undefined)
+		return newvalue;
+	else 
+		return variable;
+	
+}
+
 // Player 
 set_val("gasmax", undefined);
 set_val("hmax", undefined);
@@ -48,6 +68,7 @@ set_val("gspeed", undefined);
 // Camera
 set_val("camw", undefined);
 set_val("camh", undefined);
+set_val("camstate", undefined);
 
 
 

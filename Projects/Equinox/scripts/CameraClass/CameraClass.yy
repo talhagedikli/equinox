@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Effects",
-    "path": "folders/Scripts/Effects.yy",
+    "name": "States",
+    "path": "folders/Scripts/States.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Transitions",
+  "name": "CameraClass",
   "tags": [],
   "resourceType": "GMScript",
 }

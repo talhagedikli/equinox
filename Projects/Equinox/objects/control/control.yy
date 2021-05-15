@@ -33,6 +33,8 @@
   },
   "resourceVersion": "1.0",
   "name": "Control",
-  "tags": [],
+  "tags": [
+    "manager",
+  ],
   "resourceType": "GMObject",
 }

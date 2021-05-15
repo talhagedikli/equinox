@@ -11,77 +11,87 @@ if (global.zoom) {
 	camH = lerp(camH, defaultH, zoomSpd);
 }
 
-camera_set_view_size(VIEW, camW, camH);
-
-//"following"'s positions by camera
-if (instance_exists(following)) {
-	targetX	= following.x - camW/2;
-	targetY	= following.y - camH/2;
+// Camera states
+if (state == camStates.normal) {
+	if (instance_exists(following)) {
+		var xTo, yTo;
+		var targetX	= following.x - camW/2;
+		var targetY	= following.y - camH/2;			
+		//follow the "following" object
+		//x pos
+			
+		var difX, difY;
+			
+		difX = (targetX - camX);
+		difY = (targetY - camY);
+			
+		camX = abs(difX) < EPSILON ? targetX : lerp(camX, targetX, followSpd);
+		camY = abs(difY) < EPSILON ? targetY : lerp(camY, targetY, followSpd);
+			
+		//screen shake script to apply it
+		apply_screen_shake();
+	}
+	
+}
+else if (state == camStates.cell) {
+	if (instance_exists(following)) {
+		#region Old cell code
+		////to prevent smth
+		//camX = camXStart
+		////var _cellN = room_width div viewWidth;
+		////var _camCell = camX div viewWidth;
+		////var _playerCell = objPlayer.x div viewWidth;
+		//var _times = (following.x - camX) div viewWidth;
+			
+		////x pos
+		//camX = viewWidth*_times;
+		////y pos
+		//camY = lerp(camY, targetY, followSpd);
+		#endregion
+			
+		var xTo, yTo;
+		xTo = (following.x div viewWidth) * viewWidth;
+		yTo = (following.y div viewHeight) * viewHeight;
+			
+		var difX, difY;
+		difX = (xTo - camX);
+		difY = (yTo - camY);
+			
+			
+		//if (abs(difX) < 1) camX = xTo; else camX += difX/15;
+		//if (abs(difY) < 1) camY = yTo; else camY += difY/15;
+		camX = abs(difX) < 1 ? xTo : camX + difX/15;
+		camY = abs(difY) < 1 ? yTo : camY + difY/15;
+			
+			
+		//screen shake script to apply it
+		apply_screen_shake();
+	}
+	
+}
+else if (state == camStates.zoom) {
+	if (instance_exists(following))
+	{
+		//if zoomed in, make camera smaller
+		newW = defaultW/2;
+		newH = defaultH/2;
+			
+		//go to who you are focused to
+		camX = lerp(camX, targetX, followSpd); 
+		camY = lerp(camY, targetY, followSpd);
+	}
+	
 }
 
 
-switch (state)
-{
-	case cammodes.normal:
-		if (instance_exists(following))
-		{
-			//follow the "following" object
-			//x pos
-			camX = lerp(camX, targetX, followSpd);
-			//y pos
-			camY = lerp(camY, targetY, followSpd);
-			
-			//screen shake script to apply it
-			apply_screen_shake();
-		}
-	break; 
-	
-	case cammodes.cell:
-	
-		if (instance_exists(following)) 
-		{
-			//to prevent smth
-			camX = camXStart
-			//var _cellN = room_width div viewWidth;
-			//var _camCell = camX div viewWidth;
-			//var _playerCell = objPlayer.x div viewWidth;
-			var _times = (following.x - camX) div viewWidth;
-			
-			//x pos
-			camX = viewWidth*_times;
-			//y pos
-			camY = lerp(camY, targetY, followSpd);
-			
-			//screen shake script to apply it
-			apply_screen_shake();
-
-		}
-	break;
-	
-	case cammodes.zoom:
-		
-		if (instance_exists(following))
-		{
-			//if zoomed in, make camera smaller
-			newW = defaultW/2;
-			newH = defaultH/2;
-			
-			//go to who you are focused to
-			camX = lerp(camX, targetX, followSpd); 
-			camY = lerp(camY, targetY, followSpd);
-		}
-		
-		//NOTE: does not have screen shake
-	break;
-}
-
-//clamp camera's position values inside of the room (cam width and height are
-// dynamic)
+//clamp camera's position values inside of the room (cam width and height are dynamic)
 camX = clamp(camX, 0, room_width - camW);
 camY = clamp(camY, 0, room_height - camH);
 
-//apply the camera's positions
+//apply the camera's positions and size
 camera_set_view_pos(VIEW, camX, camY);
+camera_set_view_size(VIEW, camW, camH);
+
 
 
 //track the transition layer
@@ -98,8 +108,5 @@ if (layer_exists(sky)) {
 
 }
 
-//if view_wport[0] != surface_get_width(application_surface) || view_hport[0] != surface_get_height(application_surface) {
-//	surface_resize(application_surface, view_wport[0],view_hport[0]);
-//}
 
 

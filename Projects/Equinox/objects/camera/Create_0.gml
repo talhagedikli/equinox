@@ -45,10 +45,40 @@ shake_magnitude = 0;
 shake_fade		= 0;
 
 //enums 
-enum cammodes {
+enum camStates {
 	normal,
 	cell,
 	zoom
+}
+
+// Methods
+apply_screen_shake = function () {
+	if (shake)
+	{
+		//reduce shake time by 1(every step)
+		shake_time -= 1;
+			
+		//calculate shake magnitude
+		var _xval = choose(-shake_magnitude, shake_magnitude); 
+		var _yval = choose(-shake_magnitude, shake_magnitude);
+			
+		//apply the shake
+		camX = camX + _xval;
+		camY = camY + _yval;
+			
+		if (shake_time <= 0) 
+		{
+			//if shake time is zero, shake fade
+			shake_magnitude -= shake_fade; 
+
+			if (shake_magnitude <= 0) 
+			{
+				//if shake fade is zero, turn shake of
+			    shake = false; 
+			} 
+		}
+	}
+	
 }
 
 

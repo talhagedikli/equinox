@@ -31,12 +31,11 @@ if (command != undefined)
 // Live variable tester
 if (instance_exists(objPlayer)) {
 	with (objPlayer) {
-		hMaxSpeed	= get_val(hMaxSpeed,	"hmax");
-		vMaxSpeed	= get_val(vMaxSpeed,	"vmax");
-		gSpeed		= get_val(gSpeed,		"gspeed");
-		gasMax		= get_val(gasMax,		"gasmax");
-		packPowerMax= get_val(packPowerMax,		"maxpower");
-		
+		hMaxSpeed	= other.get_val(hMaxSpeed,	"hmax");
+		vMaxSpeed	= other.get_val(vMaxSpeed,	"vmax");
+		gSpeed		= other.get_val(gSpeed,		"gspeed");
+		gasMax		= other.get_val(gasMax,		"gasmax");
+		packPowerMax= other.get_val(packPowerMax,		"maxpower");
 	}
 	
 		
@@ -45,8 +44,9 @@ if (instance_exists(objPlayer)) {
 
 if (instance_exists(Camera)) {
 	with (Camera) {
-		defaultW	= get_val(defaultW,	"camw");
-		defaultH	= get_val(defaultH,	"camh");
+		defaultW	= other.get_val(defaultW,	"camw");
+		defaultH	= other.get_val(defaultH,	"camh");
+		state		= other.get_val(state , "camstate");
 	}
 		
 }

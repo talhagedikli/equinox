@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Effects",
-    "path": "folders/Scripts/Effects.yy",
+    "name": "Animation",
+    "path": "folders/Scripts/Animation.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Transitions",
+  "name": "Animation",
   "tags": [],
   "resourceType": "GMScript",
 }
