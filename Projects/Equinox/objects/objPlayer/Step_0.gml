@@ -1,6 +1,4 @@
 //player button inputs
-player_buttons_init();
-
 #region//checking is on ground, if it is stop y move, if it isn't apply grav
 //onGround and Onwall controls
 onGround	= place_meeting(x, y + 1, objBlock);

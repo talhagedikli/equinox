@@ -278,7 +278,7 @@ function player_state_crouch() {
 }
 	
 /// @description
-function player_animation_control() {
+function player_animation_control() {	
 	xScale = approach(xScale, 1, 0.03);
 	yScale = approach(yScale, 1, 0.03);
 
