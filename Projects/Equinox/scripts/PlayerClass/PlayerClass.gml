@@ -286,11 +286,11 @@ function player_animation_control() {
 	switch state 
 	{
 	    case states.normal:
-	        if (keyLeft)
+	        if (InputManager.keyLeft)
 			{
 	            facing = -1;
 	        }
-			else if (keyRight)
+			else if (InputManager.keyRight)
 			{
 	            facing = 1;
 	        }
@@ -298,7 +298,7 @@ function player_animation_control() {
         
 	        if (onGround)
 			{
-	            if (keyLeft or keyRight)
+	            if (InputManager.keyLeft or InputManager.keyRight)
 				{
 	                sprite = sprPlayer;
 	            }
