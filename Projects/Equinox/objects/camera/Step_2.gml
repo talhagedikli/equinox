@@ -25,8 +25,11 @@ if (state == camStates.normal) {
 		difX = (targetX - camX);
 		difY = (targetY - camY);
 			
-		camX = abs(difX) < EPSILON ? targetX : lerp(camX, targetX, followSpd);
-		camY = abs(difY) < EPSILON ? targetY : lerp(camY, targetY, followSpd);
+		//camX = abs(difX) < EPSILON ? targetX : lerp(camX, targetX, followSpd);
+		camX = flerp(camX, targetX, followSpd, EPSILON);
+		camY = flerp(camY, targetY, followSpd, EPSILON);
+		//camY = abs(difY) < EPSILON ? targetY : lerp(camY, targetY, followSpd);
+		show_debug_message(string(camX));
 			
 		//screen shake script to apply it
 		apply_screen_shake();

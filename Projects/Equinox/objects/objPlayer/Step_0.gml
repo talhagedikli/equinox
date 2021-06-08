@@ -38,7 +38,6 @@ xSpeed = clamp(xSpeed, -hMaxSpeed, hMaxSpeed);
 
 //horizontal and vertical collisions
 check_collisions_pixel_perfect();
-
 //if (!tile_meeting(x+sign(xSpeed), y, "Rocks")) {
 //	x += xSpeed;
 //} 

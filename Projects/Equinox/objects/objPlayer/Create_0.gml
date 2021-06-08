@@ -43,7 +43,7 @@ vMaxSpeed		= 2.5;
 
 //accels and decel variables
 groundAccel		= 0.1;
-groundDecel		= 0.1;
+groundDecel		= 0.075;
 
 airAccel		= 0.1;
 airDecel		= 0.075;

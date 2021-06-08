@@ -79,9 +79,11 @@ function check_collisions_pixel_perfect() { /// @description the pixel perfect c
 	var sprite_bbox_right	= sprite_get_bbox_right(sprite_index)	- sprite_get_xoffset(sprite_index);
 	var sprite_bbox_left	= sprite_get_bbox_left(sprite_index)	- sprite_get_xoffset(sprite_index);
 
+	//Applying horizontal speed if there is no collision with block
+	x += xSpeed;
 	//Horizontal collisions
-	if place_meeting(x + xSpeed, y, objBlock) {
-		var wall = instance_place(x + xSpeed, y, objBlock);
+	if place_meeting(x + sign(xSpeed), y, objBlock) {
+		var wall = instance_place(x + sign(xSpeed), y, objBlock);
 		if (xSpeed > 0)
 		{ //right
 			x = (wall.bbox_left - 1) - sprite_bbox_right;
@@ -92,12 +94,12 @@ function check_collisions_pixel_perfect() { /// @description the pixel perfect c
 		}
 		xSpeed = 0;
 	}
-	//Applying horizontal speed if there is no collision with block
-	x += xSpeed;
 
+	//Applying vertical speed if there is no collision with block
+	y += ySpeed;
 	//Vertical collisions
-	if place_meeting(x, y + ySpeed, objBlock) {
-		var wall = instance_place(x, y + ySpeed, objBlock);
+	if place_meeting(x, y + sign(ySpeed), objBlock) {
+		var wall = instance_place(x, y + sign(ySpeed), objBlock);
 		if (ySpeed > 0)
 		{ //down
 			y = (wall.bbox_top - 1) - sprite_bbox_bottom;
@@ -108,8 +110,7 @@ function check_collisions_pixel_perfect() { /// @description the pixel perfect c
 		}
 		ySpeed = 0;
 	}
-	//Applying vertical speed if there is no collision with block
-	y += ySpeed;
+
 
 }
 
@@ -122,9 +123,12 @@ function check_collisions_tile_perfect() { /// @description the pixel perfect co
 	var sprite_bbox_left	= sprite_get_bbox_left(sprite_index)	- sprite_get_xoffset(sprite_index);
 	
 	var tile				= layer_tilemap_get_id("Matrix");
+	
+	//Applying horizontal speed if there is no collision with block
+	x += xSpeed;
 	//Horizontal collisions
-	if tile_meeting(x + xSpeed, y, "Matrix") {
-		var wall = tilemap_get_at_pixel(tile, x + xSpeed, y);
+	if tile_meeting(x + sign(xSpeed), y, "Matrix") {
+		var wall = tilemap_get_at_pixel(tile, x + sign(xSpeed), y);
 		if (xSpeed > 0)
 		{ //right
 			x = (wall.bbox_left - 1) - sprite_bbox_right;
@@ -135,12 +139,12 @@ function check_collisions_tile_perfect() { /// @description the pixel perfect co
 		}
 		xSpeed = 0;
 	}
-	//Applying horizontal speed if there is no collision with block
-	x += xSpeed;
 
+	//Applying vertical speed if there is no collision with block
+	y += ySpeed;
 	//Vertical collisions
-	if tile_meeting(x, y + ySpeed, "Matrix") {
-		var wall = tilemap_get_at_pixel(tile, x, y + ySpeed);
+	if tile_meeting(x, y + sign(ySpeed), "Matrix") {
+		var wall = tilemap_get_at_pixel(tile, x, y + sign(ySpeed));
 		if (ySpeed > 0)
 		{ //down
 			y = (wall.bbox_top - 1) - sprite_bbox_bottom;
@@ -151,8 +155,7 @@ function check_collisions_tile_perfect() { /// @description the pixel perfect co
 		}
 		ySpeed = 0;
 	}
-	//Applying vertical speed if there is no collision with block
-	y += ySpeed;
+
 
 }
 	

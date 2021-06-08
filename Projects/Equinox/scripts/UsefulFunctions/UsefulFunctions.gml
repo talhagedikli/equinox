@@ -153,8 +153,13 @@ function drawBar(x1, y1, width, height, rate, type, rounded, color, alpha, botto
 	
 };
 
-
+// Finite lerp function
+function flerp(val1, val2, amount, epsilon) {
 	
+	return abs(val1 - val2) > epsilon ? lerp(val1, val2, amount) : val2;
+	
+}
+
 
 
 
