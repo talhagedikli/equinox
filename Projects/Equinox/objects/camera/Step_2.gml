@@ -4,11 +4,11 @@ camY	= camera_get_view_y(VIEW);
 
 //set camera's size
 if (global.zoom) {
-	camW = lerp(camW, newW, zoomSpd);
-	camH = lerp(camH, newH, zoomSpd);
+	camW = flerp(camW, newW, zoomSpd);
+	camH = flerp(camH, newH, zoomSpd);
 } else {
-	camW = lerp(camW, defaultW, zoomSpd);
-	camH = lerp(camH, defaultH, zoomSpd);
+	camW = flerp(camW, defaultW, zoomSpd);
+	camH = flerp(camH, defaultH, zoomSpd);
 }
 
 // Camera states
@@ -18,18 +18,15 @@ if (state == camStates.normal) {
 		var targetX	= following.x - camW/2;
 		var targetY	= following.y - camH/2;			
 		//follow the "following" object
-		//x pos
+		//var difX, difY;
 			
-		var difX, difY;
-			
-		difX = (targetX - camX);
-		difY = (targetY - camY);
+		//difX = (targetX - camX);
+		//difY = (targetY - camY);
 			
 		//camX = abs(difX) < EPSILON ? targetX : lerp(camX, targetX, followSpd);
-		camX = flerp(camX, targetX, followSpd, EPSILON);
-		camY = flerp(camY, targetY, followSpd, EPSILON);
+		camX = flerp(camX, targetX, followSpd);
+		camY = flerp(camY, targetY, followSpd);
 		//camY = abs(difY) < EPSILON ? targetY : lerp(camY, targetY, followSpd);
-		show_debug_message(string(camX));
 			
 		//screen shake script to apply it
 		apply_screen_shake();
@@ -80,8 +77,8 @@ else if (state == camStates.zoom) {
 		newH = defaultH/2;
 			
 		//go to who you are focused to
-		camX = lerp(camX, targetX, followSpd); 
-		camY = lerp(camY, targetY, followSpd);
+		camX = flerp(camX, targetX, followSpd); 
+		camY = flerp(camY, targetY, followSpd);
 	}
 	
 }
@@ -102,13 +99,6 @@ if (layer_sequence_exists("transitions", global.sequenceLayer))
 {
 	layer_sequence_x(global.sequenceLayer, camX);
 	layer_sequence_y(global.sequenceLayer, camY);
-}
-
-//Parallax background
-var sky = "Sky";
-if (layer_exists(sky)) {
-	layer_x(sky, -camX/12);
-
 }
 
 

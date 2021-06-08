@@ -35,6 +35,8 @@ fadeMax			= 20;
 fadeX			= textX;
 fadeXMax		= 215;
 
+commList		= array_create(0);
+
 global.test		= {
 	
 };
@@ -70,8 +72,9 @@ set_val("camw", undefined);
 set_val("camh", undefined);
 set_val("camstate", undefined);
 
-
-
+// Check to delete undefined values
+repeatTime = 6000;
+alarm[0] = repeatTime;
 
 
 

@@ -51,14 +51,14 @@ return _from + _a4 + sin((((current_time * 0.001) + _duration * offset) / _durat
 
 /// @param {real} time represents time what you need exp: current_time/1000
 /// @description Puts sin function inside of abs function
-function asin(time) {
+function asin(time = current_time) {
 	return abs(dsin(time));	
 	
 }
 
 /// @param {real} time represents time what you need exp: current_time/1000
 /// @description Puts cos function inside of abs function
-function acos(time) {
+function acos(time = current_time) {
 	return abs(dcos(time));	
 	
 }
@@ -101,7 +101,7 @@ function makeGuiBar() constructor { #macro GuiBar makeGuiBar()
 	
 	static step = function(val, valMax) {
 		rate = val / valMax;
-		smtRate = lerp(smtRate, rate, 0.1);
+		smtRate = flerp(smtRate, rate, 0.1);
 	}
 		
 	static drawGui = function(type, alpha, color, bottomline) {
@@ -122,10 +122,11 @@ function makeGuiBar() constructor { #macro GuiBar makeGuiBar()
 };
 
 /// @description directly draw bar with it's rate
-function drawBar(x1, y1, width, height, rate, type, rounded, color, alpha, bottomline, lrp, lrp_rate) {
+function drawBar(x1, y1, width, height, rate = 1, type = "vertical", rounded = false, 
+								color = c_white, alpha = 1, bottomline = true, lrp = false, lrp_rate) {
 	static setRate = 1;
 	if (rate != noone) {
-		setRate = lrp ? lerp(setRate, rate, lrp_rate) : rate;	
+		setRate = lrp ? flerp(setRate, rate, lrp_rate) : rate;	
 	}
 	
 	draw_set_alpha(alpha);
@@ -154,7 +155,7 @@ function drawBar(x1, y1, width, height, rate, type, rounded, color, alpha, botto
 };
 
 // Finite lerp function
-function flerp(val1, val2, amount, epsilon) {
+function flerp(val1, val2, amount, epsilon = EPSILON) {
 	
 	return abs(val1 - val2) > epsilon ? lerp(val1, val2, amount) : val2;
 	

@@ -34,7 +34,7 @@ if (focus) { // Stuff to do in focus mode
     global.control = true
 
     cursor = "";
-    barAlpha = lerp(barAlpha, 0.2, 0.1);
+    barAlpha = flerp(barAlpha, 0.2, 0.1);
     input = "";
     keyboard_string = input;
 }

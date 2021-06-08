@@ -12,7 +12,7 @@ drawBar(10, GUI_H - 10, 200, -20, noone, "horizontal", true, c_dkgray, barAlpha,
 
 // Draw the last input
 if (lastInput != undefined) {
-	fadeX = lerp(fadeX, fadeXMax, 0.2);
+	fadeX = flerp(fadeX, fadeXMax, 0.2);
 	draw_set_alpha(fadeTimer / fadeMax * barAlpha);
 	draw_set_color(c_white);
 	draw_set_font(fntText);

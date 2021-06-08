@@ -24,9 +24,10 @@ repeat(string_length(output)) {
 if (output != undefined) output = undefined;
 
 // Value setter
-if (command != undefined)
+if (command != undefined) {
+	array_push(commList, command);
     global.test[$ command] = value;
-
+}
 	
 // Live variable tester
 if (instance_exists(objPlayer)) {
