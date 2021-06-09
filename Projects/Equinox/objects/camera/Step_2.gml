@@ -2,6 +2,7 @@
 camX	= camera_get_view_x(VIEW);
 camY	= camera_get_view_y(VIEW);
 
+
 //set camera's size
 if (global.zoom) {
 	camW = flerp(camW, newW, zoomSpd);
@@ -92,6 +93,7 @@ camY = clamp(camY, 0, room_height - camH);
 camera_set_view_pos(VIEW, camX, camY);
 camera_set_view_size(VIEW, camW, camH);
 
+show_debug_message(camX);
 
 
 //track the transition layer

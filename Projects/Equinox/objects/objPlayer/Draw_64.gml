@@ -30,8 +30,9 @@
 //testbar.drawGui("vertical", gasBar.rate < 0.4 ? abs(dsin(current_time)) * 0.8 : 0.8, C_CRIMSON, true);
 var bara = gasRate < 0.4 ? abs(dsin(current_time)) * 0.8 : 0.8;
 
-drawBar(10, GUI_H - 40, 25, -150, gasRate, "vertical", true, c_white, bara, true, true, 0.1);
-drawBar(0, GUI_H, GUI_W, -3, gasRate, "horizontal", false, C_CRIMSON, bara, true, true, 0.05);
+
+gasBar.draw(10, GUI_H - 40, 25, -150, "vertical", c_white, bara, true, true);
+gasBar.draw(0, GUI_H, GUI_W, -3, "horizontal", C_CRIMSON, bara, false, false);
 //drawBar(GUI_W, GUI_H, -3, -GUI_H, gasRate, "vertical", false, C_CRIMSON, bara, true, true, 0.05);
 //drawBar(GUI_W, 0, -GUI_W, 3, gasRate, "horizontal", false, C_CRIMSON, bara, true, true, 0.05);
 //drawBar(0, 0, 3, GUI_W, gasRate, "vertical", false, C_CRIMSON, bara, true, true, 0.05);

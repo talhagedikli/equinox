@@ -218,12 +218,3 @@ function tile_meeting_percise(argument0, argument1, argument2) {
 
 	return false;
 }
-	
-/// @description
-//  @param object below that you are on it
-function check_below(_belowObject) {
-	
-	return place_meeting(x, y+1, _belowObject);
-	
-
-}

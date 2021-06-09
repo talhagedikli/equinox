@@ -41,6 +41,8 @@ global.test		= {
 	
 };
 
+inputBar = new GuiBar()
+
 
 // Methods to set and get variables for test struct
 set_val = function (key, value) {
@@ -74,7 +76,7 @@ set_val("camstate", undefined);
 
 // Check to delete undefined values
 repeatTime = 6000;
-alarm[0] = repeatTime;
+//alarm[0] = repeatTime;
 
 
 

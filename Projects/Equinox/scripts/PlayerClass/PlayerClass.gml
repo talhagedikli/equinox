@@ -87,6 +87,7 @@ function player_state_normal() {
     if (onGround == true) {
         if (landed == false) {
             //to track "just landed on ground" moment
+			createSignal("Landed", id);
             landed = true;
         }
     } else {
@@ -120,6 +121,7 @@ function player_state_normal() {
             gas = gasMax;
         }
     }
+	gasBar.step(gas/gasMax, true);
     ySpeed -= packPower;										// Apply packpower
 
     #endregion

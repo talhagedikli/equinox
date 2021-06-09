@@ -6,4 +6,5 @@ uniY		= shader_get_uniform(shRainbow, "y_pos");
 			
 time		= 0;
 
-image_blend = C_DARKCHARCOAL;
+image_blend = C_ANCHOR;
+image_alpha = 0.8;

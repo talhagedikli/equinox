@@ -27,6 +27,17 @@ switch (state) {
 		break;
 
 }
+if (InputManager.keyRight) createSignal("Right");
+else if (InputManager.keyLeft) createSignal("Left");
+
+if getSignal("Right") image_blend = C_CRIMSON;
+
+//if (getSignal("Landed", id)) {
+//	image_blend = c_crimson;
+//	show_debug_message("landed");
+//	wipeSignal("Landed", id);
+//}
+
 
 //applying gSpeed
 if (!onGround) {

@@ -47,7 +47,12 @@
 #macro C_CRIMSON		make_color_rgb(184, 15, 10)
 #macro C_LMCHIFFON		make_color_rgb(255, 249, 204)
 #macro C_BARNRED		make_color_rgb(124, 10, 2)
-#macro C_DARKCHARCOAL	make_color_rgb(51, 51, 51)	
+#macro C_DARKCHARCOAL	make_color_rgb(51, 51, 51)
+#macro C_ONYX			$0f0f0f
+#macro C_SMOKY_BLACK	$080C10
+#macro C_ANCHOR			$4c4241
+#macro C_SHADOW			$373737
+#macro C_LEAD			$4e3f3f
 #macro C_RANDOM			make_colour_hsv(irandom(255), irandom(255), irandom(255))
 // Generated from: http://web.archive.org/web/20210303185939/https://www.computerhope.com/htmcolor.htm
 #macro c_black                          0x000000

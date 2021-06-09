@@ -8,7 +8,8 @@ textY	= barY + gap/3;
 // Draw bar
 draw_set_alpha(barAlpha);
 draw_set_color(c_dkgray);
-drawBar(10, GUI_H - 10, 200, -20, noone, "horizontal", true, c_dkgray, barAlpha, false);
+//drawBar(10, GUI_H - 10, 200, -20, noone, "horizontal", true, C_SHADOW, barAlpha, false, false);
+inputBar.draw(10, GUI_H - 10, 200, -20, "horizontal", C_SHADOW, barAlpha, true, false);
 
 // Draw the last input
 if (lastInput != undefined) {

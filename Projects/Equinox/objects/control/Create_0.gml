@@ -1,24 +1,8 @@
-/// @description 
+//test = array_create(0);
 
-//test = "talha 24";
+//array_push(test, ["talha" , [3, 5, 7]]);
+//array_push(test, ["bera" , [2, 4, 6, 7]]);
+//show_message(test[0][1][1]);
+//show_message(test[1][1][1]);
 
-//var i = 1; repeat (string_length(test)) {
-//	var c = string_char_at(test, i);
-	
-//	if (c == " ") {
-//		var nw = string_copy(test, 1, i-1);	
-//		var val = real(string_copy(test, i + 1, 15)); 
-//	}
-	
-	
-	
-//	i++;	
-//}
-
-//var i = 1; repeat (string_length(test)) {
-//	var c = string_char_at(test, i);
-	
-//	i++;	
-//}
-
-
+//show_message(array_length(test[1][1]));

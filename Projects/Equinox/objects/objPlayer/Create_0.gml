@@ -77,6 +77,7 @@ packPowerMax	= 0.25;
 gasMax			= 128;
 gas				= gasMax;
 gasRate			= gas/gasMax;
+gasBar			= new GuiBar(gas/gasMax);
 
 //control point variables
 landed			= false;		//edited
