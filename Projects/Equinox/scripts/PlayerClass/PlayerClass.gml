@@ -3,8 +3,10 @@ function player_state_normal() {
     #region //Movement phase
     if (InputManager.keyLeft) {
         xSpeed = approach(xSpeed, -hMaxSpeed, aSpeed);
+		emitSignal("Left");
     } else if (InputManager.keyRight) {
         xSpeed = approach(xSpeed, hMaxSpeed, aSpeed);
+		emitSignal("Right");
     } else {
         xSpeed = approach(xSpeed, 0, dSpeed);
     }
@@ -87,7 +89,7 @@ function player_state_normal() {
     if (onGround == true) {
         if (landed == false) {
             //to track "just landed on ground" moment
-			createSignal("Landed", id);
+			emitSignal("Landed", id);
             landed = true;
         }
     } else {

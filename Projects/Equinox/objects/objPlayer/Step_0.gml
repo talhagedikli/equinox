@@ -27,21 +27,27 @@ switch (state) {
 		break;
 
 }
-if (InputManager.keyRight) createSignal("Right");
-else if (InputManager.keyLeft) createSignal("Left");
 
-if getSignal("Right") image_blend = C_CRIMSON;
+
 
 //if (getSignal("Landed", id)) {
 //	image_blend = c_crimson;
 //	show_debug_message("landed");
 //	wipeSignal("Landed", id);
 //}
+if InputManager.keyDownPressed {
+	wipeSignal("Right");	
+	wipeSignal("Left");	
+	wipeSignal("Landed");	
+	
+}
 
 
 //applying gSpeed
 if (!onGround) {
 	ySpeed += gSpeed;
+} else {
+	wipeSignal("Right")
 }
 
 ySpeed = clamp(ySpeed, -vMaxSpeed, vMaxSpeed);

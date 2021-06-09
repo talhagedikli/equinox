@@ -1,5 +1,5 @@
 /// @description
-var col = getSignal("Right") ? C_CRIMSON : c_white;
+var col = merge_color(c_crimson, c_blue_angel, asin(current_time/100));
 draw_sprite_ext(sprite, frame, xPos, yPos, xScale * facing, yScale,
 				angle, col, alpha);
 //draw_sprite_ext(sprite_index, image_index, x, y, 
