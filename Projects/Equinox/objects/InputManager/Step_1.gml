@@ -14,6 +14,7 @@ if (global.control) {
 	keyAlt				= ALT;
 	keyR				= keyboard_check(ord("R"));
 	keyEsc				= keyboard_check(vk_escape);
+	keyShiftPressed		= keyboard_check_pressed(vk_shift);
 
 	keyRightPressed		= RIGHT_PRESSED;
 	keyLeftPressed		= LEFT_PRESSED;
@@ -34,6 +35,7 @@ if (global.control) {
 	keyAlt				= noone;
 	keyR				= noone;
 	keyEsc				= noone;
+	keyShiftPressed		= noone;
 						  
 	keyRightPressed		= noone;
 	keyLeftPressed		= noone;

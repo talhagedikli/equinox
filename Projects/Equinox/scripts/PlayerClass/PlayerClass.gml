@@ -3,10 +3,10 @@ function player_state_normal() {
     #region //Movement phase
     if (InputManager.keyLeft) {
         xSpeed = approach(xSpeed, -hMaxSpeed, aSpeed);
-		joinSignal("Left");
+		signal_join("Left");
     } else if (InputManager.keyRight) {
         xSpeed = approach(xSpeed, hMaxSpeed, aSpeed);
-		joinSignal("Right");
+		signal_join("Right");
     } else {
         xSpeed = approach(xSpeed, 0, dSpeed);
     }
@@ -89,7 +89,7 @@ function player_state_normal() {
     if (onGround == true) {
         if (landed == false) {
             //to track "just landed on ground" moment
-			joinSignal("Landed", id);
+			signal_join("Landed", id);
             landed = true;
         }
     } else {
@@ -147,6 +147,9 @@ function player_state_normal() {
     //{
     //	canDash = true;
     //}
+	if (InputManager.keyShiftPressed) {
+		state = states.dash;
+	}	
 
 
     ////switch to grab state
@@ -263,6 +266,12 @@ function player_state_dash() {
 
     }
 
+}
+
+function player_State_dash2() {
+
+	
+	
 }
 
 /// @description player crouch state

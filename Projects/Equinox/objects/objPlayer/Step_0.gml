@@ -16,14 +16,25 @@ frame += frameSpeed;
 switch (state) {
 	case states.normal:
 		player_state_normal();
+		ySpeed = clamp(ySpeed, -vMaxSpeed, vMaxSpeed);
+		xSpeed = clamp(xSpeed, -hMaxSpeed, hMaxSpeed);
 		break;
 	
 	case states.crouch:
 		player_state_crouch();
+			ySpeed = clamp(ySpeed, -vMaxSpeed, vMaxSpeed);
+			xSpeed = clamp(xSpeed, -hMaxSpeed, hMaxSpeed);
 		break;
 	
 	case states.dash:
-		player_state_dash();
+		dashTween.evaluate(xSpeed, facing*10, 0.2);
+		xSpeed = dashTween.value;
+		ySpeed = 0;
+		
+		if (dashTween.done) {
+			dashTween.stop();
+			state = states.normal;
+		}
 		break;
 
 }
@@ -39,7 +50,6 @@ if InputManager.keyDownPressed {
 	//wipeSignal("Right");	
 	//wipeSignal("Left");	
 	//wipeSignal("Landed");	
-	wipeSignal();
 	
 }
 
@@ -51,8 +61,7 @@ if (!onGround) {
 	ySpeed += gSpeed;
 }
 
-ySpeed = clamp(ySpeed, -vMaxSpeed, vMaxSpeed);
-xSpeed = clamp(xSpeed, -hMaxSpeed, hMaxSpeed);
+
 
 //horizontal and vertical collisions
 check_collisions_pixel_perfect();

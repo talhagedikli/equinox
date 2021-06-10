@@ -56,6 +56,7 @@ dashDecel		= 2;
 //counters and buffers
 dashCounter		= 0;
 dashCounterMax	= 10;
+dashTween		= new tween("QuartEaseOut");
 
 bufferCounter	= 0;
 bufferMax		= 8;

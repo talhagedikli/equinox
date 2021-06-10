@@ -2,4 +2,13 @@
 // You can write your code in this editor
 mainList = {};
 
-joinSignal("test");
+signal_join("test");
+
+
+
+
+
+
+
+
+
