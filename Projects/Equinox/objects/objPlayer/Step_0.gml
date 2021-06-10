@@ -27,12 +27,14 @@ switch (state) {
 		break;
 	
 	case states.dash:
-		dashTween.evaluate(xSpeed, facing * 12, 0.2);
+		dashTween.evaluate(0, facing * 15, 0.2);
 		xSpeed = dashTween.value;
 		ySpeed = 0;
 		
+		show_debug_message(xSpeed);
+		
 		if (dashTween.done) {
-			dashTween.stop();
+			dashTween.reset();
 			state = states.normal;
 		}
 		break;

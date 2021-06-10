@@ -1,35 +1,58 @@
 // Tweens
-function Tween(_type = type.LINEAR) constructor { // Like EaseIn, QuartEaseOut etc..
+function Tween(_type = tweenType.LINEAR) constructor { // Like EaseIn, QuartEaseOut etc..
 	enum tweenType { // Channel indexes
 		LINEAR,
 		EASEIN,
-		EASEOUT,
 		EASEINOUT,
+		EASEOUT,
 		CUBICEASEIN,
-		CUBICEASEOUT,
 		CUBICEASEINOUT,
+		CUBICEASEOUT,
 		QUARTEASEIN,
+		QUARTEASEINOUT,
 		QUARTEASEOUT,
-		QUARTEASEINOUT
+		EXPOEASEIN,
+		EXPOEASEINOUT,
+		EXPOEASEOUT,
+		CIRCEASEIN,
+		CIRCEASEINOUT,
+		CIRCEASEOUT,
+		BACKEASEIN,
+		BACKEASEINOUT,
+		BACKEASEOUT,
+		ELASTICEASEIN,
+		ELASTICEASEINOUT,
+		ELASTICEASEOUT,
+		BOUNCEEASEIN,
+		BOUNCEEASEINOUT,
+		BOUNCEEASEOUT,
+		FASTTOSLOW,
+		MIDSLOW
 	}
 	
 	channel = animcurve_get_channel(acTweens, _type);
 	time = 0;	
 	value = 0;
 	done = false;
+	active = false;
 	
 	static evaluate = function(_start, _end, _duration, _loop = false) { // Duration in seconds
-		channel.points[0].posx = 0;
-		channel.points[0].value = _start;
-		channel.points[1].posx = _duration*60;
-		channel.points[1].value = _end;
+		//var points = channel.points;
+		//var arrlen = array_length(points);
+		//points[0].posx = 0;
+		//points[0].value = _start;
+		//points[arrlen - 1].posx = _duration*60;
+		//points[arrlen - 1].value = _end;
+		var rate = animcurve_channel_evaluate(channel, time/60);
+		value = lerp(_start, _end, rate);
+		active = true;
 		
-		value = animcurve_channel_evaluate(channel, time);
 		if (!_loop) { // Non loop section
 			time++;
 			if (time >= _duration*60) {
 				time = 0;
 				done = true;
+				active = false;
 				exit;
 			}
 		} else { // Loop section
@@ -45,14 +68,17 @@ function Tween(_type = type.LINEAR) constructor { // Like EaseIn, QuartEaseOut e
 	static stop = function() {
 		time = 0;
 		value = 0;
+		active = false;
+		done = true;
+		exit;
+	}
+	
+	static reset = function() {
+		time = 0;
+		value = 0;
+		active = false;
 		done = false;
 	}
-	
-	static remove = function() {
-		delete id;	
-	}
-	
-
 	
 }
 
