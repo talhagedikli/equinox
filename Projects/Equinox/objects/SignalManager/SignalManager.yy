@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "Game",
+    "path": "folders/Objects/Game.yy",
   },
   "resourceVersion": "1.0",
   "name": "SignalManager",

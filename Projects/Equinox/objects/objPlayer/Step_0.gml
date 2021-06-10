@@ -36,18 +36,19 @@ switch (state) {
 //	wipeSignal("Landed", id);
 //}
 if InputManager.keyDownPressed {
-	wipeSignal("Right");	
-	wipeSignal("Left");	
-	wipeSignal("Landed");	
+	//wipeSignal("Right");	
+	//wipeSignal("Left");	
+	//wipeSignal("Landed");	
+	wipeSignal();
 	
 }
+
+
 
 
 //applying gSpeed
 if (!onGround) {
 	ySpeed += gSpeed;
-} else {
-	wipeSignal("Right")
 }
 
 ySpeed = clamp(ySpeed, -vMaxSpeed, vMaxSpeed);

@@ -149,42 +149,42 @@ function flerp(val1, val2, amount, epsilon = EPSILON) {
 
 #region Old Functions
 /// @description directly draw bar with it's rate
-function drawBar(x1, y1, width, height, rate = noone, type = "vertical", rounded = false, 
-								color = c_white, alpha = 1, bottomline = true, lrp = false, lrpRate = 0.1) {
-	static setRate = rate;
-	if (rate != noone) {
-		if (lrp) {
-			setRate = flerp(setRate, rate, lrpRate);	
-		}
-	}
+//function drawBar(x1, y1, width, height, rate = noone, type = "vertical", rounded = false, 
+//								color = c_white, alpha = 1, bottomline = true, lrp = false, lrpRate = 0.1) {
+//	static setRate = rate;
+//	if (rate != noone) {
+//		if (lrp) {
+//			setRate = flerp(setRate, rate, lrpRate);	
+//		}
+//	}
 	
-	draw_set_alpha(alpha);
-	draw_set_color(color);
-	if (type == "vertical") { // 0 = vertical
-		if (rounded) {
-			draw_roundrect(x1, y1, x1 + width, 
-				y1 + height * (setRate) + (bottomline ? sign(height) : 0), false);
-		} else { 
-			draw_rectangle(x1, y1, x1 + width, 
-				y1 + height * (setRate) + (bottomline ? sign(height) : 0), false);
-		}
-	} else if (type == "horizontal") { // 1 = horizontal
-		if (rounded) {
-			draw_roundrect(x1, y1, 
-				x1 + width * (rate == noone ? 1 : setRate) + (bottomline ? sign(width) : 0), y1 + height, false);
-		} else { 
-			draw_rectangle(x1, y1, 
-				x1 + width * (rate == noone ? 1 : setRate) + (bottomline ? sign(width) : 0), y1 + height, false);
-		}	
+//	draw_set_alpha(alpha);
+//	draw_set_color(color);
+//	if (type == "vertical") { // 0 = vertical
+//		if (rounded) {
+//			draw_roundrect(x1, y1, x1 + width, 
+//				y1 + height * (setRate) + (bottomline ? sign(height) : 0), false);
+//		} else { 
+//			draw_rectangle(x1, y1, x1 + width, 
+//				y1 + height * (setRate) + (bottomline ? sign(height) : 0), false);
+//		}
+//	} else if (type == "horizontal") { // 1 = horizontal
+//		if (rounded) {
+//			draw_roundrect(x1, y1, 
+//				x1 + width * (rate == noone ? 1 : setRate) + (bottomline ? sign(width) : 0), y1 + height, false);
+//		} else { 
+//			draw_rectangle(x1, y1, 
+//				x1 + width * (rate == noone ? 1 : setRate) + (bottomline ? sign(width) : 0), y1 + height, false);
+//		}	
 		
-	}
-	draw_set_alpha(1);
-	draw_set_color(c_white);	
-	//show_debug_message(setRate);
+//	}
+//	draw_set_alpha(1);
+//	draw_set_color(c_white);	
+//	//show_debug_message(setRate);
 	
 	
 	
-};
+//};
 
 
 #endregion

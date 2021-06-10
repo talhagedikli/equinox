@@ -18,7 +18,7 @@
     {"id":{"name":"shBlurGaussDiscrete","path":"shaders/shBlurGaussDiscrete/shBlurGaussDiscrete.yy",},"order":10,},
     {"id":{"name":"Control","path":"objects/Control/Control.yy",},"order":1,},
     {"id":{"name":"shVignette","path":"shaders/shVignette/shVignette.yy",},"order":16,},
-    {"id":{"name":"SignalManager","path":"objects/SignalManager/SignalManager.yy",},"order":7,},
+    {"id":{"name":"SignalManager","path":"objects/SignalManager/SignalManager.yy",},"order":2,},
     {"id":{"name":"objBlock","path":"objects/objBlock/objBlock.yy",},"order":1,},
     {"id":{"name":"sprBlock","path":"sprites/sprBlock/sprBlock.yy",},"order":0,},
     {"id":{"name":"shBandW","path":"shaders/shBandW/shBandW.yy",},"order":0,},

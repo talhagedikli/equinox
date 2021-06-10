@@ -1,6 +1,5 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-function emitSignal(_signal, _id = id) {
+function joinSignal(_signal, _id = id) {
 	with (SignalManager) {
 		var array = mainList[$ string(_id)];
 		var safe = true;
@@ -38,8 +37,16 @@ function findSignal(_signal, _id = id) {
 		
 	}
 }
+
+function onSignal(_signal, _id = id, _func) {
+	with (SignalManager) {
+		if (findSignal(_signal, _id)) {
+			_func();
+		}
+	}
+}
 	
-function wipeSignal(_signal, _id = id) {
+function leaveSignal(_signal, _id = id) {
 	with (SignalManager) {
 		var array = mainList[$ string(_id)];
 		if (is_array(array) == false) break;
@@ -53,6 +60,29 @@ function wipeSignal(_signal, _id = id) {
 			i++;
 		}
 	}	
+}
+
+function wipeSignal(_id = id) {
+	with (SignalManager) {
+		if (mainList[$ _id] != undefined) {
+			variable_struct_remove(mainList, _id);
+		}
+	}
+}
+
+function signalsEqual(_signal, _idone, _idtwo) {
+	with (SignalManager) {
+		if (findSignal(_signal, _idone) && findSignal(_signal, _idtwo)) {
+			return true;
+		}
+		return false;
+	}
+}
+
+function signalsCleanup() {
+	with (SignalManager) {
+		delete mainList;
+	}
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
