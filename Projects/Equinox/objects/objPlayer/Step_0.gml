@@ -27,7 +27,7 @@ switch (state) {
 		break;
 	
 	case states.dash:
-		dashTween.evaluate(xSpeed, facing*10, 0.2);
+		dashTween.evaluate(xSpeed, facing * 12, 0.2);
 		xSpeed = dashTween.value;
 		ySpeed = 0;
 		
