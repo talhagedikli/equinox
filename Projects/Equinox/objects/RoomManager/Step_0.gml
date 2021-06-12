@@ -13,10 +13,6 @@ else if (room == rWorld) { // WORLD ROOM
 			bl.image_xscale = irandom_range(1, 4);
 			bl.image_yscale = irandom_range(1, 4);
 		}	
-		if (!place_meeting(x, y, objBlock) && !instance_exists(objPlayer)) {
-			instance_create_layer(irandom(room_width), irandom(room_height), "Player", objPlayer);
-		
-		}
 		tiled = true;
 	}
 	

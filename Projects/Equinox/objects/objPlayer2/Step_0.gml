@@ -13,24 +13,23 @@ if (isTouching) game_restart();
 
 
 //switching states
-//switch (state) {
-//	case states.normal:
-//		player_state_normal();
-//		clampSpeed();
-//		break;
+switch (state) {
+	case states.normal:
+		player_state_normal();
+		clampSpeed();
+		break;
 	
-//	case states.crouch:
-//		player_state_crouch();
-//		clampSpeed();
-//		break;
+	case states.crouch:
+		player_state_crouch();
+		clampSpeed();
+		break;
 	
-//	case states.dash:
-//		player_state_dash();
-//		clampSpeed(dashPower, dashPower);
-//		break;
+	case states.dash:
+		player_state_dash();
+		clampSpeed(dashPower, dashPower);
+		break;
 
-//}
-snowState.step();
+}
 
 
 

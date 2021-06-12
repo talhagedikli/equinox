@@ -36,9 +36,11 @@ function frame_reset(){
 
 }
 
-/// @func animation_end()
+/// @func		animation_end()
+/// @returns	{bool}						Whether sprite_index has finished animating or not
+/// @author		Minty Python
 function animation_end() {
-    return (image_index + image_speed*sprite_get_speed(sprite_index)/(sprite_get_speed_type(sprite_index)==spritespeed_framespergameframe? 1 : game_get_speed(gamespeed_fps)) >= image_number);    
+	return (image_index + image_speed*sprite_get_speed(sprite_index)/(sprite_get_speed_type(sprite_index)==spritespeed_framespergameframe? 1 : game_get_speed(gamespeed_fps)) >= image_number);	
 }
 
 // @description squash and stretch

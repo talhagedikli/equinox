@@ -80,6 +80,14 @@ function Timer() constructor { // For basic timer
 		}
 	};
 	
+	static onTimeout = function(_func) {
+		if (done) {
+			done = false;
+			active = true;
+			_func();
+		}
+	};
+	
 	static reset = function() {
 		time	= 0;
 		sTime	= undefined;
