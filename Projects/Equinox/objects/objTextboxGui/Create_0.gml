@@ -17,7 +17,7 @@ with (objPlayer)
 	}
 	
 	//stop while talking
-	state = states.stop;
+	global.control = false;
 }
 	
 //variables

@@ -3,10 +3,10 @@ function player_state_normal() {
     #region //Movement phase
     if (InputManager.keyLeft) {
         xSpeed = approach(xSpeed, -hMaxSpeed, aSpeed);
-		signal_join("Left");
+		facing = -1;
     } else if (InputManager.keyRight) {
         xSpeed = approach(xSpeed, hMaxSpeed, aSpeed);
-		signal_join("Right");
+		facing = 1;
     } else {
         xSpeed = approach(xSpeed, 0, dSpeed);
     }
@@ -148,8 +148,14 @@ function player_state_normal() {
     //	canDash = true;
     //}
 	if (InputManager.keyShiftPressed) {
+		if (InputManager.horizontalInput == 0 && InputManager.verticalInput == 0) {
+			dashDir.find(facing, 0);
+		} else {
+			dashDir.find(InputManager.horizontalInput, InputManager.verticalInput);
+		}
+		isDashing = true;
 		state = states.dash;
-	}	
+	}
 
 
     ////switch to grab state
@@ -172,113 +178,33 @@ function player_state_normal() {
 
 /// @description player dash state
 function player_state_dash() {
-
-    //variables
-    static _oldGraw		= gSpeed;
-    static _newGraw		= 0;
-    static _ptSystem	= global.partSystem;
-    static _pt			= global.ptDashPixels;
-    static _xOff		= sprite_xoffset;
-    static _yOff		= sprite_yoffset;
-    //apply new gSpeed
-    gSpeed = _newGraw;
-
-    if (InputManager.keyLeft) {
-        facing = -1;
-    } else if (InputManager.keyRight) {
-        facing = 1;
-    }
-
-    //dash just once
-    canDash = false;
-
-    //cant jump after dash
-    canJump = false;
-
-    //increasing dash counter by one
-    dashCounter++;
-
-    //dash pixels
-    if (dashCounter mod 3 == 0) {
-        part_particles_create(_ptSystem, x - (facing * _xOff / 3), y - (_yOff / 4), _pt, 1);
-    }
-
-    //calculating dash speeds (dashX and dashY just once)
-    if (isDashing == false) {
-        if (InputManager.keyRight or InputManager.keyLeft) {
-            dashX = facing * xDashPower;
-            squash_stretch(1.3, 0.6);
-
-            if (InputManager.keyUp) {
-                dashY = yDashPower;
-            } else if (InputManager.keyDown) {
-                dashY = -yDashPower;
-            } else {
-                dashY = 0;
-            }
-        } else //if nothing pressed but up and down
-        {
-            dashX = 0;
-            if (InputManager.keyUp) {
-                dashY = yDashPower;
-                squash_stretch(0.6, 1.4);
-            } else if (InputManager.keyDown) {
-                dashY = -yDashPower;
-                squash_stretch(0.6, 1.4);
-            } else //actual nothing pressed				
-            {
-                dashX = facing * xDashPower;
-                dashY = 0;
-                squash_stretch(1.3, 0.6);
-            }
-        }
-
-    }
-
-    isDashing = true;
-
-
-    //apply the speeds
-    xSpeed = dashX;
-    ySpeed = dashY;
-
-    //leave dash state
-    if (dashCounter == dashCounterMax) {
-        /*
-        if (xSpeed != 0)
-        {
-        	xSpeed = facing*hMaxSpeed;
-        }*/
-
-        //smooth stopping
-        ySpeed = sign(ySpeed) * hMaxSpeed;
-        xSpeed = sign(xSpeed) * hMaxSpeed;
-
-        //set dashCounter to 0
-        dashCounter = 0;
-
-        //get gravity back
-        gSpeed = _oldGraw;
-        isDashing = false;
-
-        //switch state
-        state = states.normal;
-
-    }
-
+	dashTween.sstart(0, dashPower, 0.25);
+	xSpeed = lengthdir_x(dashTween.value, dashDir.angle);
+	ySpeed = lengthdir_y(dashTween.value, dashDir.angle);
+	//var dt = distance_to_point(lengthdir_x(dashPower, dashDir.angle), lengthdir_y(dashPower, dashDir.angle));
+	//var ps = distance_to_point(xSpeed, ySpeed);
+	
+	ghostDashTimer.sstart(0.25 / 4);
+	if ghostDashTimer.done {
+		part_particles_create(global.partSystem, x, y, global.ptGhostDash, 1);
+		ghostDashTimer.reset();
+		
+	}
+	
+	show_debug_message(dashTween.value);
+	//if dashTween.value == 0 show_message("done");
+	if (dashTween.done || (onWall && xSpeed != 0)) {
+		ghostDashTimer.reset();
+		dashTween.reset();
+		isDashing = false;
+		state = states.normal;
+	}
 }
 
-function player_State_dash2() {
-
-	
-	
-}
 
 /// @description player crouch state
 function player_state_crouch() {
-    static _crouchDecel = dSpeed;
-
-    xSpeed = approach(xSpeed, 0, _crouchDecel);
+    xSpeed = approach(xSpeed, 0, crouchDecel);
 
     //from cube
     squash_stretch(1.4, 0.6);
@@ -375,21 +301,7 @@ function player_animation_control() {
 			
 		break;
 		
-		case states.grab:
-			if (keyJumpPressed)
-			{
-				facing = -facing;
-			}
 			
-			sprite = sprPlayer;
-			frame = 2;
-			
-		break;
-			
-		case states.stop:
-			sprite = sprPlayer;
-		
-		break;
 
 	}
 
@@ -401,36 +313,5 @@ function player_animation_control() {
 	}
 
 }
-
-/// @description
-//checks every frame (step event)
-//function player_buttons_init() { // Old code
-//	keyLeft			= keyboard_check(vk_left)				or gamepad_button_check(0,gp_padl);
-//	keyRight		= keyboard_check(vk_right)				or gamepad_button_check(0,gp_padr);
-//	keyUp			= keyboard_check(vk_up)					or gamepad_button_check(0,gp_padu);
-//	keyDown			= keyboard_check(vk_down)				or gamepad_button_check(0,gp_padd);
-	
-//	keyJumpPressed	= keyboard_check_pressed(vk_space)		or gamepad_button_check_pressed(0,gp_face1);
-//	keyJump			= keyboard_check(vk_space)				or gamepad_button_check(0,gp_face1);
-	
-//	keyGrab			= keyboard_check(vk_lalt)				or gamepad_button_check(0,gp_shoulderrb);
-	
-//	keyLeftPressed	= keyboard_check_pressed(vk_left)		or gamepad_button_check_pressed(0,gp_padl);
-//	keyRightPressed	= keyboard_check_pressed(vk_right)		or gamepad_button_check_pressed(0,gp_padr);
-//	keyUpPressed	= keyboard_check_pressed(vk_up)			or gamepad_button_check_pressed(0,gp_padu);
-//	keyDownPressed	= keyboard_check_pressed(vk_down)		or gamepad_button_check_pressed(0,gp_padd);
-	
-	
-//	keyDashPressed	= keyboard_check_pressed(vk_lshift) 	or gamepad_button_check_pressed(0,gp_face3);
-	
-//	keyVPressed		= keyboard_check_pressed(ord("V"))		or gamepad_button_check_pressed(0,gp_face4);
-	
-//	mouseLPressed	= mouse_check_button_pressed(mb_left);
-//	mouseRPressed	= mouse_check_button_pressed(mb_right);
-	
-//	keyAlt			= keyboard_check(vk_alt);
-	
-//}
-
 
 

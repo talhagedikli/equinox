@@ -43,8 +43,8 @@ global.partSystem = part_system_create();
 	global.ptDeathExplosion = _p;
 	
 	//set as death
-	part_type_death(global.ptBasic, 1, global.ptDeathExplosion);
-	#endregion
+		part_type_death(global.ptBasic, 1, global.ptDeathExplosion);
+		#endregion
 	
 #region//dash pixels
 	var _p = part_type_create();
@@ -81,7 +81,23 @@ global.partSystem = part_system_create();
 	part_type_gravity(_p, 0.005, 90);
 	
 	global.ptDirt = _p;
-	#endregion
+#endregion
+
+#region// Ghost Dash
+	var _p = part_type_create();
+	
+	part_type_sprite(_p, sprPlayer, false, false, false);
+	part_type_life(_p, 12, 15);
+	
+	part_type_alpha3(_p, 0.7, 1, 0);
+	
+	global.ptGhostDash = _p;
+
+	
+	//set as death
+	part_type_death(global.ptGhostDash, 1, global.ptDashPixels);
+	
+#endregion
 	
 
 

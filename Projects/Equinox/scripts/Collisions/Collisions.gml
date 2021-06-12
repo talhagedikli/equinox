@@ -27,9 +27,10 @@ function check_collisions_classic() {
 
 }
 
-function check_collisions_pixel_perfect() { /// @description the pixel perfect collisions
+function check_collisions_pixel_perfect(_object = objBlock) { /// @description the pixel perfect collisions
 
 	//I think this is better calculation for single mask
+	var spr = sprite_get_info(sprite_index);
 	var sprite_bbox_top		= sprite_get_bbox_top(sprite_index)		- sprite_get_yoffset(sprite_index);
 	var sprite_bbox_bottom	= sprite_get_bbox_bottom(sprite_index)	- sprite_get_yoffset(sprite_index);
 	var sprite_bbox_right	= sprite_get_bbox_right(sprite_index)	- sprite_get_xoffset(sprite_index);
@@ -38,8 +39,8 @@ function check_collisions_pixel_perfect() { /// @description the pixel perfect c
 	//Applying horizontal speed if there is no collision with block
 	x += xSpeed;
 	//Horizontal collisions
-	if place_meeting(x + sign(xSpeed), y, objBlock) {
-		var wall = instance_place(x + sign(xSpeed), y, objBlock);
+	if place_meeting(x + sign(xSpeed), y, _object) {
+		var wall = instance_place(x + sign(xSpeed), y, _object);
 		if (xSpeed > 0)
 		{ //right
 			x = (wall.bbox_left - 1) - sprite_bbox_right;
@@ -54,8 +55,8 @@ function check_collisions_pixel_perfect() { /// @description the pixel perfect c
 	//Applying vertical speed if there is no collision with block
 	y += ySpeed;
 	//Vertical collisions
-	if place_meeting(x, y + sign(ySpeed), objBlock) {
-		var wall = instance_place(x, y + sign(ySpeed), objBlock);
+	if place_meeting(x, y + sign(ySpeed), _object) {
+		var wall = instance_place(x, y + sign(ySpeed), _object);
 		if (ySpeed > 0)
 		{ //down
 			y = (wall.bbox_top - 1) - sprite_bbox_bottom;
@@ -65,6 +66,25 @@ function check_collisions_pixel_perfect() { /// @description the pixel perfect c
 			y = (wall.bbox_bottom + 1) - sprite_bbox_top;
 		}
 		ySpeed = 0;
+	}
+
+
+}
+function check_contact(_object = objBlock) { /// @description the pixel perfect collisions
+
+	//I think this is better calculation for single mask
+	var spr = sprite_get_info(sprite_index);
+
+	//Applying horizontal speed if there is no collision with block
+	//Horizontal collisions
+	if place_meeting(x + sign(xSpeed), y, _object) {
+		var wall = instance_place(x + sign(xSpeed), y, _object);
+		return true;
+	}
+
+	if place_meeting(x, y + sign(ySpeed), _object) {
+		var wall = instance_place(x, y + sign(ySpeed), _object);
+		return true;
 	}
 
 

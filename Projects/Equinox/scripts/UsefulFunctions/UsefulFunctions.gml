@@ -13,6 +13,7 @@ function approach(argument0, argument1, argument2) {
 
 function normalize(value, min, max) {
 	var normalized = (value - min) / (max - min);
+	normalized = clamp(normalized, 0, 1);
 	return normalized;
 }
 
@@ -82,45 +83,6 @@ function chance(_percent) {
 
 }
 
-/// @description quick and dynamic guibar setup
-function GuiBar(rate = 1) constructor {
-	
-	if (is_real(rate)) smtRate = rate;
-
-	static step = function(rate = 1, lrp = true, lrpRate = 0.1) {
-		if (is_real(rate))
-			smtRate = lrp ? flerp(smtRate, rate, lrpRate) : rate;
-	};
-		
-	static draw = function(x1, y1, width, height, type = "vertical", color = c_white, 
-										alpha = 1, rounded = false, bottomline = false) {
-		draw_set_alpha(alpha);
-		draw_set_color(color);
-		if (type == "vertical") { // 0 = vertical
-			if (rounded) {
-				draw_roundrect(x1, y1, x1 + width, 
-					y1 + height * smtRate + (bottomline ? sign(height) : 0), false);
-			} else { 
-				draw_rectangle(x1, y1, x1 + width, 
-					y1 + height * smtRate + (bottomline ? sign(height) : 0), false);
-			}
-		} else if (type == "horizontal") { // 1 = horizontal
-			if (rounded) {
-				draw_roundrect(x1, y1, 
-					x1 + width * smtRate + (bottomline ? sign(width) : 0), y1 + height, false);
-			} else { 
-				draw_rectangle(x1, y1, 
-					x1 + width * smtRate + (bottomline ? sign(width) : 0), y1 + height, false);
-			}	
-		
-		}
-		draw_set_alpha(1);
-		draw_set_color(c_white);			
-		
-	};	
-	
-};
-
 // Finite lerp function
 function flerp(val1, val2, amount, epsilon = EPSILON) {
 	
@@ -130,63 +92,5 @@ function flerp(val1, val2, amount, epsilon = EPSILON) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#region Old Functions
-/// @description directly draw bar with it's rate
-//function drawBar(x1, y1, width, height, rate = noone, type = "vertical", rounded = false, 
-//								color = c_white, alpha = 1, bottomline = true, lrp = false, lrpRate = 0.1) {
-//	static setRate = rate;
-//	if (rate != noone) {
-//		if (lrp) {
-//			setRate = flerp(setRate, rate, lrpRate);	
-//		}
-//	}
-	
-//	draw_set_alpha(alpha);
-//	draw_set_color(color);
-//	if (type == "vertical") { // 0 = vertical
-//		if (rounded) {
-//			draw_roundrect(x1, y1, x1 + width, 
-//				y1 + height * (setRate) + (bottomline ? sign(height) : 0), false);
-//		} else { 
-//			draw_rectangle(x1, y1, x1 + width, 
-//				y1 + height * (setRate) + (bottomline ? sign(height) : 0), false);
-//		}
-//	} else if (type == "horizontal") { // 1 = horizontal
-//		if (rounded) {
-//			draw_roundrect(x1, y1, 
-//				x1 + width * (rate == noone ? 1 : setRate) + (bottomline ? sign(width) : 0), y1 + height, false);
-//		} else { 
-//			draw_rectangle(x1, y1, 
-//				x1 + width * (rate == noone ? 1 : setRate) + (bottomline ? sign(width) : 0), y1 + height, false);
-//		}	
-		
-//	}
-//	draw_set_alpha(1);
-//	draw_set_color(c_white);	
-//	//show_debug_message(setRate);
-	
-	
-	
-//};
-
-
-#endregion
 
 

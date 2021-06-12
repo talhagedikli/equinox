@@ -7,4 +7,3 @@
 time		= 0;
 
 image_blend = C_ANCHOR;
-image_alpha = 0.8;

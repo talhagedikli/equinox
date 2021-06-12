@@ -2,41 +2,31 @@
 #region//checking is on ground, if it is stop y move, if it isn't apply grav
 //onGround and Onwall controls
 onGround	= place_meeting(x, y + 1, objBlock);
-onWall		= tile_meeting(x + facing, y, objBlock);
+onWall		= place_meeting(x + facing, y, objBlock);
+onCeiling	= place_meeting(x, y - 1, objBlock);
+isTouching	= onGround || onWall || onCeiling;
 
+if (isTouching) game_restart();
 
 
 #endregion
 
 
-//animation speed
-frame += frameSpeed;
-
 //switching states
 switch (state) {
 	case states.normal:
 		player_state_normal();
-		ySpeed = clamp(ySpeed, -vMaxSpeed, vMaxSpeed);
-		xSpeed = clamp(xSpeed, -hMaxSpeed, hMaxSpeed);
+		clampSpeed();
 		break;
 	
 	case states.crouch:
 		player_state_crouch();
-			ySpeed = clamp(ySpeed, -vMaxSpeed, vMaxSpeed);
-			xSpeed = clamp(xSpeed, -hMaxSpeed, hMaxSpeed);
+		clampSpeed();
 		break;
 	
 	case states.dash:
-		dashTween.evaluate(0, facing * 15, 0.2);
-		xSpeed = dashTween.value;
-		ySpeed = 0;
-		
-		show_debug_message(xSpeed);
-		
-		if (dashTween.done) {
-			dashTween.reset();
-			state = states.normal;
-		}
+		player_state_dash();
+		clampSpeed(dashPower, dashPower);
 		break;
 
 }
@@ -73,13 +63,10 @@ check_collisions_pixel_perfect();
 
 //if (!tile_meeting(x, y +sign(ySpeed), "Rocks")) {
 //	y += ySpeed;
-//} 
+//}
+xScale = approach(xScale, 1, 0.03);
+yScale = approach(yScale, 1, 0.03);
 
-//animation control
-player_animation_control();
-
-//frame reset to first frame(0)
-frame_reset();
 
 //tracking position
 xPos = x;
