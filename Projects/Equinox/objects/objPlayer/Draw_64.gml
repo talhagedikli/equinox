@@ -28,7 +28,7 @@
 
 //gasBar.drawGui("vertical", gasBar.rate < 0.4 ? abs(dsin(current_time)) * 0.8 : 0.8, c_white, true);
 //testbar.drawGui("vertical", gasBar.rate < 0.4 ? abs(dsin(current_time)) * 0.8 : 0.8, C_CRIMSON, true);
-var bara = gasRate < 0.4 ? abs(dsin(current_time)) * 0.8 : 0.8;
+var bara = gas/gasMax < 0.4 ? abs(dsin(current_time)) * 0.8 : 0.8;
 
 
 gasBar.draw(10, GUI_H - 40, 25, -150, "vertical", c_white, bara, true, true);

@@ -1,7 +1,7 @@
 /// @description quick and dynamic guibar setup
-function GuiBar(rate = 1) constructor { // Makes a bar
+function GuiBar(_rate = 1) constructor { // Makes a bar
 	
-	if (is_real(rate)) smtRate = rate;
+	if (is_real(_rate)) smtRate = _rate;
 
 	static step = function(rate = 1, lrp = true, lrpRate = 0.1) {
 		if (is_real(rate))
@@ -34,7 +34,6 @@ function GuiBar(rate = 1) constructor { // Makes a bar
 		draw_set_color(c_white);			
 		
 	};	
-	
 };
 
 function Dir() constructor { // Finds x and y direction(like 0, 1 or -1) and angle
@@ -67,23 +66,31 @@ function Timer() constructor { // For basic timer
 		}
 	};
 	
-	static sstart = function(_duration) { // Duration in seconds
+	static sstart = function(_duration, _loop = false) { // Duration in seconds
 		var sec = current_time * 0.001;
 		if (sTime == undefined) sTime = sec;
-		if (sec >= sTime + _duration) {
-			done = true;
-			active = false;
-			exit;
+		if (!_loop) {
+			if (sec >= sTime + _duration) {
+				done = true;
+				active = false;
+				exit;
+			} else {
+				done = false;
+				active = true;
+			}
 		} else {
-			done = false;
 			active = true;
+			if (sec >= sTime + _duration) {
+				done	= true;
+				sTime	= sec;
+			} else {
+				done = false;
+			}
 		}
 	};
 	
 	static onTimeout = function(_func) {
 		if (done) {
-			done = false;
-			active = true;
 			_func();
 		}
 	};

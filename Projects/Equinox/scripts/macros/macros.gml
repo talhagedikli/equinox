@@ -40,7 +40,42 @@
 
 #region// General 
 #macro FLIP_COIN		choose(true, false)
-#macro EPSILON			0.0001
+#macro EPSILON			0.001
+
+#macro log				show_debug_message
+#macro show		 		show_message
+
+#macro ignore			if (true) { } else
+#macro defer			for (;; {
+#macro after			; break; })
+
+//defer {
+//	show("second");
+//} after {
+//	show("first");	
+//}
+
+#macro loopi			var i = 0; repeat
+#macro loopj			var i = 0; repeat
+#macro loopk			var i = 0; repeat
+
+#macro print                           \ // Multiline macro example
+    for (var print_value;; {           \
+      show_debug_message(print_value); \
+      break;                           \
+    }) print_value =
+
+//#macro BUILTIN_SHOW_DEBUG_MESSAGE show_debug_message
+//#macro show_debug_message overrides_show_debug_message
+
+//function overrides_show_debug_message(_str) {
+//  BUILTIN_SHOW_DEBUG_MESSAGE(_str); // call the original implementation
+//  var file = file_text_open_append("game.log");
+//  file_text_write_string(file, _str);
+//  file_text_writeln(file);
+//  file_text_close(file);
+//}
+
 #endregion
 
 #region// Colours

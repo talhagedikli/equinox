@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Room Manager",
-    "path": "folders/Objects/Game/Room Manager.yy",
+    "path": "folders/Rooms/Room Manager.yy",
   },
   "resourceVersion": "1.0",
   "name": "BackgroundManager",
