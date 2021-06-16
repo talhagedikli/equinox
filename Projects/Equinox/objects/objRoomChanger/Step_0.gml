@@ -13,7 +13,7 @@ if (position_meeting(objPlayer.x, objPlayer.y, id) and instance_exists(objPlayer
 	transition_start(global.roomTarget, sqFadeOut, sqFadeIn);
 	
 	//temporary mario phase
-	global.control = false;
+	InputManager.active = false;
 	
 }
 

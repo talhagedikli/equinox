@@ -1,3 +1,6 @@
 /// @description 
-if (InputManager.keyRPressed) { game_restart() };
-if (InputManager.keyEscPressed) { game_end() };
+///Step Event of the controller object
+global.clock.tick();
+
+
+

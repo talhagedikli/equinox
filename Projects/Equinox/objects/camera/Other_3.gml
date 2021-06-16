@@ -1,2 +1,0 @@
-/// @description 
-zoom_out();

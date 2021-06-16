@@ -32,12 +32,12 @@ function Tween(_type = tweenType.LINEAR) constructor
 		MIDSLOW
 	}
 	channel = animcurve_get_channel(acTweens, _type);
-	time = 0;
-	value = 0;
-	done = false;
-	active = false;
-	wait = false;
-	sTime = undefined;
+	time	= 0;
+	value	= 0;
+	done	= false;
+	active	= false;
+	wait	= false;
+	sTime	= undefined;
 	
 	reverse = false;
 	static fstart = function(_start, _end, _duration, _loop = false)
@@ -107,6 +107,7 @@ function Tween(_type = tweenType.LINEAR) constructor
 				value = lerp(_start, _end, rate);
 			}
 		}
+		return self;
 	}
 	static stop = function()
 	{
@@ -116,6 +117,7 @@ function Tween(_type = tweenType.LINEAR) constructor
 		active = false;
 		done = true;
 		wait = false;
+		return self;
 	}
 	static reset = function()
 	{
@@ -125,6 +127,7 @@ function Tween(_type = tweenType.LINEAR) constructor
 		done = false;
 		wait = false;
 		active = false;
+		return self;
 	}
 	static pause = function()
 	{
@@ -135,3 +138,8 @@ function Tween(_type = tweenType.LINEAR) constructor
 		wait = false;
 	}
 }
+
+
+
+
+

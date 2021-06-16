@@ -22,9 +22,6 @@ test[6][1] = APP_W;
 test[7][0] = "apph";
 test[7][1] = APP_H;
 
-test[8][0] = "output";
-test[8][1] = objTextInput.output;
-
 //test[9][0] = "mspeed"
 //test[9][1] = instance_exists(objPlayer) == true ? objPlayer.hMaxSpeed : 0;
 

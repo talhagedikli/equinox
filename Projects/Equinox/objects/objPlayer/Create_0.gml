@@ -267,7 +267,7 @@ snowState
 		ySpeed = lengthdir_y(dashTween.value, dashDir.angle);
 		//var dt = distance_to_point(lengthdir_x(dashPower, dashDir.angle), lengthdir_y(dashPower, dashDir.angle));
 		//var ps = distance_to_point(xSpeed, ySpeed);
-		ghostDashTimer.sstart(0.25 / 4, true);
+		ghostDashTimer.startRt(0.25 / 4, true);
 		ghostDashTimer.onTimeout(function()
 		{
 			part_particles_create(global.partSystem, x, y, global.ptGhostDash, 1);
@@ -286,18 +286,6 @@ snowState
 		}
 	}
 })
-
-
-
-
-signal_join("test", id, xSpeed, "second", "third");
-
-
-signal_find("test", id, function(first, sec) {
-	show(first);
-	show(sec);
-	
-});
 
 
 

@@ -1,7 +1,8 @@
 /// @description 
 /// @description 
 
-if (global.control) {
+if (active) 
+{
 	horizontalInput	= (keyboard_check(vk_right) - keyboard_check(vk_left));		// Will be -1, 0 or 1
 	verticalInput	= (keyboard_check(vk_down) - keyboard_check(vk_up));		// Will be -1, 0 or 1
 
@@ -25,7 +26,9 @@ if (global.control) {
 	keyAltPressed		= ALT_PRESSED;
 	keyRPressed			= keyboard_check_pressed(ord("R"));
 	keyEscPressed		= keyboard_check_pressed(vk_escape);
-} else {
+} 
+else 
+{
 	keyRight			= noone;
 	keyLeft				= noone;
 	keyDown				= noone;

@@ -40,7 +40,7 @@ function transition_spawner() {
 
 function transition_finished() {
 	layer_sequence_destroy(self.elementID);
-	global.control			= true;
+	InputManager.active			= true;
 	global.midTransition	= false;
 }
 

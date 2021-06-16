@@ -17,7 +17,7 @@ with (objPlayer)
 	}
 	
 	//stop while talking
-	global.control = false;
+	InputManager.active = false;
 }
 	
 //variables

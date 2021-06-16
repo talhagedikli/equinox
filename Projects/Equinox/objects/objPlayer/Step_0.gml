@@ -3,7 +3,7 @@
 //onGround and Onwall controls
 checkCollisions();
 
-if (isTouching) game_restart();
+//if (isTouching) game_restart();
 
 #endregion
 //switching states
@@ -29,6 +29,12 @@ snowState.step();
 
 //applying gSpeed
 applyGravity();
+
+//signal_join("test", id, xSpeed, ySpeed, onGround);
+
+//signal_find("test", id, function(xspd) {
+//	show_debug_message(xspd);
+//});
 
 
 //horizontal and vertical collisions

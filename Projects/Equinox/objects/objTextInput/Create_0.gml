@@ -41,7 +41,7 @@ global.test		= {
 	
 };
 
-inputBar = new GuiBar()
+inputBar = new GuiBar();
 
 
 // Methods to set and get variables for test struct

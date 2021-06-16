@@ -20,7 +20,7 @@ if (focus = true) {
 
 
 if (focus) { // Stuff to do in focus mode
-    global.control = false;
+    InputManager.active = false;
 
     cursor = current_time / 100 mod 10 > 5 ? "|" : "";
     barAlpha = lerp(barAlpha, 0.8, 0.1);
@@ -31,7 +31,7 @@ if (focus) { // Stuff to do in focus mode
 
 
 } else { // Stuff to do in !focus mode
-    global.control = true
+    InputManager.active = true
 
     cursor = "";
     barAlpha = flerp(barAlpha, 0.2, 0.1);

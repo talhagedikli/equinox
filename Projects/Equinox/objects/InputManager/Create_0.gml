@@ -9,4 +9,4 @@ keyUp		= 0;
 horizontalInput		= 0;
 verticalInput		= 0;
 
-global.control		= true;
+active		= true;
