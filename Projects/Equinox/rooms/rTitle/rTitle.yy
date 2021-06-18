@@ -3,7 +3,7 @@
   "volume": 1.0,
   "parentRoom": null,
   "views": [
-    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
+    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1280,"hview":720,"xport":0,"yport":0,"wport":480,"hport":270,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
@@ -33,8 +33,8 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_60A3D11F","path":"rooms/rTitle/rTitle.yy",},
     {"name":"inst_711BE0F3","path":"rooms/rTitle/rTitle.yy",},
+    {"name":"inst_60A3D11F","path":"rooms/rTitle/rTitle.yy",},
     {"name":"inst_50DEC592","path":"rooms/rTitle/rTitle.yy",},
     {"name":"inst_1CE1C4E0","path":"rooms/rTitle/rTitle.yy",},
     {"name":"inst_6BD9719B","path":"rooms/rTitle/rTitle.yy",},

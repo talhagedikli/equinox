@@ -31,7 +31,7 @@
 var bara = gas/gasMax < 0.4 ? abs(dsin(current_time)) * 0.8 : 0.8;
 
 
-gasBar.draw(10, GUI_H - 40, 25, -150, "vertical", c_white, bara, true, true);
+gasBar.update(gas / gasMax, true).draw(10, GUI_H - 40, 25, -150, "vertical", c_white, bara, true, true);
 //DrawBar(45, GUI_H - 40, 25, -150).Update(gas / gasMax).Blend(c_white, bara).Type("vertical").Shape(true, true).Draw();
 gasBar.draw(0, GUI_H, GUI_W, -3, "horizontal", C_CRIMSON, bara, false, false);
 //drawBar(GUI_W, GUI_H, -3, -GUI_H, gasRate, "vertical", false, C_CRIMSON, bara, true, true, 0.05);

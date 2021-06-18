@@ -12,7 +12,8 @@ draw_set_color(c_dkgray);
 inputBar.draw(10, GUI_H - 10, 200, -20, "horizontal", C_SHADOW, barAlpha, true, false);
 
 // Draw the last input
-if (lastInput != undefined) {
+if (lastInput != undefined) 
+{
 	fadeX = flerp(fadeX, fadeXMax, 0.2);
 	draw_set_alpha(fadeTimer / fadeMax * barAlpha);
 	draw_set_color(c_white);

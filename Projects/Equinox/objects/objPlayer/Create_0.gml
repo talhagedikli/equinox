@@ -1,3 +1,4 @@
+#region CREATE
 //animation
 animation_init();
 //speed variables
@@ -50,6 +51,7 @@ gasMax = 128;
 gas = gasMax;
 gasRate = gas / gasMax;
 gasBar = new GuiBar(gas / gasMax);
+gasTimer = new Timer();
 
 //control point variables
 onGround = false;
@@ -70,17 +72,18 @@ applyGravity = function()
 		ySpeed += gSpeed;
 	}
 }
+#endregion //--------------------------------------------------------------------------------------------------------------------------------------------
 
-snowState = new SnowState("normal");
-snowState
-	.history_enable()
-	.set_history_max_size(15)
-	.event_set_default_function("init", function()
-	{
+#region STATE
+state = new SnowState("normal");
+
+state.history_enable();
+state.set_history_max_size(15);
+state.event_set_default_function("init", function() {
 		// Init code here
-	})
+});
 	
-	.add("normal", {
+state.add("normal", {
 	enter: function() {},
 	step: function()
 	{
@@ -193,41 +196,35 @@ snowState
 	}
 	#endregion
 	#region //Flying section
-	static _ptSystem = global.partSystem;
-	static _pt = global.ptDashPixels;
-	static time = 0;
-	time++;
 	if (InputManager.keyAlt)
 	{
 	    if (gas > 0)
 	    {
-		    gas--;
-		    packPower = approach(packPower, packPowerMax, 0.005);
-		    if (time mod 5 == 0) //Creating some particles when flying
-		        part_particles_create(_ptSystem, x + random_range(-8, 8), y + sprite_yoffset, _pt, 1);
-		    }
-		    else
-		    {
-					packPower = 0;
-		    }
-		    if (place_meeting(x, y - 1, objBlock)) packPower = 0; // If head hits roof, cut the power
+			gas--;
+			gasTimer.startRt(0.05, true);
+			gasTimer.onTimeout(function() {
+				part_particles_create(global.partSystem, x + random_range(-8, 8), y + sprite_yoffset, global.ptDashPixels, 1);
+			});
+		    packPower = approach(packPower, packPowerMax, 0.0075);
+		    if (onCeiling) packPower = 0; // If head hits roof, cut the power
+		}
+		else
+		{
+			packPower = approach(packPower, 0, 0.05);
+		}
 	}
 	else
 	{
-	    packPower = 0;
-	    if (onGround)
-	    {
-			gas = gasMax;
-	    }
+		gasTimer.reset();
+	    packPower = approach(packPower, 0, 0.05);
+	    gas			= onGround ? gasMax : gas;
 	}
-	gasBar.step(gas / gasMax, true);
 	ySpeed -= packPower; // Apply packpower
 	#endregion
-	clampSpeed(hMaxSpeed, vMaxSpeed);
 	#region //Switching state phase
 	if (InputManager.keyShiftPressed)
 	{
-	    snowState.change("dash", function()
+	    state.change("dash", function()
 		{
 		    if (InputManager.horizontalInput == 0 && InputManager.verticalInput == 0)
 		    {
@@ -241,10 +238,12 @@ snowState
 	    });
 	}
 	#endregion
+	clampSpeed(hMaxSpeed, vMaxSpeed);
+
 	}
-})
+});
 	
-	.add("crouch", {
+state.add("crouch", {
 	enter: function() 
 	{
 		// Code here
@@ -253,9 +252,9 @@ snowState
 	{
 		// Code here	
 	}
-})
+});
 	
-	.add("dash", {
+state.add("dash", {
 	enter: function() 
 	{
 		// Code here
@@ -265,32 +264,32 @@ snowState
 		dashTween.sstart(0, dashPower, 0.25);
 		xSpeed = lengthdir_x(dashTween.value, dashDir.angle);
 		ySpeed = lengthdir_y(dashTween.value, dashDir.angle);
-		//var dt = distance_to_point(lengthdir_x(dashPower, dashDir.angle), lengthdir_y(dashPower, dashDir.angle));
-		//var ps = distance_to_point(xSpeed, ySpeed);
 		ghostDashTimer.startRt(0.25 / 4, true);
 		ghostDashTimer.onTimeout(function()
 		{
 			part_particles_create(global.partSystem, x, y, global.ptGhostDash, 1);
 		});
-		clampSpeed(dashPower, dashPower);
 		show_debug_message(dashTween.value);
 		//if dashTween.value == 0 show_message("done");
 		if (dashTween.done || (onWall && xSpeed != 0))
 		{
-		    snowState.change("normal", function()
+		    state.change("normal", function()
 			{
 				ghostDashTimer.reset();
 			    dashTween.reset();
 			    isDashing = false;
 		    });
 		}
+		clampSpeed(dashPower, dashPower);
 	}
-})
+});
+#endregion //--------------------------------------------------------------------------------------------------------------------------------------------
 
+Camera.following = self;
 
+global.clock.add_cycle_method(function() {
 
-
-
+});
 
 
 

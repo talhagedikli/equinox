@@ -2,10 +2,11 @@
 function GuiBar(_rate = 1) constructor
 { // Makes a bar
 	smtRate = _rate;
-	static step = function(rate = 1, lrp = true, lrpRate = 0.1)
+	static update = function(rate = 1, lrp = true, lrpRate = 0.1)
 	{
 		if (is_real(rate)) smtRate = lrp ? flerp(smtRate, rate, lrpRate) : rate;
-	};
+		return self;
+	}
 	static draw = function(x1, y1, width, height, type = "vertical", color = c_white, alpha = 1, rounded = false, bottomline = false)
 	{
 		draw_set_alpha(alpha);
@@ -135,11 +136,12 @@ function Timer() constructor
 	done = false;
 	active = false;
 	sTime = undefined;
+	duration = 0;
 	static startFr = function(_duration = infinity)
 	{
+		duration = _duration;
 		if ((time < _duration) && !done)
 		{
-			time++;
 			if (done == true) done = false;
 			if (active == false) active = true;
 		}
@@ -147,7 +149,6 @@ function Timer() constructor
 		{
 			done = true;
 			active = false;
-			exit;
 		}
 		return self;
 	}
@@ -208,6 +209,76 @@ function Timer() constructor
 		active = false;
 		return self;
 	};
+	
+	//global.clock.add_cycle_method(function()
+	//{
+	//	if (active)
+	//	{
+	//		time++;
+	//		if (time > duration)
+	//		{
+	//			script_execute(method_get_index(onTimeout));
+	//			self.reset();
+	//		}
+	//	}
+		
+	//});
+};
+
+function Pimer() constructor
+{ // For basic timer
+	time = 0;
+	done = false;
+	active = false;
+	duration = 0;
+	static tick = function(_duration = infinity, loop = false)
+	{
+		duration = _duration;
+		if ((time < _duration) && !done)
+		{
+			if (done == true) done = false;
+			if (active == false) active = true;
+		}
+		else
+		{
+			done = true;
+			active = false;
+		}
+		return self;
+	}
+	static onTimeout = function(_func)
+	{
+		if (done)
+		{
+			_func();
+		}
+		return self;
+	};
+	static reset = function()
+	{
+		time = 0;
+		sTime = undefined;
+		done = false;
+		return self;
+
+	};
+	static stop = function()
+	{
+		time = 0;
+		sTime = undefined;
+		done = true;
+		active = false;
+		return self;
+	};
+	
+	//global.clock.add_cycle_method(function()
+	//{
+	//	if (active)
+	//	{
+	//		time++;
+	//	}
+		
+	//});
 };
 
 
