@@ -12,5 +12,3 @@ yPos = y;
 gasRate = gas/gasMax;
 
 
-
-

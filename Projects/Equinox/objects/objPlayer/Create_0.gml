@@ -287,13 +287,13 @@ state.add("dash", {
 
 Camera.following = self;
 
+global.clock.variable_interpolate("x", "iotaX");
+global.clock.variable_interpolate("y", "iotaY");
+
 global.clock.add_cycle_method(function() {
 
+
 });
-
-
-
-
 
 
 

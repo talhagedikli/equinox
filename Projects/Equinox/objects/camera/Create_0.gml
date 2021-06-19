@@ -110,8 +110,8 @@ state.add("normal", {
 		if (instance_exists(following))
 		{
 			var xTo, yTo;
-			xTo = following.x - (camW / 2);
-			yTo = following.y - (camH / 2);
+			xTo = round(following.x) - (camW / 2);
+			yTo = round(following.y) - (camH / 2);
 			//camX = abs(difX) < EPSILON ? targetX : lerp(camX, targetX, followSpd);
 			camX = flerp(camX, xTo, followSpd, 0.000001);
 			camY = flerp(camY, yTo, followSpd, 0.000001);
