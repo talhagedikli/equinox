@@ -14,6 +14,7 @@ function approach(argument0, argument1, argument2)
 	}
 }
 
+
 function normalize(value, min, max)
 {
 	var normalized = (value - min) / (max - min);
@@ -21,23 +22,6 @@ function normalize(value, min, max)
 	return normalized;
 }
 
-function string_type(value)
-{
-	enum str
-	{
-		digits,
-		letters
-	}
-	static digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "-"];
-	for (var i = 0; i < array_length(digits); i++)
-	{
-		if (value = digits[i])
-		{
-			return str.digits
-		};
-	}
-	return str.letters;
-}
 
 function wave(_from, _to, _duration, offset)
 {

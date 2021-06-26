@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "SnowState",
-    "path": "folders/Scripts/Misc/Imported/SnowState.yy",
+    "path": "folders/SnowState.yy",
   },
   "resourceVersion": "1.0",
   "name": "SnowState",

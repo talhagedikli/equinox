@@ -1,6 +1,6 @@
 //width and height 480*270
-viewWidth		=	1920/4;
-viewHeight		=	1080/4;
+viewWidth		=	1920/3;
+viewHeight		=	1080/3;
 windowScale		=	2;
 
 

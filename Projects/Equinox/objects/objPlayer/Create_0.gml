@@ -158,6 +158,7 @@ state.add("normal", {
 		    squash_stretch(0.7, 1.3);
 	    }
 	}
+
 	//double jump section
 	if (jumps > 0 and InputManager.keySpacePressed and doubleJump)
 	{
@@ -291,8 +292,7 @@ global.clock.variable_interpolate("x", "iotaX");
 global.clock.variable_interpolate("y", "iotaY");
 
 global.clock.add_cycle_method(function() {
-
-
+	
 });
 
 
