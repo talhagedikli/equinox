@@ -28,6 +28,8 @@ crouchDecel = 0.075;
 dashDir = new Dir();
 ghostDashTimer = new Timer();
 dashPower = 8;
+dashCountMax = 3;
+dashCount = dashCountMax;
 dashDur = 0.25 * 60;
 dashTween = new Tween(tweenType.QUARTEASEOUT);
 isDashing = false;
@@ -189,6 +191,7 @@ state.add("normal", {
 		    //to track "just landed on ground" moment
 		    landed = true;
 	    }
+		dashCount = dashCountMax;
 	}
 	else
 	{
@@ -225,18 +228,22 @@ state.add("normal", {
 	#region //Switching state phase
 	if (InputManager.keyShiftPressed)
 	{
-	    state.change("dash", function()
+		if (dashCount > 0)
 		{
-		    if (InputManager.horizontalInput == 0 && InputManager.verticalInput == 0)
-		    {
-		        dashDir.find(facing, 0);
-		    }
-		    else
-		    {
-		        dashDir.find(InputManager.horizontalInput, InputManager.verticalInput);
-		    }
-		    isDashing = true;
-	    });
+		    state.change("dash", function()
+			{
+			    if (InputManager.horizontalInput == 0 && InputManager.verticalInput == 0)
+			    {
+			        dashDir.find(facing, 0);
+			    }
+			    else
+			    {
+			        dashDir.find(InputManager.horizontalInput, InputManager.verticalInput);
+			    }
+			    isDashing = true;
+				dashCount--;
+		    });
+		}
 	}
 	#endregion
 	clampSpeed(hMaxSpeed, vMaxSpeed);
@@ -254,7 +261,7 @@ state.add("crouch", {
 		// Code here	
 	}
 });
-	
+
 state.add("dash", {
 	enter: function() 
 	{
@@ -294,7 +301,6 @@ global.clock.variable_interpolate("y", "iotaY");
 global.clock.add_cycle_method(function() {
 	
 });
-
 
 
 

@@ -37,9 +37,11 @@ gasBar.draw(0, GUI_H, GUI_W, -3, "horizontal", C_CRIMSON, bara, false, false);
 //drawBar(GUI_W, GUI_H, -3, -GUI_H, gasRate, "vertical", false, C_CRIMSON, bara, true, true, 0.05);
 //drawBar(GUI_W, 0, -GUI_W, 3, gasRate, "horizontal", false, C_CRIMSON, bara, true, true, 0.05);
 //drawBar(0, 0, 3, GUI_W, gasRate, "vertical", false, C_CRIMSON, bara, true, true, 0.05);
-
-
-
+var i = 0; repeat(dashCount)
+{
+	CleanCircle(15 + i * 15, 15, 5).Blend(c_white, 0.8).Draw();
+	i++;
+}
 
 
 

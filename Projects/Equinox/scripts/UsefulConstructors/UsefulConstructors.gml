@@ -37,6 +37,7 @@ function GuiBar(_rate = 1) constructor
 		draw_set_color(c_white);
 		return self;
 	}
+	
 }
 
 function DrawBar(_x1, _y1, _width, _height)
@@ -128,7 +129,8 @@ function Dir() constructor
 		y = _vinput;
 		return self;
 	}
-};
+}
+
 
 function Timer() constructor
 { // For basic timer
@@ -223,7 +225,7 @@ function Timer() constructor
 	//	}
 		
 	//});
-};
+}
 
 function Pimer() constructor
 { // For basic timer
