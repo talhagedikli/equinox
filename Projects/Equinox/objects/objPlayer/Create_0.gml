@@ -31,7 +31,7 @@ dashPower = 8;
 dashCountMax = 3;
 dashCount = dashCountMax;
 dashDur = 0.25 * 60;
-dashTween = new Tween(tweenType.QUARTEASEOUT);
+dashTween = new TweenV2(tweenType.QUARTEASEOUT);
 isDashing = false;
 
 // Jump 
@@ -266,16 +266,19 @@ state.add("dash", {
 	enter: function() 
 	{
 		// Code here
+		ghostDashTimer.start(15 / 4);
+		dashTween.start(0, dashPower, 15);
+
 	},
 	step: function()
 	{
-		dashTween.sstart(0, dashPower, 0.25);
 		xSpeed = lengthdir_x(dashTween.value, dashDir.angle);
 		ySpeed = lengthdir_y(dashTween.value, dashDir.angle);
-		ghostDashTimer.startRt(0.25 / 4, true);
+		log(dashTween.value);
 		ghostDashTimer.onTimeout(function()
 		{
 			part_particles_create(global.partSystem, x, y, global.ptGhostDash, 1);
+			ghostDashTimer.reset();
 		});
 		show_debug_message(dashTween.value);
 		//if dashTween.value == 0 show_message("done");
@@ -283,8 +286,8 @@ state.add("dash", {
 		{
 		    state.change("normal", function()
 			{
-				ghostDashTimer.reset();
-			    dashTween.reset();
+				ghostDashTimer.stop();
+			    dashTween.stop();
 			    isDashing = false;
 		    });
 		}
@@ -299,8 +302,34 @@ global.clock.variable_interpolate("x", "iotaX");
 global.clock.variable_interpolate("y", "iotaY");
 
 global.clock.add_cycle_method(function() {
+	checkCollisions();
+	applyGravity();
+	
+	state.step();
+	
+	xScale = approach(xScale, 1, 0.03);
+	yScale = approach(yScale, 1, 0.03);
+	check_collisions_pixel_perfect();
+	xPos = x;
+	yPos = y;
+
+	gasRate = gas/gasMax;
+	
+
 	
 });
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

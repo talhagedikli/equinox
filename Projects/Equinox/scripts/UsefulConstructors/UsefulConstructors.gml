@@ -139,21 +139,14 @@ function Timer() constructor
 	active = false;
 	sTime = undefined;
 	duration = 0;
-	static startFr = function(_duration = infinity)
+	static start = function(_duration = infinity, _loop = false)
 	{
 		duration = _duration;
-		if ((time < _duration) && !done)
-		{
-			if (done == true) done = false;
-			if (active == false) active = true;
-		}
-		else
-		{
-			done = true;
-			active = false;
-		}
+		if (done == true) done = false;
+		if (active == false) active = true;
 		return self;
 	}
+
 	static startRt = function(_duration, _loop = false)
 	{ // Duration in seconds
 		var sec = current_time * 0.001;
@@ -200,6 +193,7 @@ function Timer() constructor
 		time = 0;
 		sTime = undefined;
 		done = false;
+		active = true;
 		return self;
 
 	};
@@ -207,81 +201,25 @@ function Timer() constructor
 	{
 		time = 0;
 		sTime = undefined;
-		done = true;
 		active = false;
-		return self;
-	};
-	
-	//global.clock.add_cycle_method(function()
-	//{
-	//	if (active)
-	//	{
-	//		time++;
-	//		if (time > duration)
-	//		{
-	//			script_execute(method_get_index(onTimeout));
-	//			self.reset();
-	//		}
-	//	}
-		
-	//});
-}
-
-function Pimer() constructor
-{ // For basic timer
-	time = 0;
-	done = false;
-	active = false;
-	duration = 0;
-	static tick = function(_duration = infinity, loop = false)
-	{
-		duration = _duration;
-		if ((time < _duration) && !done)
-		{
-			if (done == true) done = false;
-			if (active == false) active = true;
-		}
-		else
-		{
-			done = true;
-			active = false;
-		}
-		return self;
-	}
-	static onTimeout = function(_func)
-	{
-		if (done)
-		{
-			_func();
-		}
-		return self;
-	};
-	static reset = function()
-	{
-		time = 0;
-		sTime = undefined;
 		done = false;
 		return self;
-
-	};
-	static stop = function()
-	{
-		time = 0;
-		sTime = undefined;
-		done = true;
-		active = false;
-		return self;
 	};
 	
-	//global.clock.add_cycle_method(function()
-	//{
-	//	if (active)
-	//	{
-	//		time++;
-	//	}
+	global.clock.add_cycle_method(function()
+	{
+		if (active)
+		{
+			time++;
+			if (time > duration)
+			{
+				done = true;
+			}
+		}
 		
-	//});
-};
+	});
+}
+
 
 
 
