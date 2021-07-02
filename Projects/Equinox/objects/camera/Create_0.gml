@@ -4,7 +4,6 @@ viewHeight		=	1080/3;
 windowScale		=	2;
 
 
-
 following		= instance_exists(objPlayer) ? objPlayer : noone;
 
 //spd variables
@@ -124,6 +123,17 @@ state.add("normal", {
 		
 	}
 });
+
+state.add("ccll", {
+	enter: function()
+	{
+		
+	},
+	step: function()
+	{
+		
+	}
+})
 
 state.add("cell", {
 	enter: function()

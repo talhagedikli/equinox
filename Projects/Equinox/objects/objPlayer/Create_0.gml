@@ -74,6 +74,7 @@ applyGravity = function()
 		ySpeed += gSpeed;
 	}
 }
+
 #endregion //--------------------------------------------------------------------------------------------------------------------------------------------
 
 #region STATE
@@ -89,7 +90,7 @@ state.add("normal", {
 	enter: function() {},
 	step: function()
 	{
-	#region //Movement phase
+	#region MOVEMENT
 	if (InputManager.keyLeft)
 	{
 	    xSpeed = approach(xSpeed, -hMaxSpeed, aSpeed);
@@ -116,7 +117,7 @@ state.add("normal", {
 	    dSpeed = airDecel;
 	}
 	#endregion
-	#region //Jumping phase
+	#region JUMPING
 	//Coyote time
 	if (onGround == false)
 	{
@@ -160,7 +161,7 @@ state.add("normal", {
 		    squash_stretch(0.7, 1.3);
 	    }
 	}
-
+	
 	//double jump section
 	if (jumps > 0 and InputManager.keySpacePressed and doubleJump)
 	{
@@ -199,7 +200,7 @@ state.add("normal", {
 	    landed = false;
 	}
 	#endregion
-	#region //Flying section
+	#region FLYING
 	if (InputManager.keyAlt)
 	{
 	    if (gas > 0)
@@ -225,7 +226,7 @@ state.add("normal", {
 	}
 	ySpeed -= packPower; // Apply packpower
 	#endregion
-	#region //Switching state phase
+	#region SWITCHNG
 	if (InputManager.keyShiftPressed)
 	{
 		if (dashCount > 0)
@@ -302,40 +303,9 @@ global.clock.variable_interpolate("x", "iotaX");
 global.clock.variable_interpolate("y", "iotaY");
 
 global.clock.add_cycle_method(function() {
-	checkCollisions();
-	applyGravity();
 	
-	state.step();
-	
-	xScale = approach(xScale, 1, 0.03);
-	yScale = approach(yScale, 1, 0.03);
-	check_collisions_pixel_perfect();
-	xPos = x;
-	yPos = y;
-
-	gasRate = gas/gasMax;
-	
-
 	
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

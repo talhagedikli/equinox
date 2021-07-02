@@ -14,7 +14,6 @@ function approach(argument0, argument1, argument2)
 	}
 }
 
-
 function normalize(value, min, max)
 {
 	var normalized = (value - min) / (max - min);
@@ -36,15 +35,12 @@ function wave(_from, _to, _duration, offset)
 	var _a4 = (_to - _from) * 0.5;
 	return _from + _a4 + sin((((current_time * 0.001) + _duration * offset) / _duration) * (pi * 2)) * _a4;
 }
-
-/// @param {real} time represents time what you need exp: current_time/1000
 /// @description Puts sin function inside of abs function
 function asin(time = current_time)
 {
 	return abs(dsin(time));
 }
 
-/// @param {real} time represents time what you need exp: current_time/1000
 /// @description Puts cos function inside of abs function
 function acos(time = current_time)
 {

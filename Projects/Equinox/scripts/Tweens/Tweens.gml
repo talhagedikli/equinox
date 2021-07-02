@@ -80,6 +80,7 @@ function Tween(_type = tweenType.LINEAR) constructor
 			}
 		}
 	}
+	
 	static sstart = function(_start, _end, _duration, _loop = false)
 	{ // Duration in seconds
 		var sec = current_time * 0.001;
@@ -226,14 +227,14 @@ function TweenV2(_type = tweenType.LINEAR) constructor
 	
 	reverse = false;
 	static start = function(_start, _end, _duration)
-	{ // Duration in frames
-		if (active == false)
+	{
+		if (!active)
 		{
-			active = true;
+			active	= true;
 		}
-		__start = _start;
-		__end = _end;
-		__duration = _duration;
+		__start		= _start;
+		__end		= _end;
+		__duration	= _duration;
 	}
 	static stop = function()
 	{
@@ -244,6 +245,7 @@ function TweenV2(_type = tweenType.LINEAR) constructor
 		wait = false;
 		return self;
 	}
+	
 	static reset = function()
 	{
 		time = 0;
