@@ -8,10 +8,10 @@ gSpeed = 0.06;
 facing = 1;
 
 //accel, decel and max speed
-aSpeed = 0.2;
-dSpeed = 0.5;
-hMaxSpeed = 2.5;
-vMaxSpeed = 2.5;
+aSpeed		= 0.2;
+dSpeed		= 0.5;
+hMaxSpeed	= 2.5;
+vMaxSpeed	= 2.5;
 clampSpeed = function(_horizontal = hMaxSpeed, _vertical = vMaxSpeed)
 {
 	ySpeed = clamp(ySpeed, -_vertical, _vertical);
@@ -20,46 +20,46 @@ clampSpeed = function(_horizontal = hMaxSpeed, _vertical = vMaxSpeed)
 
 groundAccel = 0.1;
 groundDecel = 0.075;
-airAccel = 0.1;
-airDecel = 0.075;
+airAccel	= 0.1;
+airDecel	= 0.075;
 crouchDecel = 0.075;
 
 // Dash
-dashDir = new Dir();
-ghostDashTimer = new Timer();
-dashPower = 8;
-dashCountMax = 3;
-dashCount = dashCountMax;
-dashDur = 0.25 * 60;
-dashTween = new TweenV2(tweenType.QUARTEASEOUT);
-isDashing = false;
+dashDir 		= new Dir();
+ghostDashTimer	= new Timer();
+dashPower		= 8;
+dashCountMax	= 3;
+dashCount		= dashCountMax;
+dashDur 		= 0.25 * 60;
+dashTween		= new TweenV2(tweenType.QUARTEASEOUT);
+isDashing		= false;
 
 // Jump 
-jPower = -2;
-jumps = 0;
-jumpsMax = 1;
-bufferCounter = 0;
-bufferMax = 8;
-coyoteCounter = 0;
-coyoteMax = 6;
-doubleJump = false;
-landed = false;
-canJump = false;
+jPower			= -2;
+jumps			= 0;
+jumpsMax		= 1;
+bufferCounter	= 0;
+bufferMax		= 8;
+coyoteCounter	= 0;
+coyoteMax		= 6;
+doubleJump		= false;
+landed			= false;
+canJump 		= false;
 
 // Pack
-packPower = 0;
-packPowerMax = 0.25;
-gasMax = 128;
-gas = gasMax;
-gasRate = gas / gasMax;
-gasBar = new GuiBar(gas / gasMax);
-gasTimer = new Timer();
+packPower		= 0;
+packPowerMax	= 0.25;
+gasMax			= 128;
+gas 			= gasMax;
+gasRate 		= gas / gasMax;
+gasBar			= new GuiBar(gas / gasMax);
+gasTimer		= new Timer();
 
 //control point variables
-onGround = false;
-onWall = false;
-onCeiling = false;
-isTouching = false;
+onGround	= false;
+onWall		= false;
+onCeiling	= false;
+isTouching	= false;
 checkCollisions = function()
 {
 	onGround	= place_meeting(x, y + 1, objBlock);

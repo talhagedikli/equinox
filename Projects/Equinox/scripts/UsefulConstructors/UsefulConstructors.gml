@@ -220,7 +220,17 @@ function Timer() constructor
 	});
 }
 
-
+function Vector2(_x = undefined, _y = undefined) constructor
+{
+	x = _x;
+	y = _y;
+}
+function Vecto32(_x = undefined, _y = undefined, _z = undefined) constructor
+{
+	x = _x;
+	y = _y;
+	z = _z;
+}
 
 
 
