@@ -1,5 +1,6 @@
 #region CREATE
 //animation
+image_blend = C_MERLOT;
 animation_init();
 //speed variables
 xSpeed 	= 0;

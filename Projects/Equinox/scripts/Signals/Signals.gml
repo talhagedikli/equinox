@@ -162,11 +162,12 @@ function Signal(_signal) constructor
 	
 }
 
-function signal_create(_signal)
+function signal_create(_owner, _signal, _data = [])
 {
 	var s	 = new Signal(_signal);
 	s.signal = _signal;
-	s.owner  = self;
+	s.owner  = _owner;
+	s.data 	 = _data;
 	return s;
 }
 
@@ -176,7 +177,7 @@ function signal_find(_signal, _owner, _func = function() {})
 	var arrSignal = [];
 	if (instance_exists(_owner)) 
 	{
-		strSignal = _owner[$ _signal];
+		strSignal = global.signals[$ _owner];
 	}
 	if (strSignal =! {}) arrSignal = strSignal.array;
 	script_execute_ext(method_get_index(_func), arrSignal);	

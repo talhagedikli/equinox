@@ -89,6 +89,7 @@
 #macro C_LEAD			$4e3f3f
 #macro C_DAISY			$fafafa
 #macro C_CHIFFON		$faf2fb
+#macro C_MERLOT			$1b1e54
 #macro C_RANDOM			make_colour_hsv(irandom(255), irandom(255), irandom(255))
 // Generated from: http://web.archive.org/web/20210303185939/https://www.computerhope.com/htmcolor.htm
 #macro c_black                          0x000000

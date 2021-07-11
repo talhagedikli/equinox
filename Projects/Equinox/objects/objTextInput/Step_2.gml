@@ -36,7 +36,7 @@ if (instance_exists(objPlayer))
 	{
 		hMaxSpeed = other.get_val(hMaxSpeed, "hmax");
 		vMaxSpeed = other.get_val(vMaxSpeed, "vmax");
-		gSpeed = other.get_val(gSpeed, "gspeed");
+		grav = other.get_val(grav, "gspeed");
 		gasMax = other.get_val(gasMax, "gasmax");
 		packPowerMax = other.get_val(packPowerMax, "maxpower");
 	}

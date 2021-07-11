@@ -6,7 +6,7 @@ windowScale		=	2;
 
 following		= instance_exists(objPlayer) ? objPlayer : noone;
 
-//spd variables
+//motion variables
 followSpd		= 0.1;
 zoomSpd			= 0.05;
 

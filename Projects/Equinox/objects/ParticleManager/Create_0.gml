@@ -2,7 +2,7 @@
 /// @description
 global.partSystem = part_system_create();
 
-#region//example particle
+#region// Example particle
 	var _p = part_type_create();
 	
 	part_type_shape(_p, pt_shape_disk);
@@ -45,8 +45,8 @@ global.partSystem = part_system_create();
 	//set as death
 		part_type_death(global.ptBasic, 1, global.ptDeathExplosion);
 		#endregion
-	
-#region//dash pixels
+		  
+#region// Dash pixels
 	var _p = part_type_create();
 	
 	part_type_shape(_p, pt_shape_pixel);
@@ -64,7 +64,7 @@ global.partSystem = part_system_create();
 	global.ptDashPixels = _p;
 	#endregion
 	
-#region//dirt particle
+#region// Dirt particle
 	var _p = part_type_create();
 	
 	part_type_shape(_p, pt_shape_cloud);

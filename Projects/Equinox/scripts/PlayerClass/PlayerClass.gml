@@ -44,7 +44,7 @@ function player_state_normal()
 	//real jump section
 	if (InputManager.keySpace and canJump == true and coyoteCounter > 0)
 	{
-		ySpeed = jPower;
+		motion.y = jPower;
 		canJump = false;
 		//some jump effects(create if its on ground)
 		if (onGround) part_particles_create(global.partSystem, x, y, global.ptDirt, choose(1, 2, 3));
@@ -66,7 +66,7 @@ function player_state_normal()
 		if (onGround == true)
 		{
 			bufferCounter = 0;
-			ySpeed = jPower;
+			motion.y = jPower;
 			//some jump effects 2
 			part_particles_create(global.partSystem, x, y, global.ptDirt, choose(1, 2, 3));
 			squash_stretch(0.7, 1.3);
@@ -77,7 +77,7 @@ function player_state_normal()
 	{
 		//reduce jumps variable by 1 every step
 		jumps -= 1;
-		ySpeed = jPower;
+		motion.y = jPower;
 		squash_stretch(0.7, 1.3);
 	}
 	else if (onGround == true)
@@ -88,10 +88,10 @@ function player_state_normal()
 	//variable jump height
 	if (onGround == false)
 	{
-		if (ySpeed < 0 and!InputManager.keySpace && !InputManager.keyAlt)
+		if (motion.y < 0 and!InputManager.keySpace && !InputManager.keyAlt)
 		{
 			//if InputManager.keySpace is not pressed, slow down by 50 percent
-			ySpeed *= 0.95;
+			motion.y *= 0.95;
 		}
 	}
 	//landed
@@ -138,7 +138,7 @@ function player_state_normal()
 		}
 	}
 	gasBar.step(gas / gasMax, true);
-	ySpeed -= packPower; // Apply packpower
+	motion.y -= packPower; // Apply packpower
 	#endregion
 	#region //Switching state phase
 	//switch to crouch state
@@ -189,9 +189,9 @@ function player_state_dash()
 {
 	dashTween.sstart(0, dashPower, 0.25);
 	xSpeed = lengthdir_x(dashTween.value, dashDir.angle);
-	ySpeed = lengthdir_y(dashTween.value, dashDir.angle);
+	motion.y = lengthdir_y(dashTween.value, dashDir.angle);
 	//var dt = distance_to_point(lengthdir_x(dashPower, dashDir.angle), lengthdir_y(dashPower, dashDir.angle));
-	//var ps = distance_to_point(xSpeed, ySpeed);
+	//var ps = distance_to_point(xSpeed, motion.y);
 	ghostDashTimer.sstart(0.25 / 4);
 	if ghostDashTimer.done
 	{
@@ -250,11 +250,11 @@ function player_animation_control()
 		else
 		{
 			sprite = sprPlayer;
-			if (ySpeed < -1)
+			if (motion.y < -1)
 			{
 				frame = 2;
 			}
-			else if (ySpeed > 1)
+			else if (motion.y > 1)
 			{
 				frame = 1;
 			}

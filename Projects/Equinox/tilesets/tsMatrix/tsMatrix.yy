@@ -1,5 +1,4 @@
 {
-  "name": "tsMatrix",
   "spriteId": {
     "name": "sprMatrix",
     "path": "sprites/sprMatrix/sprMatrix.yy",
@@ -101,6 +100,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "tsMatrix",
   "tags": [],
   "resourceType": "GMTileSet",
 }

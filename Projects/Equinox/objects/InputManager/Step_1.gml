@@ -26,29 +26,36 @@ if (active)
 	keyAltPressed		= ALT_PRESSED;
 	keyRPressed			= keyboard_check_pressed(ord("R"));
 	keyEscPressed		= keyboard_check_pressed(vk_escape);
+	keyTabPressed		= keyboard_check_pressed(vk_tab);
+	
+	keyQPressed			= keyboard_check_pressed(ord("R"));
 } 
 else 
 {
-	keyRight			= noone;
-	keyLeft				= noone;
-	keyDown				= noone;
-	keyUp				= noone;
+	keyRight			= 0;
+	keyLeft				= 0;
+	keyDown				= 0;
+	keyUp				= 0;
 						  
-	keySpace			= noone;
-	keyAlt				= noone;
-	keyR				= noone;
-	keyEsc				= noone;
-	keyShiftPressed		= noone;
+	keySpace			= 0;
+	keyAlt				= 0;
+	keyR				= 0;
+	keyEsc				= 0;
+	keyShiftPressed		= 0;
 						  
-	keyRightPressed		= noone;
-	keyLeftPressed		= noone;
-	keyDownPressed		= noone;
-	keyUpPressed		= noone;
+	keyRightPressed		= 0;
+	keyLeftPressed		= 0;
+	keyDownPressed		= 0;
+	keyUpPressed		= 0;
 						  
-	keySpacePressed		= noone;
-	keyAltPressed		= noone;
-	keyRPressed			= noone;
-	keyEscPressed		= noone;
+	keySpacePressed		= 0;
+	keyAltPressed		= 0;
+	keyRPressed			= 0;
+	keyEscPressed		= 0;
+	keyTabPressed		= 0;
+	
+	keyQPressed			= 0;
+
 }
 
 

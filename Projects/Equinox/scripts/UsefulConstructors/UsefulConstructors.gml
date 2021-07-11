@@ -239,7 +239,7 @@ function Vector2(_x, _y) constructor
 		x -= _vector.x;
 		y -= _vector.y;
 	}
-	static multiply = function(_scalar) 
+	static multiply = function(_scalar)
 	{
 		x *= _scalar;
 		y *= _scalar;
@@ -258,22 +258,26 @@ function Vector2(_x, _y) constructor
 	{
 		return point_direction(0, 0, x, y);
 	}
-	static get_magnitude = function() {
+	static get_magnitude = function() 
+	{
 		return sqrt((x * x) + (y *y));
 		//return point_distance(0, 0, x, y);
     }
-	static normalize = function() {
+	static normalize = function() 
+	{
 		if ((x != 0) || (y != 0)) {
 			var _factor = 1/sqrt((x * x) + (y *y));
 			x = _factor * x;
 			y = _factor * y;	
 		}
 	}
-	static set_magnitude = function(_scalar) {
+	static set_magnitude = function(_scalar) 
+	{
 		normalize();
 		multiply(_scalar);
 	}
-	static limit_magnitude = function(_limit) {
+	static limit_magnitude = function(_limit) 
+	{
 		if (get_magnitude() > _limit) {
 			set_magnitude(_limit);
 		}
