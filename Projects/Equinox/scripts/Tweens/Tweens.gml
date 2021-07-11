@@ -183,37 +183,7 @@ function Tween(_type = tweenType.LINEAR) constructor
 
 // Tweens V2
 function TweenV2(_type = tweenType.LINEAR) constructor
-{ // Like EaseIn, QuartEaseOut etc..
-	//enum tweenType
-	//{ // Channel indexes
-	//	LINEAR,
-	//	EASEIN,
-	//	EASEINOUT,
-	//	EASEOUT,
-	//	CUBICEASEIN,
-	//	CUBICEASEINOUT,
-	//	CUBICEASEOUT,
-	//	QUARTEASEIN,
-	//	QUARTEASEINOUT,
-	//	QUARTEASEOUT,
-	//	EXPOEASEIN,
-	//	EXPOEASEINOUT,
-	//	EXPOEASEOUT,
-	//	CIRCEASEIN,
-	//	CIRCEASEINOUT,
-	//	CIRCEASEOUT,
-	//	BACKEASEIN,
-	//	BACKEASEINOUT,
-	//	BACKEASEOUT,
-	//	ELASTICEASEIN,
-	//	ELASTICEASEINOUT,
-	//	ELASTICEASEOUT,
-	//	BOUNCEEASEIN,
-	//	BOUNCEEASEINOUT,
-	//	BOUNCEEASEOUT,
-	//	FASTTOSLOW,
-	//	MIDSLOW
-	//}
+{
 	channel = animcurve_get_channel(acTweens, _type);
 	time	= 0;
 	value	= 0;

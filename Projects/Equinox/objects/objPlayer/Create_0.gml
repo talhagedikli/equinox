@@ -6,6 +6,7 @@ xSpeed = 0;
 ySpeed = 0;
 gSpeed = 0.06;
 facing = 1;
+position = new Vector2(x, y);
 
 //accel, decel and max speed
 aSpeed		= 0.2;
@@ -25,12 +26,12 @@ airDecel	= 0.075;
 crouchDecel = 0.075;
 
 // Dash
-dashDir 		= new Dir();
+dashDir 		= new Vector2(InputManager.horizontalInput, InputManager.verticalInput);
 ghostDashTimer	= new Timer();
 dashPower		= 8;
 dashCountMax	= 3;
 dashCount		= dashCountMax;
-dashDur 		= 0.25 * 60;
+dashDur 		= 15;
 dashTween		= new TweenV2(tweenType.QUARTEASEOUT);
 isDashing		= false;
 
@@ -82,8 +83,12 @@ state = new SnowState("normal");
 
 state.history_enable();
 state.set_history_max_size(15);
-state.event_set_default_function("init", function() {
-		// Init code here
+state.event_set_default_function("draw", function() {
+		draw_circle(x, y, 10, true);
+});
+state.event_set_default_function("draw", function() {
+		show("i am in step event");
+		position.set(x, y);
 });
 	
 state.add("normal", {
@@ -235,11 +240,11 @@ state.add("normal", {
 			{
 			    if (InputManager.horizontalInput == 0 && InputManager.verticalInput == 0)
 			    {
-			        dashDir.find(facing, 0);
+			        dashDir.set(facing, 0);
 			    }
 			    else
 			    {
-			        dashDir.find(InputManager.horizontalInput, InputManager.verticalInput);
+			        dashDir.set(InputManager.horizontalInput, InputManager.verticalInput);
 			    }
 			    isDashing = true;
 				dashCount--;
@@ -267,15 +272,15 @@ state.add("dash", {
 	enter: function() 
 	{
 		// Code here
-		ghostDashTimer.start(15 / 4);
-		dashTween.start(0, dashPower, 15);
+		ghostDashTimer.start(dashDur/4);
+		dashTween.start(0, dashPower, dashDur);
+		dashDir.normalize();
 
 	},
 	step: function()
 	{
-		xSpeed = lengthdir_x(dashTween.value, dashDir.angle);
-		ySpeed = lengthdir_y(dashTween.value, dashDir.angle);
-		log(dashTween.value);
+		xSpeed = lengthdir_x(dashTween.value, dashDir.get_direction());
+		ySpeed = lengthdir_y(dashTween.value, dashDir.get_direction());
 		ghostDashTimer.onTimeout(function()
 		{
 			part_particles_create(global.partSystem, x, y, global.ptGhostDash, 1);

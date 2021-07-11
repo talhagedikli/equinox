@@ -134,55 +134,55 @@ function Dir() constructor
 
 function Timer() constructor
 { // For basic timer
-	time = 0;
-	done = false;
-	active = false;
-	sTime = undefined;
-	duration = 0;
+	__time = 0;
+	__done = false;
+	__active = false;
+	__sTime = undefined;
+	__duration = 0;
 	static start = function(_duration = infinity, _loop = false)
 	{
-		duration = _duration;
-		if (done == true) done = false;
-		if (active == false) active = true;
+		__duration = _duration;
+		if (__done == true) __done = false;
+		if (__active == false) __active = true;
 		return self;
 	}
 
 	static startRt = function(_duration, _loop = false)
 	{ // Duration in seconds
 		var sec = current_time * 0.001;
-		if (sTime == undefined) sTime = sec;
+		if (__sTime == undefined) __sTime = sec;
 		if (!_loop)
 		{
-			if (sec >= sTime + _duration)
+			if (sec >= __sTime + _duration)
 			{
-				done = true;
-				active = false;
+				__done = true;
+				__active = false;
 				exit;
 			}
 			else
 			{
-				done = false;
-				active = true;
+				__done = false;
+				__active = true;
 			}
 		}
 		else
 		{
-			active = true;
-			if (sec >= sTime + _duration)
+			__active = true;
+			if (sec >= __sTime + _duration)
 			{
-				done = true;
-				sTime = sec;
+				__done = true;
+				__sTime = sec;
 			}
 			else
 			{
-				done = false;
+				__done = false;
 			}
 		}
 		return self;
 	}
 	static onTimeout = function(_func)
 	{
-		if (done)
+		if (__done)
 		{
 			_func();
 		}
@@ -190,42 +190,103 @@ function Timer() constructor
 	};
 	static reset = function()
 	{
-		time = 0;
-		sTime = undefined;
-		done = false;
-		active = true;
+		__time = 0;
+		__sTime = undefined;
+		__done = false;
+		__active = true;
 		return self;
 
 	};
 	static stop = function()
 	{
-		time = 0;
-		sTime = undefined;
-		active = false;
-		done = false;
+		__time = 0;
+		__sTime = undefined;
+		__active = false;
+		__done = false;
 		return self;
 	};
 	
 	global.clock.add_cycle_method(function()
 	{
-		if (active)
+		if (__active)
 		{
-			time++;
-			if (time > duration)
+			__time++;
+			if (__time > __duration)
 			{
-				done = true;
+				__done = true;
 			}
 		}
 		
 	});
 }
 
-function Vector2(_x = undefined, _y = undefined) constructor
+function Vector2(_x, _y) constructor
 {
 	x = _x;
 	y = _y;
+	static set = function(_x, _y) 
+	{
+		x = _x;
+		y = _y;
+	}
+	static add = function(_vector) 
+	{
+		x += _vector.x;
+		y += _vector.y;
+	}
+	static subtract = function(_vector) 
+	{
+		x -= _vector.x;
+		y -= _vector.y;
+	}
+	static multiply = function(_scalar) 
+	{
+		x *= _scalar;
+		y *= _scalar;
+	}
+	static divide = function(_scalar) 
+	{
+		x /= _scalar;
+		y /= _scalar;
+	}
+	static negate = function()
+	{
+		x = -x;
+		y = -y;
+	}
+	static get_direction = function()
+	{
+		return point_direction(0, 0, x, y);
+	}
+	static get_magnitude = function() {
+		return sqrt((x * x) + (y *y));
+		//return point_distance(0, 0, x, y);
+    }
+	static normalize = function() {
+		if ((x != 0) || (y != 0)) {
+			var _factor = 1/sqrt((x * x) + (y *y));
+			x = _factor * x;
+			y = _factor * y;	
+		}
+	}
+	static set_magnitude = function(_scalar) {
+		normalize();
+		multiply(_scalar);
+	}
+	static limit_magnitude = function(_limit) {
+		if (get_magnitude() > _limit) {
+			set_magnitude(_limit);
+		}
+	}
+	static copy = function(_vector)
+	{
+		x = _vector.x;
+		y = _vector.y;
+	}
+	
 }
-function Vecto32(_x = undefined, _y = undefined, _z = undefined) constructor
+
+function Vecto3(_x, _y, _z) constructor
 {
 	x = _x;
 	y = _y;

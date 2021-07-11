@@ -78,7 +78,6 @@
 
 #endregion
 
-#region// Colours
 #macro C_CRIMSON		make_color_rgb(184, 15, 10)
 #macro C_LMCHIFFON		make_color_rgb(255, 249, 204)
 #macro C_BARNRED		make_color_rgb(124, 10, 2)
@@ -88,6 +87,8 @@
 #macro C_ANCHOR			$4c4241
 #macro C_SHADOW			$373737
 #macro C_LEAD			$4e3f3f
+#macro C_DAISY			$fafafa
+#macro C_CHIFFON		$faf2fb
 #macro C_RANDOM			make_colour_hsv(irandom(255), irandom(255), irandom(255))
 // Generated from: http://web.archive.org/web/20210303185939/https://www.computerhope.com/htmcolor.htm
 #macro c_black                          0x000000
