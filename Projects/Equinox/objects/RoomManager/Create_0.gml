@@ -11,32 +11,63 @@ checkRoom = function()
 	return false;
 };
 
-//checkLeft = function() 
-//{
-//	if (global.midTransition && global.roomTarget != room) 
-//	{
-//		return true;
-//	}
-//	return false;
-//};
+characters = [
+	objPlayer,
+	objSeeker
+];
 
-//roomEnter = function (_func) 
-//{
-//	if (entered)
-//	{
-//		_func();
-//	}
-//};
+character = noone;
+charIndex = 0;
 
-//roomLeft = function (_func)
-//{
-//	if (global.roomSwitched)
-//	{
-//		_func();
-//		global.roomSwitched = false;
-//	}
-	
-//};
+switchChar = function(_x, _y)
+{
+	if (InputManager.keyQPressed)
+	{
+		var i = 0; repeat(array_length(characters))
+		{
+			if instance_exists(characters[i])
+			{
+				with (characters[i])
+				{
+					other.character = self;
+					break;
+				}
+			}
+			i++;
+		}
+		if (character != noone)
+		{
+			var _charx	= character.x;
+			var _chary	= character.y;
+			var _motion	= character.motion;
+		}
+		else
+		{
+			var _charx = _x;
+			var _chary = _y;
+			var _motion = new Vector2(0, 0);
+		}
+		charIndex++;
+		charIndex = charIndex mod (array_length(characters));
+		if (!instance_exists(characters[charIndex]))
+		{
+			var i = 0; repeat(array_length(characters))
+			{
+				instance_destroy(characters[i]);
+				i++;
+			}
+			character = instance_create_layer(_charx, _chary, "Player", characters[charIndex]);
+			character.motion = _motion;
+		}
+		else
+		{
+			with (characters[charIndex])
+			{
+				other.character = self;
+			}
+		}
+	}
+}
 
 state = new SnowState(room_get_name(rTitle));
 state
@@ -58,19 +89,11 @@ state
 	.add(room_get_name(rWorld), {	// ----------WORLD
 	enter: function() 
 	{
-		//randomize();
-		//while (!place_meeting(x, y, objBlock) && !place_meeting(x, y, objPlayer) && instance_number(objBlock) < 50 ) 
-		//{
-		//	var bl = instance_create_layer(irandom(room_width div 32) * 32, 
-		//									irandom(room_height div 32) * 32, "Collisions", objBlock);
-	
-		//	bl.image_xscale = irandom_range(1, 4);
-		//	bl.image_yscale = irandom_range(1, 4);
-		//}
+
 	},
 	step: function()
 	{
-
+		switchChar(125, 125);
 	},
 	leave: function() 
 	{

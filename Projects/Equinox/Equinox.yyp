@@ -152,7 +152,7 @@
     {"folderPath":"folders/Scripts/States.yy","order":3,"resourceVersion":"1.0","name":"States","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Shaders/screen effects.yy","order":1,"resourceVersion":"1.0","name":"screen effects","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Player.yy","order":2,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Objects/Game/Input Manager.yy","order":3,"resourceVersion":"1.0","name":"Input Manager","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Game/Input Manager.yy","order":2,"resourceVersion":"1.0","name":"Input Manager","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/UI.yy","order":4,"resourceVersion":"1.0","name":"UI","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Rooms/Room Manager.yy","order":2,"resourceVersion":"1.0","name":"Room Manager","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Effects.yy","order":3,"resourceVersion":"1.0","name":"Effects","tags":[],"resourceType":"GMFolder",},

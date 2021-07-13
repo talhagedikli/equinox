@@ -2,12 +2,12 @@
 //animation
 animation_init();
 //speed variables
-xSpeed 	= 0;
-ySpeed 	= 0;
-motion 	= new Vector2(0, 0);
-grav 	= new Vector2(0, 0.07);
-facing 	= 1;
-position = new Vector2(x, y);
+xSpeed 		= 0;
+ySpeed 		= 0;
+motion 		= new Vector2(0, 0);
+grav 		= new Vector2(0, 0.07);
+facing 		= 1;
+position	= new Vector2(x, y);
 
 //accel, decel and max speed
 aSpeed		= 0.2;
@@ -141,7 +141,7 @@ state.add("normal", {
 	    motion.y += jPower;
 	    canJump = false;
 	    //some jump effects(create if its on ground)
-	    if (onGround) part_particles_create(global.partSystem, x, y, global.ptDirt, choose(1, 2, 3));
+	    if (onGround) part_particles_create_color(global.partSystem, x, y, global.ptDirt, image_blend, choose(1, 2, 3));
 	    squash_stretch(0.7, 1.3);
 	}
 	//to prevent the jump loop by holding down the key(canJump used for this)
@@ -229,9 +229,9 @@ state.add("normal", {
 	    packPower.set(packPower.x, approach(packPower.y, 0, 0.05));
 	    gas	= onGround ? gasMax : gas;
 	}
-	motion.add(packPower); // Apply packpower
+	motion.add(packPower);
 	motion.add(grav);
-	#endregion
+	//#endregion
 	#region SWITCHNG
 	if (InputManager.keyShiftPressed)
 	{

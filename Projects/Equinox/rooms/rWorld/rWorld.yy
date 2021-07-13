@@ -299,7 +299,6 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_7DD16F7B","path":"rooms/rWorld/rWorld.yy",},
-    {"name":"inst_2C96A1BB","path":"rooms/rWorld/rWorld.yy",},
     {"name":"inst_1FC133B3","path":"rooms/rWorld/rWorld.yy",},
     {"name":"inst_78026C2F","path":"rooms/rWorld/rWorld.yy",},
     {"name":"inst_7A9ED1DA","path":"rooms/rWorld/rWorld.yy",},
@@ -505,6 +504,7 @@
     {"name":"inst_77980020","path":"rooms/rWorld/rWorld.yy",},
     {"name":"inst_7EA4A1B3","path":"rooms/rWorld/rWorld.yy",},
     {"name":"inst_1045534E","path":"rooms/rWorld/rWorld.yy",},
+    {"name":"inst_2C96A1BB","path":"rooms/rWorld/rWorld.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

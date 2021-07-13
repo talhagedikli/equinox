@@ -28,7 +28,7 @@ if (active)
 	keyEscPressed		= keyboard_check_pressed(vk_escape);
 	keyTabPressed		= keyboard_check_pressed(vk_tab);
 	
-	keyQPressed			= keyboard_check_pressed(ord("R"));
+	keyQPressed			= keyboard_check_pressed(ord("Q"));
 } 
 else 
 {

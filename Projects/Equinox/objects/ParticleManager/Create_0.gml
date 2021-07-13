@@ -1,6 +1,6 @@
 /// @description 
 /// @description
-global.partSystem = part_system_create();
+global.partSystem = part_system_create_layer("Effects", true);
 
 #region// Example particle
 	var _p = part_type_create();
@@ -98,6 +98,6 @@ global.partSystem = part_system_create();
 	part_type_death(global.ptGhostDash, 1, global.ptDashPixels);
 	
 #endregion
-	
+
 
 

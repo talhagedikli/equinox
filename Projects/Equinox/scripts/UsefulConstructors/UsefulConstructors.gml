@@ -260,8 +260,8 @@ function Vector2(_x, _y) constructor
 	}
 	static get_magnitude = function() 
 	{
-		return sqrt((x * x) + (y *y));
-		//return point_distance(0, 0, x, y);
+		//return sqrt((x * x) + (y *y));
+		return point_distance(0, 0, x, y);
     }
 	static normalize = function() 
 	{

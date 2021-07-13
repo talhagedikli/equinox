@@ -31,7 +31,7 @@ crouchDecel = 0.075;
 dashDir 		= new Vector2(InputManager.horizontalInput, InputManager.verticalInput);
 ghostDashTimer	= new Timer();
 dashPower		= 8;
-dashCountMax	= 5;
+dashCountMax	= 0;
 dashCount		= dashCountMax;
 smtDashCount	= dashCount;
 dashDur 		= 15;
@@ -142,7 +142,7 @@ state.add("normal", {
 	    motion.y += jPower;
 	    canJump = false;
 	    //some jump effects(create if its on ground)
-	    if (onGround) part_particles_create(global.partSystem, x, y, global.ptDirt, choose(1, 2, 3));
+	    if (onGround) part_particles_create_color(global.partSystem, x, y, global.ptDirt, C_MERLOT, choose(1, 2, 3));
 	    squash_stretch(0.7, 1.3);
 	}
 	//to prevent the jump loop by holding down the key(canJump used for this)
@@ -234,25 +234,25 @@ state.add("normal", {
 	motion.add(grav);
 	#endregion
 	#region SWITCHNG
-	if (InputManager.keyShiftPressed)
-	{
-		if (dashCount > 0)
-		{
-		    state.change("dash", function()
-			{
-			    if (InputManager.horizontalInput == 0 && InputManager.verticalInput == 0)
-			    {
-			        dashDir.set(facing, 0);
-			    }
-			    else
-			    {
-			        dashDir.set(InputManager.horizontalInput, InputManager.verticalInput);
-			    }
-			    isDashing = true;
-				dashCount--;
-		    });
-		}
-	}
+	//if (InputManager.keyShiftPressed)
+	//{
+	//	if (dashCount > 0)
+	//	{
+	//	    state.change("dash", function()
+	//		{
+	//		    if (InputManager.horizontalInput == 0 && InputManager.verticalInput == 0)
+	//		    {
+	//		        dashDir.set(facing, 0);
+	//		    }
+	//		    else
+	//		    {
+	//		        dashDir.set(InputManager.horizontalInput, InputManager.verticalInput);
+	//		    }
+	//		    isDashing = true;
+	//			dashCount--;
+	//	    });
+	//	}
+	//}
 	#endregion
 	clampSpeed(hMaxSpeed, vMaxSpeed);
 	motion.set(clamp(motion.x, -hMaxSpeed, hMaxSpeed), clamp(motion.y, -vMaxSpeed, vMaxSpeed));

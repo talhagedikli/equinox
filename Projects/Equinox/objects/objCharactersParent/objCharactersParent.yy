@@ -26,6 +26,8 @@
   },
   "resourceVersion": "1.0",
   "name": "objCharactersParent",
-  "tags": [],
+  "tags": [
+    "parent",
+  ],
   "resourceType": "GMObject",
 }
