@@ -12,6 +12,3 @@ var i = 0; repeat(round(smtDashCount))
 
 	
 	     
-
-
-
