@@ -1,0 +1,1358 @@
+You are using YYP Maker v1.1.2, released in 11-04-2021
+
+
+
+[06-02-2022 12:59:58] Initialized GameMaker Project: Equinox.yyp
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/animcurves
+[06-02-2022 12:59:58] Checking acTweens
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/animcurves/acTweens
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/animcurves/acTweens
+[06-02-2022 12:59:58] Checking acTweens.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/animcurves/acTweens/acTweens.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/animcurves/acTweens/acTweens.yy
+[06-02-2022 12:59:58] Par: "folders/Animation Curves" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/animcurves/acTweens/acTweens.yy"
+[06-02-2022 12:59:58] Found AnimCurve: acTweens
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/datafiles
+[06-02-2022 12:59:58] Checking inigo quilez 2d sdf license.txt
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/extensions
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/fonts
+[06-02-2022 12:59:58] Checking fntText
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/fonts/fntText
+[06-02-2022 12:59:58] Checking fntMenu
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/fonts/fntMenu
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/fonts/fntMenu
+[06-02-2022 12:59:58] Checking fntMenu.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/fonts/fntMenu/fntMenu.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/fonts/fntMenu/fntMenu.yy
+[06-02-2022 12:59:58] Par: "folders/Fonts" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/fonts/fntMenu/fntMenu.yy"
+[06-02-2022 12:59:58] Found Font: fntMenu
+[06-02-2022 12:59:58] Checking fntMenu.png
+[06-02-2022 12:59:58] Checking fntMenu.old.yy
+[06-02-2022 12:59:58] Trash file: fntMenu.old.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking fntMenu.old.png
+[06-02-2022 12:59:58] Checking fntGothic.old.yy
+[06-02-2022 12:59:58] Trash file: fntGothic.old.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking fntGothic.old.png
+[06-02-2022 12:59:58] Checking fntGothi.old.png
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/fonts/fntText
+[06-02-2022 12:59:58] Checking fntText.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/fonts/fntText/fntText.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/fonts/fntText/fntText.yy
+[06-02-2022 12:59:58] Par: "folders/Fonts" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/fonts/fntText/fntText.yy"
+[06-02-2022 12:59:58] Found Font: fntText
+[06-02-2022 12:59:58] Checking fntText.png
+[06-02-2022 12:59:58] Checking fntText.old.yy
+[06-02-2022 12:59:58] Trash file: fntText.old.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking fntText.old.png
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/notes
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects
+[06-02-2022 12:59:58] Checking RoomManager
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/RoomManager
+[06-02-2022 12:59:58] Checking ParticleManager
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/ParticleManager
+[06-02-2022 12:59:58] Checking objTitleMenu
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objTitleMenu
+[06-02-2022 12:59:58] Checking objTextInput
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objTextInput
+[06-02-2022 12:59:58] Checking objTextboxGui
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objTextboxGui
+[06-02-2022 12:59:58] Checking objSeeker
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objSeeker
+[06-02-2022 12:59:58] Checking objRoomChanger
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objRoomChanger
+[06-02-2022 12:59:58] Checking objPlayer
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objPlayer
+[06-02-2022 12:59:58] Checking objParTalk
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objParTalk
+[06-02-2022 12:59:58] Checking objParMinimap
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objParMinimap
+[06-02-2022 12:59:58] Checking objMinimap
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objMinimap
+[06-02-2022 12:59:58] Checking objCharactersParent
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objCharactersParent
+[06-02-2022 12:59:58] Checking objBlock
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objBlock
+[06-02-2022 12:59:58] Checking InputManager
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/InputManager
+[06-02-2022 12:59:58] Checking GuiElements
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/GuiElements
+[06-02-2022 12:59:58] Checking Control
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/Control
+[06-02-2022 12:59:58] Checking Camera
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/Camera
+[06-02-2022 12:59:58] Checking BackgroundManager
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/BackgroundManager
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/BackgroundManager
+[06-02-2022 12:59:58] Checking Step_0.gml
+[06-02-2022 12:59:58] Checking RoomManager.yy
+[06-02-2022 12:59:58] Trash file: RoomManager.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking Create_0.gml
+[06-02-2022 12:59:58] Checking BackgroundManager.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/BackgroundManager/BackgroundManager.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/BackgroundManager/BackgroundManager.yy
+[06-02-2022 12:59:58] Par: "folders/Rooms/Room Manager" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/BackgroundManager/BackgroundManager.yy"
+[06-02-2022 12:59:58] Found Object: BackgroundManager
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/Camera
+[06-02-2022 12:59:58] Checking Step_2.gml
+[06-02-2022 12:59:58] Checking Step_2 (conflicted).gml
+[06-02-2022 12:59:58] Checking Step_0.gml
+[06-02-2022 12:59:58] Checking Other_4.gml
+[06-02-2022 12:59:58] Checking Draw_64.gml
+[06-02-2022 12:59:58] Checking Create_0.gml
+[06-02-2022 12:59:58] Checking Create_0 (conflicted).gml
+[06-02-2022 12:59:58] Checking CleanUp_0.gml
+[06-02-2022 12:59:58] Checking Camera.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/Camera/Camera.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/Camera/Camera.yy
+[06-02-2022 12:59:58] Par: "folders/Objects/Game" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/Camera/Camera.yy"
+[06-02-2022 12:59:58] Found Object: Camera
+[06-02-2022 12:59:58] Checking camera (conflicted).yy
+[06-02-2022 12:59:58] Trash file: camera (conflicted).yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking Alarm_0.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/Control
+[06-02-2022 12:59:58] Checking Step_0.gml
+[06-02-2022 12:59:58] Checking Other_3.gml
+[06-02-2022 12:59:58] Checking KeyPress_9.gml
+[06-02-2022 12:59:58] Checking KeyPress_82.gml
+[06-02-2022 12:59:58] Checking KeyPress_27.gml
+[06-02-2022 12:59:58] Checking Create_0.gml
+[06-02-2022 12:59:58] Checking Control.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/Control/Control.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/Control/Control.yy
+[06-02-2022 12:59:58] Par: "folders/Objects/Game" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/Control/Control.yy"
+[06-02-2022 12:59:58] Found Object: Control
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/GuiElements
+[06-02-2022 12:59:58] Checking Step_0.gml
+[06-02-2022 12:59:58] Checking GuiElements.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/GuiElements/GuiElements.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/GuiElements/GuiElements.yy
+[06-02-2022 12:59:58] Par: "folders/Objects/UI" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/GuiElements/GuiElements.yy"
+[06-02-2022 12:59:58] Found Object: GuiElements
+[06-02-2022 12:59:58] Checking guiElements.local.yy
+[06-02-2022 12:59:58] Trash file: guiElements.local.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking Draw_64.gml
+[06-02-2022 12:59:58] Checking Create_0.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/InputManager
+[06-02-2022 12:59:58] Checking Step_1.gml
+[06-02-2022 12:59:58] Checking InputManager.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/InputManager/InputManager.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/InputManager/InputManager.yy
+[06-02-2022 12:59:58] Par: "folders/Objects/Game/Input Manager" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/InputManager/InputManager.yy"
+[06-02-2022 12:59:58] Found Object: InputManager
+[06-02-2022 12:59:58] Checking Create_0.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objBlock
+[06-02-2022 12:59:58] Checking Step_0.gml
+[06-02-2022 12:59:58] Checking objBlock.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objBlock/objBlock.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objBlock/objBlock.yy
+[06-02-2022 12:59:58] Par: "folders/Objects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objBlock/objBlock.yy"
+[06-02-2022 12:59:58] Found Object: objBlock
+[06-02-2022 12:59:58] Checking Draw_0.gml
+[06-02-2022 12:59:58] Checking Create_0.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objCharactersParent
+[06-02-2022 12:59:58] Checking objCharactersParent.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objCharactersParent/objCharactersParent.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objCharactersParent/objCharactersParent.yy
+[06-02-2022 12:59:58] Par: "folders/Objects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objCharactersParent/objCharactersParent.yy"
+[06-02-2022 12:59:58] Found Object: objCharactersParent
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objMinimap
+[06-02-2022 12:59:58] Checking Step_0.gml
+[06-02-2022 12:59:58] Checking Other_3.gml
+[06-02-2022 12:59:58] Checking objMinimap.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objMinimap/objMinimap.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objMinimap/objMinimap.yy
+[06-02-2022 12:59:58] Par: "folders/Objects/UI/Minimap" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objMinimap/objMinimap.yy"
+[06-02-2022 12:59:58] Found Object: objMinimap
+[06-02-2022 12:59:58] Checking Draw_64.gml
+[06-02-2022 12:59:58] Checking Create_0.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objParMinimap
+[06-02-2022 12:59:58] Checking objParMinimap.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objParMinimap/objParMinimap.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objParMinimap/objParMinimap.yy
+[06-02-2022 12:59:58] Par: "folders/Objects/UI/Minimap" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objParMinimap/objParMinimap.yy"
+[06-02-2022 12:59:58] Found Object: objParMinimap
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objParTalk
+[06-02-2022 12:59:58] Checking Step_0.gml
+[06-02-2022 12:59:58] Checking objTalkParent.remote.yy
+[06-02-2022 12:59:58] Trash file: objTalkParent.remote.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking objTalkParent.local.yy
+[06-02-2022 12:59:58] Trash file: objTalkParent.local.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking objParTalk.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objParTalk/objParTalk.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objParTalk/objParTalk.yy
+[06-02-2022 12:59:58] Par: "folders/Objects/UI/Textbox" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objParTalk/objParTalk.yy"
+[06-02-2022 12:59:58] Found Object: objParTalk
+[06-02-2022 12:59:58] Checking objNpc.yy
+[06-02-2022 12:59:58] Trash file: objNpc.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking Create_0.gml
+[06-02-2022 12:59:58] Checking Alarm_0.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objPlayer
+[06-02-2022 12:59:58] Checking Step_0.gml
+[06-02-2022 12:59:58] Checking objPlayer.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objPlayer/objPlayer.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objPlayer/objPlayer.yy
+[06-02-2022 12:59:58] Par: "folders/Objects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objPlayer/objPlayer.yy"
+[06-02-2022 12:59:58] Found Object: objPlayer
+[06-02-2022 12:59:58] Checking Draw_64.gml
+[06-02-2022 12:59:58] Checking Draw_0.gml
+[06-02-2022 12:59:58] Checking Create_0.gml
+[06-02-2022 12:59:58] Checking Collision_objBullet.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objRoomChanger
+[06-02-2022 12:59:58] Checking Step_0.gml
+[06-02-2022 12:59:58] Checking objRoomChanger.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objRoomChanger/objRoomChanger.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objRoomChanger/objRoomChanger.yy
+[06-02-2022 12:59:58] Par: "folders/Rooms/Room Manager" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objRoomChanger/objRoomChanger.yy"
+[06-02-2022 12:59:58] Found Object: objRoomChanger
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objSeeker
+[06-02-2022 12:59:58] Checking Step_0.gml
+[06-02-2022 12:59:58] Checking objSeeker.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objSeeker/objSeeker.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objSeeker/objSeeker.yy
+[06-02-2022 12:59:58] Par: "folders/Objects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objSeeker/objSeeker.yy"
+[06-02-2022 12:59:58] Found Object: objSeeker
+[06-02-2022 12:59:58] Checking objPlayer.yy
+[06-02-2022 12:59:58] Trash file: objPlayer.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking Draw_64.gml
+[06-02-2022 12:59:58] Checking Draw_0.gml
+[06-02-2022 12:59:58] Checking Create_0.gml
+[06-02-2022 12:59:58] Checking Collision_objBullet.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objTextboxGui
+[06-02-2022 12:59:58] Checking Step_0.gml
+[06-02-2022 12:59:58] Checking objTextboxGui.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objTextboxGui/objTextboxGui.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objTextboxGui/objTextboxGui.yy
+[06-02-2022 12:59:58] Par: "folders/Objects/UI/Textbox" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objTextboxGui/objTextboxGui.yy"
+[06-02-2022 12:59:58] Found Object: objTextboxGui
+[06-02-2022 12:59:58] Checking objTextboxGui.remote.yy
+[06-02-2022 12:59:58] Trash file: objTextboxGui.remote.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking objTextboxGui.local.yy
+[06-02-2022 12:59:58] Trash file: objTextboxGui.local.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking objTextbox.yy
+[06-02-2022 12:59:58] Trash file: objTextbox.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking Draw_64.gml
+[06-02-2022 12:59:58] Checking Destroy_0.gml
+[06-02-2022 12:59:58] Checking Create_0.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objTextInput
+[06-02-2022 12:59:58] Checking Step_2.gml
+[06-02-2022 12:59:58] Checking Step_0.gml
+[06-02-2022 12:59:58] Checking objTextInput.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objTextInput/objTextInput.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objTextInput/objTextInput.yy
+[06-02-2022 12:59:58] Par: "folders/Objects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objTextInput/objTextInput.yy"
+[06-02-2022 12:59:58] Found Object: objTextInput
+[06-02-2022 12:59:58] Checking Draw_64.gml
+[06-02-2022 12:59:58] Checking Create_0.gml
+[06-02-2022 12:59:58] Checking CleanUp_0.gml
+[06-02-2022 12:59:58] Checking Alarm_0.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objTitleMenu
+[06-02-2022 12:59:58] Checking Step_0.gml
+[06-02-2022 12:59:58] Checking objTitleMenu.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objTitleMenu/objTitleMenu.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objTitleMenu/objTitleMenu.yy
+[06-02-2022 12:59:58] Par: "folders/Objects/UI/Menus" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/objTitleMenu/objTitleMenu.yy"
+[06-02-2022 12:59:58] Found Object: objTitleMenu
+[06-02-2022 12:59:58] Checking Draw_0.gml
+[06-02-2022 12:59:58] Checking Create_0.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/ParticleManager
+[06-02-2022 12:59:58] Checking ParticleManager.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/ParticleManager/ParticleManager.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/ParticleManager/ParticleManager.yy
+[06-02-2022 12:59:58] Par: "folders/Objects/Effects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/ParticleManager/ParticleManager.yy"
+[06-02-2022 12:59:58] Found Object: ParticleManager
+[06-02-2022 12:59:58] Checking Create_0.gml
+[06-02-2022 12:59:58] Checking CleanUp_0.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/RoomManager
+[06-02-2022 12:59:58] Checking Step_1.gml
+[06-02-2022 12:59:58] Checking Step_0.gml
+[06-02-2022 12:59:58] Checking RoomManager.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/RoomManager/RoomManager.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/RoomManager/RoomManager.yy
+[06-02-2022 12:59:58] Par: "folders/Rooms/Room Manager" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/objects/RoomManager/RoomManager.yy"
+[06-02-2022 12:59:58] Found Object: RoomManager
+[06-02-2022 12:59:58] Checking Create_0.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options
+[06-02-2022 12:59:58] Checking windows
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/windows
+[06-02-2022 12:59:58] Checking operagx
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/operagx
+[06-02-2022 12:59:58] Checking main
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/main
+[06-02-2022 12:59:58] Checking mac
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/mac
+[06-02-2022 12:59:58] Checking linux
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/linux
+[06-02-2022 12:59:58] Checking html5
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/html5
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/html5
+[06-02-2022 12:59:58] Checking options_html5.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/html5/options_html5.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/html5/options_html5.yy
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/linux
+[06-02-2022 12:59:58] Checking options_linux.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/linux/options_linux.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/linux/options_linux.yy
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/mac
+[06-02-2022 12:59:58] Checking options_mac.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/mac/options_mac.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/mac/options_mac.yy
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/main
+[06-02-2022 12:59:58] Checking options_main.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/main/options_main.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/main/options_main.yy
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/operagx
+[06-02-2022 12:59:58] Checking options_operagx.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/operagx/options_operagx.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/operagx/options_operagx.yy
+[06-02-2022 12:59:58] Invalid file: options_operagx.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/windows
+[06-02-2022 12:59:58] Checking options_windows.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/windows/options_windows.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/options/windows/options_windows.yy
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/paths
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/rooms
+[06-02-2022 12:59:58] Checking rWorld
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/rooms/rWorld
+[06-02-2022 12:59:58] Checking rTitle
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/rooms/rTitle
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/rooms/rTitle
+[06-02-2022 12:59:58] Checking rTitle.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/rooms/rTitle/rTitle.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/rooms/rTitle/rTitle.yy
+[06-02-2022 12:59:58] Par: "folders/Rooms" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/rooms/rTitle/rTitle.yy"
+[06-02-2022 12:59:58] Found Room: rTitle
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/rooms/rWorld
+[06-02-2022 12:59:58] Checking rWorld.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/rooms/rWorld/rWorld.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/rooms/rWorld/rWorld.yy
+[06-02-2022 12:59:58] Par: "folders/Rooms" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/rooms/rWorld/rWorld.yy"
+[06-02-2022 12:59:58] Found Room: rWorld
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts
+[06-02-2022 12:59:58] Checking __snowstate_config
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/__snowstate_config
+[06-02-2022 12:59:58] Checking __iota_config
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/__iota_config
+[06-02-2022 12:59:58] Checking __CleanSystem
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/__CleanSystem
+[06-02-2022 12:59:58] Checking __CleanConfig
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/__CleanConfig
+[06-02-2022 12:59:58] Checking UsefulFunctions
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/UsefulFunctions
+[06-02-2022 12:59:58] Checking UsefulConstructors
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/UsefulConstructors
+[06-02-2022 12:59:58] Checking Tweens
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Tweens
+[06-02-2022 12:59:58] Checking Transitions
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Transitions
+[06-02-2022 12:59:58] Checking SnowState
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/SnowState
+[06-02-2022 12:59:58] Checking Signals
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Signals
+[06-02-2022 12:59:58] Checking Script22
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Script22
+[06-02-2022 12:59:58] Checking PlayerClass
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/PlayerClass
+[06-02-2022 12:59:58] Checking PlayerAnim
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/PlayerAnim
+[06-02-2022 12:59:58] Checking Macros
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Macros
+[06-02-2022 12:59:58] Checking LightningClass
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/LightningClass
+[06-02-2022 12:59:58] Checking iota_clock
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/iota_clock
+[06-02-2022 12:59:58] Checking Effects
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Effects
+[06-02-2022 12:59:58] Checking DoLater
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/DoLater
+[06-02-2022 12:59:58] Checking Collisions
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Collisions
+[06-02-2022 12:59:58] Checking CleanTriangle
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTriangle
+[06-02-2022 12:59:58] Checking CleanTransformReset
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformReset
+[06-02-2022 12:59:58] Checking CleanTransformOriginSet
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformOriginSet
+[06-02-2022 12:59:58] Checking CleanTransformOriginGet
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformOriginGet
+[06-02-2022 12:59:58] Checking CleanTransformAddSkew
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformAddSkew
+[06-02-2022 12:59:58] Checking CleanTransformAddScale
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformAddScale
+[06-02-2022 12:59:58] Checking CleanTransformAddRotate
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformAddRotate
+[06-02-2022 12:59:58] Checking CleanTransformAddMove
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformAddMove
+[06-02-2022 12:59:58] Checking CleanSpline
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanSpline
+[06-02-2022 12:59:58] Checking CleanSegment
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanSegment
+[06-02-2022 12:59:58] Checking CleanRing
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanRing
+[06-02-2022 12:59:58] Checking CleanRectangleXYWH
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanRectangleXYWH
+[06-02-2022 12:59:58] Checking CleanRectangle
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanRectangle
+[06-02-2022 12:59:58] Checking CleanPolyline
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanPolyline
+[06-02-2022 12:59:58] Checking CleanNgon
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanNgon
+[06-02-2022 12:59:58] Checking CleanLine
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanLine
+[06-02-2022 12:59:58] Checking CleanEllipse
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanEllipse
+[06-02-2022 12:59:58] Checking CleanConvex
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanConvex
+[06-02-2022 12:59:58] Checking CleanCircle
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanCircle
+[06-02-2022 12:59:58] Checking CleanCapsuleVertical
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanCapsuleVertical
+[06-02-2022 12:59:58] Checking CleanCapsule
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanCapsule
+[06-02-2022 12:59:58] Checking CleanBatchEndReturnVertexBuffer
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanBatchEndReturnVertexBuffer
+[06-02-2022 12:59:58] Checking CleanBatchEndDraw
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanBatchEndDraw
+[06-02-2022 12:59:58] Checking CleanBatchDrawVertexBuffer
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanBatchDrawVertexBuffer
+[06-02-2022 12:59:58] Checking CleanBatchBegin
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanBatchBegin
+[06-02-2022 12:59:58] Checking CleanAntialiasSet
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanAntialiasSet
+[06-02-2022 12:59:58] Checking CleanAntialiasGet
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanAntialiasGet
+[06-02-2022 12:59:58] Checking CameraClass
+[06-02-2022 12:59:58] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CameraClass
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CameraClass
+[06-02-2022 12:59:58] Checking camera_states.remote.yy
+[06-02-2022 12:59:58] Trash file: camera_states.remote.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking camera_states.local.yy
+[06-02-2022 12:59:58] Trash file: camera_states.local.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking CameraClass.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CameraClass/CameraClass.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CameraClass/CameraClass.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/States" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CameraClass/CameraClass.yy"
+[06-02-2022 12:59:58] Found Script: CameraClass
+[06-02-2022 12:59:58] Checking CameraClass.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanAntialiasGet
+[06-02-2022 12:59:58] Checking clean_set_smoothness.yy
+[06-02-2022 12:59:58] Trash file: clean_set_smoothness.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking CleanAntialiasGet.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanAntialiasGet/CleanAntialiasGet.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanAntialiasGet/CleanAntialiasGet.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanAntialiasGet/CleanAntialiasGet.yy"
+[06-02-2022 12:59:58] Found Script: CleanAntialiasGet
+[06-02-2022 12:59:58] Checking CleanAntialiasGet.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanAntialiasSet
+[06-02-2022 12:59:58] Checking CleanAntialiasSet.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanAntialiasSet/CleanAntialiasSet.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanAntialiasSet/CleanAntialiasSet.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanAntialiasSet/CleanAntialiasSet.yy"
+[06-02-2022 12:59:58] Found Script: CleanAntialiasSet
+[06-02-2022 12:59:58] Checking CleanAntialiasSet.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanBatchBegin
+[06-02-2022 12:59:58] Checking CleanBatchBegin.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanBatchBegin/CleanBatchBegin.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanBatchBegin/CleanBatchBegin.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Batches" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanBatchBegin/CleanBatchBegin.yy"
+[06-02-2022 12:59:58] Found Script: CleanBatchBegin
+[06-02-2022 12:59:58] Checking CleanBatchBegin.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanBatchDrawVertexBuffer
+[06-02-2022 12:59:58] Checking CleanBatchDrawVertexBuffer.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanBatchDrawVertexBuffer/CleanBatchDrawVertexBuffer.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanBatchDrawVertexBuffer/CleanBatchDrawVertexBuffer.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Batches" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanBatchDrawVertexBuffer/CleanBatchDrawVertexBuffer.yy"
+[06-02-2022 12:59:58] Found Script: CleanBatchDrawVertexBuffer
+[06-02-2022 12:59:58] Checking CleanBatchDrawVertexBuffer.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanBatchEndDraw
+[06-02-2022 12:59:58] Checking clean_batch_start.yy
+[06-02-2022 12:59:58] Trash file: clean_batch_start.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking CleanBatchEndDraw.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanBatchEndDraw/CleanBatchEndDraw.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanBatchEndDraw/CleanBatchEndDraw.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Batches" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanBatchEndDraw/CleanBatchEndDraw.yy"
+[06-02-2022 12:59:58] Found Script: CleanBatchEndDraw
+[06-02-2022 12:59:58] Checking CleanBatchEndDraw.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanBatchEndReturnVertexBuffer
+[06-02-2022 12:59:58] Checking clean_batch_start.yy
+[06-02-2022 12:59:58] Trash file: clean_batch_start.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking CleanBatchEndReturnVertexBuffer.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanBatchEndReturnVertexBuffer/CleanBatchEndReturnVertexBuffer.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanBatchEndReturnVertexBuffer/CleanBatchEndReturnVertexBuffer.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Batches" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanBatchEndReturnVertexBuffer/CleanBatchEndReturnVertexBuffer.yy"
+[06-02-2022 12:59:58] Found Script: CleanBatchEndReturnVertexBuffer
+[06-02-2022 12:59:58] Checking CleanBatchEndReturnVertexBuffer.gml
+[06-02-2022 12:59:58] Checking CleanBatchEndAndDraw.yy
+[06-02-2022 12:59:58] Trash file: CleanBatchEndAndDraw.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanCapsule
+[06-02-2022 12:59:58] Checking clean_line.yy
+[06-02-2022 12:59:58] Trash file: clean_line.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking CleanRectangle.yy
+[06-02-2022 12:59:58] Trash file: CleanRectangle.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking CleanCapsule.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanCapsule/CleanCapsule.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanCapsule/CleanCapsule.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Shapes" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanCapsule/CleanCapsule.yy"
+[06-02-2022 12:59:58] Found Script: CleanCapsule
+[06-02-2022 12:59:58] Checking CleanCapsule.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanCapsuleVertical
+[06-02-2022 12:59:58] Checking clean_line.yy
+[06-02-2022 12:59:58] Trash file: clean_line.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking CleanRectangle.yy
+[06-02-2022 12:59:58] Trash file: CleanRectangle.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking CleanCapsuleVertical.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanCapsuleVertical/CleanCapsuleVertical.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanCapsuleVertical/CleanCapsuleVertical.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Shapes" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanCapsuleVertical/CleanCapsuleVertical.yy"
+[06-02-2022 12:59:58] Found Script: CleanCapsuleVertical
+[06-02-2022 12:59:58] Checking CleanCapsuleVertical.gml
+[06-02-2022 12:59:58] Checking CleanCapsule.yy
+[06-02-2022 12:59:58] Trash file: CleanCapsule.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanCircle
+[06-02-2022 12:59:58] Checking clean_rectangle.yy
+[06-02-2022 12:59:58] Trash file: clean_rectangle.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking clean_line.yy
+[06-02-2022 12:59:58] Trash file: clean_line.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking CleanCircle.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanCircle/CleanCircle.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanCircle/CleanCircle.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Shapes" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanCircle/CleanCircle.yy"
+[06-02-2022 12:59:58] Found Script: CleanCircle
+[06-02-2022 12:59:58] Checking CleanCircle.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanConvex
+[06-02-2022 12:59:58] Checking clean_triangle.yy
+[06-02-2022 12:59:58] Trash file: clean_triangle.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking clean_rectangle.yy
+[06-02-2022 12:59:58] Trash file: clean_rectangle.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking clean_polyline.yy
+[06-02-2022 12:59:58] Trash file: clean_polyline.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking clean_line.yy
+[06-02-2022 12:59:58] Trash file: clean_line.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking clean_circle.yy
+[06-02-2022 12:59:58] Trash file: clean_circle.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking CleanConvex.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanConvex/CleanConvex.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanConvex/CleanConvex.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Shapes" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanConvex/CleanConvex.yy"
+[06-02-2022 12:59:58] Found Script: CleanConvex
+[06-02-2022 12:59:58] Checking CleanConvex.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanEllipse
+[06-02-2022 12:59:58] Checking clean_rectangle.yy
+[06-02-2022 12:59:58] Trash file: clean_rectangle.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking clean_line.yy
+[06-02-2022 12:59:58] Trash file: clean_line.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking CleanEllipse.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanEllipse/CleanEllipse.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanEllipse/CleanEllipse.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Shapes" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanEllipse/CleanEllipse.yy"
+[06-02-2022 12:59:58] Found Script: CleanEllipse
+[06-02-2022 12:59:58] Checking CleanEllipse.gml
+[06-02-2022 12:59:58] Checking CleanCircle.yy
+[06-02-2022 12:59:58] Trash file: CleanCircle.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanLine
+[06-02-2022 12:59:58] Checking CleanLine.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanLine/CleanLine.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanLine/CleanLine.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Shapes" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanLine/CleanLine.yy"
+[06-02-2022 12:59:58] Found Script: CleanLine
+[06-02-2022 12:59:58] Checking CleanLine.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanNgon
+[06-02-2022 12:59:58] Checking clean_rectangle.yy
+[06-02-2022 12:59:58] Trash file: clean_rectangle.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking clean_line.yy
+[06-02-2022 12:59:58] Trash file: clean_line.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking CleanNgon.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanNgon/CleanNgon.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanNgon/CleanNgon.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Shapes" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanNgon/CleanNgon.yy"
+[06-02-2022 12:59:58] Found Script: CleanNgon
+[06-02-2022 12:59:58] Checking CleanNgon.gml
+[06-02-2022 12:59:58] Checking CleanCircle.yy
+[06-02-2022 12:59:58] Trash file: CleanCircle.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanPolyline
+[06-02-2022 12:59:58] Checking clean_triangle.yy
+[06-02-2022 12:59:58] Trash file: clean_triangle.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking clean_rectangle.yy
+[06-02-2022 12:59:58] Trash file: clean_rectangle.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking clean_line.yy
+[06-02-2022 12:59:58] Trash file: clean_line.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking clean_circle.yy
+[06-02-2022 12:59:58] Trash file: clean_circle.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking CleanPolyline.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanPolyline/CleanPolyline.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanPolyline/CleanPolyline.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Shapes" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanPolyline/CleanPolyline.yy"
+[06-02-2022 12:59:58] Found Script: CleanPolyline
+[06-02-2022 12:59:58] Checking CleanPolyline.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanRectangle
+[06-02-2022 12:59:58] Checking clean_line.yy
+[06-02-2022 12:59:58] Trash file: clean_line.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking CleanRectangle.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanRectangle/CleanRectangle.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanRectangle/CleanRectangle.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Shapes" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanRectangle/CleanRectangle.yy"
+[06-02-2022 12:59:58] Found Script: CleanRectangle
+[06-02-2022 12:59:58] Checking CleanRectangle.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanRectangleXYWH
+[06-02-2022 12:59:58] Checking clean_line.yy
+[06-02-2022 12:59:58] Trash file: clean_line.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking CleanRectangleXYWH.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanRectangleXYWH/CleanRectangleXYWH.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanRectangleXYWH/CleanRectangleXYWH.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Shapes" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanRectangleXYWH/CleanRectangleXYWH.yy"
+[06-02-2022 12:59:58] Found Script: CleanRectangleXYWH
+[06-02-2022 12:59:58] Checking CleanRectangleXYWH.gml
+[06-02-2022 12:59:58] Checking CleanRectangle.yy
+[06-02-2022 12:59:58] Trash file: CleanRectangle.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanRing
+[06-02-2022 12:59:58] Checking CleanSegment.yy
+[06-02-2022 12:59:58] Trash file: CleanSegment.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking CleanRing.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanRing/CleanRing.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanRing/CleanRing.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Shapes" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanRing/CleanRing.yy"
+[06-02-2022 12:59:58] Found Script: CleanRing
+[06-02-2022 12:59:58] Checking CleanRing.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanSegment
+[06-02-2022 12:59:58] Checking CleanSegment.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanSegment/CleanSegment.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanSegment/CleanSegment.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Shapes" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanSegment/CleanSegment.yy"
+[06-02-2022 12:59:58] Found Script: CleanSegment
+[06-02-2022 12:59:58] Checking CleanSegment.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanSpline
+[06-02-2022 12:59:58] Checking clean_triangle.yy
+[06-02-2022 12:59:58] Trash file: clean_triangle.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking clean_rectangle.yy
+[06-02-2022 12:59:58] Trash file: clean_rectangle.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking clean_line.yy
+[06-02-2022 12:59:58] Trash file: clean_line.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking clean_circle.yy
+[06-02-2022 12:59:58] Trash file: clean_circle.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking CleanSpline.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanSpline/CleanSpline.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanSpline/CleanSpline.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Shapes" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanSpline/CleanSpline.yy"
+[06-02-2022 12:59:58] Found Script: CleanSpline
+[06-02-2022 12:59:58] Checking CleanSpline.gml
+[06-02-2022 12:59:58] Checking CleanPolyline.yy
+[06-02-2022 12:59:58] Trash file: CleanPolyline.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformAddMove
+[06-02-2022 12:59:58] Checking CleanTransformAddMove.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformAddMove/CleanTransformAddMove.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformAddMove/CleanTransformAddMove.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Transform" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformAddMove/CleanTransformAddMove.yy"
+[06-02-2022 12:59:58] Found Script: CleanTransformAddMove
+[06-02-2022 12:59:58] Checking CleanTransformAddMove.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformAddRotate
+[06-02-2022 12:59:58] Checking CleanTransformMove.yy
+[06-02-2022 12:59:58] Trash file: CleanTransformMove.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking CleanTransformAddRotate.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformAddRotate/CleanTransformAddRotate.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformAddRotate/CleanTransformAddRotate.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Transform" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformAddRotate/CleanTransformAddRotate.yy"
+[06-02-2022 12:59:58] Found Script: CleanTransformAddRotate
+[06-02-2022 12:59:58] Checking CleanTransformAddRotate.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformAddScale
+[06-02-2022 12:59:58] Checking CleanTransformRotate.yy
+[06-02-2022 12:59:58] Trash file: CleanTransformRotate.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking CleanTransformMove.yy
+[06-02-2022 12:59:58] Trash file: CleanTransformMove.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking CleanTransformAddScale.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformAddScale/CleanTransformAddScale.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformAddScale/CleanTransformAddScale.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Transform" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformAddScale/CleanTransformAddScale.yy"
+[06-02-2022 12:59:58] Found Script: CleanTransformAddScale
+[06-02-2022 12:59:58] Checking CleanTransformAddScale.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformAddSkew
+[06-02-2022 12:59:58] Checking CleanTransformAddSkew.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformAddSkew/CleanTransformAddSkew.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformAddSkew/CleanTransformAddSkew.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Transform" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformAddSkew/CleanTransformAddSkew.yy"
+[06-02-2022 12:59:58] Found Script: CleanTransformAddSkew
+[06-02-2022 12:59:58] Checking CleanTransformAddSkew.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformOriginGet
+[06-02-2022 12:59:58] Checking CleanTransformOriginSet.yy
+[06-02-2022 12:59:58] Trash file: CleanTransformOriginSet.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:58] Checking CleanTransformOriginGet.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformOriginGet/CleanTransformOriginGet.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformOriginGet/CleanTransformOriginGet.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Transform" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformOriginGet/CleanTransformOriginGet.yy"
+[06-02-2022 12:59:58] Found Script: CleanTransformOriginGet
+[06-02-2022 12:59:58] Checking CleanTransformOriginGet.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformOriginSet
+[06-02-2022 12:59:58] Checking CleanTransformOriginSet.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformOriginSet/CleanTransformOriginSet.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformOriginSet/CleanTransformOriginSet.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Transform" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformOriginSet/CleanTransformOriginSet.yy"
+[06-02-2022 12:59:58] Found Script: CleanTransformOriginSet
+[06-02-2022 12:59:58] Checking CleanTransformOriginSet.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformReset
+[06-02-2022 12:59:58] Checking CleanTransformReset.yy
+[06-02-2022 12:59:58] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformReset/CleanTransformReset.yy
+[06-02-2022 12:59:58] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformReset/CleanTransformReset.yy
+[06-02-2022 12:59:58] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Transform" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTransformReset/CleanTransformReset.yy"
+[06-02-2022 12:59:58] Found Script: CleanTransformReset
+[06-02-2022 12:59:58] Checking CleanTransformReset.gml
+[06-02-2022 12:59:58] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTriangle
+[06-02-2022 12:59:59] Checking clean_rectangle.yy
+[06-02-2022 12:59:59] Trash file: clean_rectangle.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking clean_line.yy
+[06-02-2022 12:59:59] Trash file: clean_line.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking clean_circle.yy
+[06-02-2022 12:59:59] Trash file: clean_circle.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking CleanTriangle.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTriangle/CleanTriangle.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTriangle/CleanTriangle.yy
+[06-02-2022 12:59:59] Par: "folders/Scripts/Misc/Imported/Clean Shapes/Shapes" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/CleanTriangle/CleanTriangle.yy"
+[06-02-2022 12:59:59] Found Script: CleanTriangle
+[06-02-2022 12:59:59] Checking CleanTriangle.gml
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Collisions
+[06-02-2022 12:59:59] Checking Collisions.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Collisions/Collisions.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Collisions/Collisions.yy
+[06-02-2022 12:59:59] Par: "folders/Scripts/Collisions" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Collisions/Collisions.yy"
+[06-02-2022 12:59:59] Found Script: Collisions
+[06-02-2022 12:59:59] Checking Collisions.gml
+[06-02-2022 12:59:59] Checking check_collisions.remote.yy
+[06-02-2022 12:59:59] Trash file: check_collisions.remote.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking check_collisions.local.yy
+[06-02-2022 12:59:59] Trash file: check_collisions.local.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/DoLater
+[06-02-2022 12:59:59] Checking DoLater.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/DoLater/DoLater.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/DoLater/DoLater.yy
+[06-02-2022 12:59:59] Par: "folders/Scripts/Misc/Imported/DoLater" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/DoLater/DoLater.yy"
+[06-02-2022 12:59:59] Found Script: DoLater
+[06-02-2022 12:59:59] Checking DoLater.gml
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Effects
+[06-02-2022 12:59:59] Checking screen_flash.remote.yy
+[06-02-2022 12:59:59] Trash file: screen_flash.remote.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking screen_flash.local.yy
+[06-02-2022 12:59:59] Trash file: screen_flash.local.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking Effects.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Effects/Effects.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Effects/Effects.yy
+[06-02-2022 12:59:59] Par: "folders/Scripts/Effects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Effects/Effects.yy"
+[06-02-2022 12:59:59] Found Script: Effects
+[06-02-2022 12:59:59] Checking Effects.gml
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/iota_clock
+[06-02-2022 12:59:59] Checking iota_clock.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/iota_clock/iota_clock.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/iota_clock/iota_clock.yy
+[06-02-2022 12:59:59] Par: "folders/Scripts/Misc/Imported/iota" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/iota_clock/iota_clock.yy"
+[06-02-2022 12:59:59] Found Script: iota_clock
+[06-02-2022 12:59:59] Checking iota_clock.gml
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/LightningClass
+[06-02-2022 12:59:59] Checking LightningClass.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/LightningClass/LightningClass.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/LightningClass/LightningClass.yy
+[06-02-2022 12:59:59] Par: "folders/Scripts/Effects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/LightningClass/LightningClass.yy"
+[06-02-2022 12:59:59] Found Script: LightningClass
+[06-02-2022 12:59:59] Checking LightningClass.gml
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Macros
+[06-02-2022 12:59:59] Checking Macros.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Macros/Macros.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Macros/Macros.yy
+[06-02-2022 12:59:59] Par: "folders/Scripts/Misc" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Macros/Macros.yy"
+[06-02-2022 12:59:59] Found Script: Macros
+[06-02-2022 12:59:59] Checking Macros.gml
+[06-02-2022 12:59:59] Checking constants.remote.yy
+[06-02-2022 12:59:59] Trash file: constants.remote.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking constants.local.yy
+[06-02-2022 12:59:59] Trash file: constants.local.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/PlayerAnim
+[06-02-2022 12:59:59] Checking PlayerAnim.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/PlayerAnim/PlayerAnim.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/PlayerAnim/PlayerAnim.yy
+[06-02-2022 12:59:59] Par: "folders/Scripts/Animation" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/PlayerAnim/PlayerAnim.yy"
+[06-02-2022 12:59:59] Found Script: PlayerAnim
+[06-02-2022 12:59:59] Checking PlayerAnim.gml
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/PlayerClass
+[06-02-2022 12:59:59] Checking player_states.remote.yy
+[06-02-2022 12:59:59] Trash file: player_states.remote.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking player_states.local.yy
+[06-02-2022 12:59:59] Trash file: player_states.local.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking PlayerClass.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/PlayerClass/PlayerClass.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/PlayerClass/PlayerClass.yy
+[06-02-2022 12:59:59] Par: "folders/Scripts/States" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/PlayerClass/PlayerClass.yy"
+[06-02-2022 12:59:59] Found Script: PlayerClass
+[06-02-2022 12:59:59] Checking PlayerClass.gml
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Script22
+[06-02-2022 12:59:59] Checking Script22.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Script22/Script22.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Script22/Script22.yy
+[06-02-2022 12:59:59] Par: "folders/Scripts" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Script22/Script22.yy"
+[06-02-2022 12:59:59] Found Script: Script22
+[06-02-2022 12:59:59] Checking Script22.gml
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Signals
+[06-02-2022 12:59:59] Checking Signals.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Signals/Signals.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Signals/Signals.yy
+[06-02-2022 12:59:59] Par: "folders/Scripts/Misc" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Signals/Signals.yy"
+[06-02-2022 12:59:59] Found Script: Signals
+[06-02-2022 12:59:59] Checking Signals.gml
+[06-02-2022 12:59:59] Checking Script22.yy
+[06-02-2022 12:59:59] Trash file: Script22.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/SnowState
+[06-02-2022 12:59:59] Checking SnowState.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/SnowState/SnowState.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/SnowState/SnowState.yy
+[06-02-2022 12:59:59] Par: "folders/SnowState" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/SnowState/SnowState.yy"
+[06-02-2022 12:59:59] Found Script: SnowState
+[06-02-2022 12:59:59] Checking SnowState.gml
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Transitions
+[06-02-2022 12:59:59] Checking Transitions.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Transitions/Transitions.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Transitions/Transitions.yy
+[06-02-2022 12:59:59] Par: "folders/Scripts/Effects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Transitions/Transitions.yy"
+[06-02-2022 12:59:59] Found Script: Transitions
+[06-02-2022 12:59:59] Checking transitions.remote.yy
+[06-02-2022 12:59:59] Trash file: transitions.remote.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking transitions.local.yy
+[06-02-2022 12:59:59] Trash file: transitions.local.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking transitions.gml
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Tweens
+[06-02-2022 12:59:59] Checking Tweens.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Tweens/Tweens.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Tweens/Tweens.yy
+[06-02-2022 12:59:59] Par: "folders/Scripts/Animation" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/Tweens/Tweens.yy"
+[06-02-2022 12:59:59] Found Script: Tweens
+[06-02-2022 12:59:59] Checking Tweens.gml
+[06-02-2022 12:59:59] Checking Script22.yy
+[06-02-2022 12:59:59] Trash file: Script22.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/UsefulConstructors
+[06-02-2022 12:59:59] Checking UsefulFunctions.yy
+[06-02-2022 12:59:59] Trash file: UsefulFunctions.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking UsefulConstructors.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/UsefulConstructors/UsefulConstructors.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/UsefulConstructors/UsefulConstructors.yy
+[06-02-2022 12:59:59] Par: "folders/Scripts/Misc" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/UsefulConstructors/UsefulConstructors.yy"
+[06-02-2022 12:59:59] Found Script: UsefulConstructors
+[06-02-2022 12:59:59] Checking UsefulConstructors.gml
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/UsefulFunctions
+[06-02-2022 12:59:59] Checking UsefulFunctions.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/UsefulFunctions/UsefulFunctions.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/UsefulFunctions/UsefulFunctions.yy
+[06-02-2022 12:59:59] Par: "folders/Scripts/Misc" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/UsefulFunctions/UsefulFunctions.yy"
+[06-02-2022 12:59:59] Found Script: UsefulFunctions
+[06-02-2022 12:59:59] Checking UsefulFunctions.gml
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/__CleanConfig
+[06-02-2022 12:59:59] Checking __CleanConfig.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/__CleanConfig/__CleanConfig.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/__CleanConfig/__CleanConfig.yy
+[06-02-2022 12:59:59] Par: "folders/Scripts/Misc/Imported/Clean Shapes" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/__CleanConfig/__CleanConfig.yy"
+[06-02-2022 12:59:59] Found Script: __CleanConfig
+[06-02-2022 12:59:59] Checking __CleanConfig.gml
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/__CleanSystem
+[06-02-2022 12:59:59] Checking __CleanSystem.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/__CleanSystem/__CleanSystem.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/__CleanSystem/__CleanSystem.yy
+[06-02-2022 12:59:59] Par: "folders/Scripts/Misc/Imported/Clean Shapes/(System)" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/__CleanSystem/__CleanSystem.yy"
+[06-02-2022 12:59:59] Found Script: __CleanSystem
+[06-02-2022 12:59:59] Checking __CleanSystem.gml
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/__iota_config
+[06-02-2022 12:59:59] Checking __iota_config.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/__iota_config/__iota_config.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/__iota_config/__iota_config.yy
+[06-02-2022 12:59:59] Par: "folders/Scripts/Misc/Imported/iota" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/__iota_config/__iota_config.yy"
+[06-02-2022 12:59:59] Found Script: __iota_config
+[06-02-2022 12:59:59] Checking __iota_config.gml
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/__snowstate_config
+[06-02-2022 12:59:59] Checking __snowstate_config.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/__snowstate_config/__snowstate_config.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/__snowstate_config/__snowstate_config.yy
+[06-02-2022 12:59:59] Par: "folders/SnowState" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/scripts/__snowstate_config/__snowstate_config.yy"
+[06-02-2022 12:59:59] Found Script: __snowstate_config
+[06-02-2022 12:59:59] Checking __snowstate_config.gml
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sequences
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders
+[06-02-2022 12:59:59] Checking __shdCleanJaggies
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/__shdCleanJaggies
+[06-02-2022 12:59:59] Checking __shdCleanAntialias
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/__shdCleanAntialias
+[06-02-2022 12:59:59] Checking shVignette
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shVignette
+[06-02-2022 12:59:59] Checking shTempFlash
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shTempFlash
+[06-02-2022 12:59:59] Checking shStansCoat
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shStansCoat
+[06-02-2022 12:59:59] Checking shSinCity
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shSinCity
+[06-02-2022 12:59:59] Checking shSepia
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shSepia
+[06-02-2022 12:59:59] Checking shRainbow
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shRainbow
+[06-02-2022 12:59:59] Checking shOverlayColour
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shOverlayColour
+[06-02-2022 12:59:59] Checking shOutline
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shOutline
+[06-02-2022 12:59:59] Checking shInvisible
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shInvisible
+[06-02-2022 12:59:59] Checking shGritty
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shGritty
+[06-02-2022 12:59:59] Checking shFlash
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shFlash
+[06-02-2022 12:59:59] Checking shDuotoneV2
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shDuotoneV2
+[06-02-2022 12:59:59] Checking shDuotoneStylized
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shDuotoneStylized
+[06-02-2022 12:59:59] Checking shDuotone
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shDuotone
+[06-02-2022 12:59:59] Checking shdr_tfx_wipe
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_wipe
+[06-02-2022 12:59:59] Checking shdr_tfx_slide
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_slide
+[06-02-2022 12:59:59] Checking shdr_tfx_random_squares
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_random_squares
+[06-02-2022 12:59:59] Checking shdr_tfx_radial_wipe
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_radial_wipe
+[06-02-2022 12:59:59] Checking shdr_tfx_pixelize
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_pixelize
+[06-02-2022 12:59:59] Checking shdr_tfx_fade_wave
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_fade_wave
+[06-02-2022 12:59:59] Checking shdr_tfx_fade_ripple
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_fade_ripple
+[06-02-2022 12:59:59] Checking shdr_tfx_fade_blur
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_fade_blur
+[06-02-2022 12:59:59] Checking shdr_tfx_fade
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_fade
+[06-02-2022 12:59:59] Checking shdr_tfx_circle
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_circle
+[06-02-2022 12:59:59] Checking shdr_tfx_blinds
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_blinds
+[06-02-2022 12:59:59] Checking shDayAndNight
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shDayAndNight
+[06-02-2022 12:59:59] Checking shColorDance
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shColorDance
+[06-02-2022 12:59:59] Checking shBlurGaussDiscrete
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBlurGaussDiscrete
+[06-02-2022 12:59:59] Checking shBlurGauss
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBlurGauss
+[06-02-2022 12:59:59] Checking shBlur1PassIsoweightDiscrete
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBlur1PassIsoweightDiscrete
+[06-02-2022 12:59:59] Checking shBloomAppsurf
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBloomAppsurf
+[06-02-2022 12:59:59] Checking shBandW
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBandW
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBandW
+[06-02-2022 12:59:59] Checking shBandW.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBandW/shBandW.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBandW/shBandW.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/screen effects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBandW/shBandW.yy"
+[06-02-2022 12:59:59] Found Shader: shBandW
+[06-02-2022 12:59:59] Checking shBandW.vsh
+[06-02-2022 12:59:59] Checking shBandW.remote.yy
+[06-02-2022 12:59:59] Trash file: shBandW.remote.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking shBandW.local.yy
+[06-02-2022 12:59:59] Trash file: shBandW.local.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking shBandW.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBloomAppsurf
+[06-02-2022 12:59:59] Checking shBloomAppsurf.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBloomAppsurf/shBloomAppsurf.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBloomAppsurf/shBloomAppsurf.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/screen effects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBloomAppsurf/shBloomAppsurf.yy"
+[06-02-2022 12:59:59] Found Shader: shBloomAppsurf
+[06-02-2022 12:59:59] Checking shBloomAppsurf.vsh
+[06-02-2022 12:59:59] Checking shBloomAppsurf.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBlur1PassIsoweightDiscrete
+[06-02-2022 12:59:59] Checking shBlur1PassIsoweightDiscrete.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBlur1PassIsoweightDiscrete/shBlur1PassIsoweightDiscrete.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBlur1PassIsoweightDiscrete/shBlur1PassIsoweightDiscrete.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/screen effects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBlur1PassIsoweightDiscrete/shBlur1PassIsoweightDiscrete.yy"
+[06-02-2022 12:59:59] Found Shader: shBlur1PassIsoweightDiscrete
+[06-02-2022 12:59:59] Checking shBlur1PassIsoweightDiscrete.vsh
+[06-02-2022 12:59:59] Checking shBlur1PassIsoweightDiscrete.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBlurGauss
+[06-02-2022 12:59:59] Checking shBlurGauss.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBlurGauss/shBlurGauss.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBlurGauss/shBlurGauss.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/screen effects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBlurGauss/shBlurGauss.yy"
+[06-02-2022 12:59:59] Found Shader: shBlurGauss
+[06-02-2022 12:59:59] Checking shBlurGauss.vsh
+[06-02-2022 12:59:59] Checking shBlurGauss.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBlurGaussDiscrete
+[06-02-2022 12:59:59] Checking shBlurGaussDiscrete.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBlurGaussDiscrete/shBlurGaussDiscrete.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBlurGaussDiscrete/shBlurGaussDiscrete.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/screen effects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shBlurGaussDiscrete/shBlurGaussDiscrete.yy"
+[06-02-2022 12:59:59] Found Shader: shBlurGaussDiscrete
+[06-02-2022 12:59:59] Checking shBlurGaussDiscrete.vsh
+[06-02-2022 12:59:59] Checking shBlurGaussDiscrete.fsh
+[06-02-2022 12:59:59] Checking shBlur1PassIsoweightDiscrete.yy
+[06-02-2022 12:59:59] Trash file: shBlur1PassIsoweightDiscrete.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shColorDance
+[06-02-2022 12:59:59] Checking shColorDance.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shColorDance/shColorDance.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shColorDance/shColorDance.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/screen effects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shColorDance/shColorDance.yy"
+[06-02-2022 12:59:59] Found Shader: shColorDance
+[06-02-2022 12:59:59] Checking shColorDance.vsh
+[06-02-2022 12:59:59] Checking shColorDance.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shDayAndNight
+[06-02-2022 12:59:59] Checking shDayAndNight.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shDayAndNight/shDayAndNight.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shDayAndNight/shDayAndNight.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/screen effects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shDayAndNight/shDayAndNight.yy"
+[06-02-2022 12:59:59] Found Shader: shDayAndNight
+[06-02-2022 12:59:59] Checking shDayAndNight.vsh
+[06-02-2022 12:59:59] Checking shDayAndNight.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_blinds
+[06-02-2022 12:59:59] Checking shdr_tfx_blinds.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_blinds/shdr_tfx_blinds.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_blinds/shdr_tfx_blinds.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/tfx_shdr" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_blinds/shdr_tfx_blinds.yy"
+[06-02-2022 12:59:59] Found Shader: shdr_tfx_blinds
+[06-02-2022 12:59:59] Checking shdr_tfx_blinds.vsh
+[06-02-2022 12:59:59] Checking shdr_tfx_blinds.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_circle
+[06-02-2022 12:59:59] Checking shdr_tfx_circle.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_circle/shdr_tfx_circle.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_circle/shdr_tfx_circle.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/tfx_shdr" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_circle/shdr_tfx_circle.yy"
+[06-02-2022 12:59:59] Found Shader: shdr_tfx_circle
+[06-02-2022 12:59:59] Checking shdr_tfx_circle.vsh
+[06-02-2022 12:59:59] Checking shdr_tfx_circle.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_fade
+[06-02-2022 12:59:59] Checking shdr_tfx_fade.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_fade/shdr_tfx_fade.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_fade/shdr_tfx_fade.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/tfx_shdr" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_fade/shdr_tfx_fade.yy"
+[06-02-2022 12:59:59] Found Shader: shdr_tfx_fade
+[06-02-2022 12:59:59] Checking shdr_tfx_fade.vsh
+[06-02-2022 12:59:59] Checking shdr_tfx_fade.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_fade_blur
+[06-02-2022 12:59:59] Checking shdr_tfx_fade_blur.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_fade_blur/shdr_tfx_fade_blur.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_fade_blur/shdr_tfx_fade_blur.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/tfx_shdr" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_fade_blur/shdr_tfx_fade_blur.yy"
+[06-02-2022 12:59:59] Found Shader: shdr_tfx_fade_blur
+[06-02-2022 12:59:59] Checking shdr_tfx_fade_blur.vsh
+[06-02-2022 12:59:59] Checking shdr_tfx_fade_blur.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_fade_ripple
+[06-02-2022 12:59:59] Checking shdr_tfx_fade_ripple.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_fade_ripple/shdr_tfx_fade_ripple.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_fade_ripple/shdr_tfx_fade_ripple.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/tfx_shdr" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_fade_ripple/shdr_tfx_fade_ripple.yy"
+[06-02-2022 12:59:59] Found Shader: shdr_tfx_fade_ripple
+[06-02-2022 12:59:59] Checking shdr_tfx_fade_ripple.vsh
+[06-02-2022 12:59:59] Checking shdr_tfx_fade_ripple.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_fade_wave
+[06-02-2022 12:59:59] Checking shdr_tfx_fade_wave.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_fade_wave/shdr_tfx_fade_wave.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_fade_wave/shdr_tfx_fade_wave.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/tfx_shdr" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_fade_wave/shdr_tfx_fade_wave.yy"
+[06-02-2022 12:59:59] Found Shader: shdr_tfx_fade_wave
+[06-02-2022 12:59:59] Checking shdr_tfx_fade_wave.vsh
+[06-02-2022 12:59:59] Checking shdr_tfx_fade_wave.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_pixelize
+[06-02-2022 12:59:59] Checking shdr_tfx_pixelize.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_pixelize/shdr_tfx_pixelize.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_pixelize/shdr_tfx_pixelize.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/tfx_shdr" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_pixelize/shdr_tfx_pixelize.yy"
+[06-02-2022 12:59:59] Found Shader: shdr_tfx_pixelize
+[06-02-2022 12:59:59] Checking shdr_tfx_pixelize.vsh
+[06-02-2022 12:59:59] Checking shdr_tfx_pixelize.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_radial_wipe
+[06-02-2022 12:59:59] Checking shdr_tfx_radial_wipe.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_radial_wipe/shdr_tfx_radial_wipe.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_radial_wipe/shdr_tfx_radial_wipe.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/tfx_shdr" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_radial_wipe/shdr_tfx_radial_wipe.yy"
+[06-02-2022 12:59:59] Found Shader: shdr_tfx_radial_wipe
+[06-02-2022 12:59:59] Checking shdr_tfx_radial_wipe.vsh
+[06-02-2022 12:59:59] Checking shdr_tfx_radial_wipe.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_random_squares
+[06-02-2022 12:59:59] Checking shdr_tfx_random_squares.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_random_squares/shdr_tfx_random_squares.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_random_squares/shdr_tfx_random_squares.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/tfx_shdr" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_random_squares/shdr_tfx_random_squares.yy"
+[06-02-2022 12:59:59] Found Shader: shdr_tfx_random_squares
+[06-02-2022 12:59:59] Checking shdr_tfx_random_squares.vsh
+[06-02-2022 12:59:59] Checking shdr_tfx_random_squares.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_slide
+[06-02-2022 12:59:59] Checking shdr_tfx_slide.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_slide/shdr_tfx_slide.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_slide/shdr_tfx_slide.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/tfx_shdr" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_slide/shdr_tfx_slide.yy"
+[06-02-2022 12:59:59] Found Shader: shdr_tfx_slide
+[06-02-2022 12:59:59] Checking shdr_tfx_slide.vsh
+[06-02-2022 12:59:59] Checking shdr_tfx_slide.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_wipe
+[06-02-2022 12:59:59] Checking shdr_tfx_wipe.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_wipe/shdr_tfx_wipe.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_wipe/shdr_tfx_wipe.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/tfx_shdr" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shdr_tfx_wipe/shdr_tfx_wipe.yy"
+[06-02-2022 12:59:59] Found Shader: shdr_tfx_wipe
+[06-02-2022 12:59:59] Checking shdr_tfx_wipe.vsh
+[06-02-2022 12:59:59] Checking shdr_tfx_wipe.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shDuotone
+[06-02-2022 12:59:59] Checking shDuotone.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shDuotone/shDuotone.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shDuotone/shDuotone.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/screen effects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shDuotone/shDuotone.yy"
+[06-02-2022 12:59:59] Found Shader: shDuotone
+[06-02-2022 12:59:59] Checking shDuotone.vsh
+[06-02-2022 12:59:59] Checking shDuotone.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shDuotoneStylized
+[06-02-2022 12:59:59] Checking shDuotoneStylized.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shDuotoneStylized/shDuotoneStylized.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shDuotoneStylized/shDuotoneStylized.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/screen effects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shDuotoneStylized/shDuotoneStylized.yy"
+[06-02-2022 12:59:59] Found Shader: shDuotoneStylized
+[06-02-2022 12:59:59] Checking shDuotoneStylized.vsh
+[06-02-2022 12:59:59] Checking shDuotoneStylized.fsh
+[06-02-2022 12:59:59] Checking shDuotone11.yy
+[06-02-2022 12:59:59] Trash file: shDuotone11.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking shDuotone.yy
+[06-02-2022 12:59:59] Trash file: shDuotone.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shDuotoneV2
+[06-02-2022 12:59:59] Checking shDuotoneV2.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shDuotoneV2/shDuotoneV2.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shDuotoneV2/shDuotoneV2.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/screen effects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shDuotoneV2/shDuotoneV2.yy"
+[06-02-2022 12:59:59] Found Shader: shDuotoneV2
+[06-02-2022 12:59:59] Checking shDuotoneV2.vsh
+[06-02-2022 12:59:59] Checking shDuotoneV2.fsh
+[06-02-2022 12:59:59] Checking shDuotone.yy
+[06-02-2022 12:59:59] Trash file: shDuotone.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shFlash
+[06-02-2022 12:59:59] Checking shFlash.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shFlash/shFlash.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shFlash/shFlash.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shFlash/shFlash.yy"
+[06-02-2022 12:59:59] Found Shader: shFlash
+[06-02-2022 12:59:59] Checking shFlash.vsh
+[06-02-2022 12:59:59] Checking shFlash.remote.yy
+[06-02-2022 12:59:59] Trash file: shFlash.remote.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking shFlash.local.yy
+[06-02-2022 12:59:59] Trash file: shFlash.local.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking shFlash.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shGritty
+[06-02-2022 12:59:59] Checking shGritty.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shGritty/shGritty.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shGritty/shGritty.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/screen effects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shGritty/shGritty.yy"
+[06-02-2022 12:59:59] Found Shader: shGritty
+[06-02-2022 12:59:59] Checking shGritty.vsh
+[06-02-2022 12:59:59] Checking shGritty.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shInvisible
+[06-02-2022 12:59:59] Checking shInvisible.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shInvisible/shInvisible.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shInvisible/shInvisible.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/screen effects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shInvisible/shInvisible.yy"
+[06-02-2022 12:59:59] Found Shader: shInvisible
+[06-02-2022 12:59:59] Checking shInvisible.vsh
+[06-02-2022 12:59:59] Checking shInvisible.remote.yy
+[06-02-2022 12:59:59] Trash file: shInvisible.remote.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking shInvisible.local.yy
+[06-02-2022 12:59:59] Trash file: shInvisible.local.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking shInvisible.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shOutline
+[06-02-2022 12:59:59] Checking shOutline.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shOutline/shOutline.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shOutline/shOutline.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shOutline/shOutline.yy"
+[06-02-2022 12:59:59] Found Shader: shOutline
+[06-02-2022 12:59:59] Checking shOutline.vsh
+[06-02-2022 12:59:59] Checking shOutline.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shOverlayColour
+[06-02-2022 12:59:59] Checking shOverlayColour.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shOverlayColour/shOverlayColour.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shOverlayColour/shOverlayColour.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/screen effects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shOverlayColour/shOverlayColour.yy"
+[06-02-2022 12:59:59] Found Shader: shOverlayColour
+[06-02-2022 12:59:59] Checking shOverlayColour.vsh
+[06-02-2022 12:59:59] Checking shOverlayColour.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shRainbow
+[06-02-2022 12:59:59] Checking shRainbow.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shRainbow/shRainbow.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shRainbow/shRainbow.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shRainbow/shRainbow.yy"
+[06-02-2022 12:59:59] Found Shader: shRainbow
+[06-02-2022 12:59:59] Checking shRainbow.vsh
+[06-02-2022 12:59:59] Checking shRainbow.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shSepia
+[06-02-2022 12:59:59] Checking shSepia.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shSepia/shSepia.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shSepia/shSepia.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/screen effects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shSepia/shSepia.yy"
+[06-02-2022 12:59:59] Found Shader: shSepia
+[06-02-2022 12:59:59] Checking shSepia.vsh
+[06-02-2022 12:59:59] Checking shSepia.remote.yy
+[06-02-2022 12:59:59] Trash file: shSepia.remote.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking shSepia.local.yy
+[06-02-2022 12:59:59] Trash file: shSepia.local.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking shSepia.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shSinCity
+[06-02-2022 12:59:59] Checking shSinCity.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shSinCity/shSinCity.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shSinCity/shSinCity.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/screen effects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shSinCity/shSinCity.yy"
+[06-02-2022 12:59:59] Found Shader: shSinCity
+[06-02-2022 12:59:59] Checking shSinCity.vsh
+[06-02-2022 12:59:59] Checking shSinCity.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shStansCoat
+[06-02-2022 12:59:59] Checking shStansCoat.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shStansCoat/shStansCoat.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shStansCoat/shStansCoat.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/screen effects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shStansCoat/shStansCoat.yy"
+[06-02-2022 12:59:59] Found Shader: shStansCoat
+[06-02-2022 12:59:59] Checking shStansCoat.vsh
+[06-02-2022 12:59:59] Checking shStansCoat.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shTempFlash
+[06-02-2022 12:59:59] Checking shTempFlash.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shTempFlash/shTempFlash.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shTempFlash/shTempFlash.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/screen effects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shTempFlash/shTempFlash.yy"
+[06-02-2022 12:59:59] Found Shader: shTempFlash
+[06-02-2022 12:59:59] Checking shTempFlash.vsh
+[06-02-2022 12:59:59] Checking shTempFlash.remote.yy
+[06-02-2022 12:59:59] Trash file: shTempFlash.remote.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking shTempFlash.local.yy
+[06-02-2022 12:59:59] Trash file: shTempFlash.local.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking shTempFlash.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shVignette
+[06-02-2022 12:59:59] Checking shVignette.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shVignette/shVignette.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shVignette/shVignette.yy
+[06-02-2022 12:59:59] Par: "folders/Shaders/screen effects" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/shVignette/shVignette.yy"
+[06-02-2022 12:59:59] Found Shader: shVignette
+[06-02-2022 12:59:59] Checking shVignette.vsh
+[06-02-2022 12:59:59] Checking shVignette.fsh
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/__shdCleanAntialias
+[06-02-2022 12:59:59] Checking __shdCleanAntialias.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/__shdCleanAntialias/__shdCleanAntialias.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/__shdCleanAntialias/__shdCleanAntialias.yy
+[06-02-2022 12:59:59] Par: "folders/Scripts/Misc/Imported/Clean Shapes/(System)" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/__shdCleanAntialias/__shdCleanAntialias.yy"
+[06-02-2022 12:59:59] Found Shader: __shdCleanAntialias
+[06-02-2022 12:59:59] Checking __shdCleanAntialias.vsh
+[06-02-2022 12:59:59] Checking __shdCleanAntialias.fsh
+[06-02-2022 12:59:59] Checking shdStripeTest.yy
+[06-02-2022 12:59:59] Trash file: shdStripeTest.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/__shdCleanJaggies
+[06-02-2022 12:59:59] Checking __shdCleanJaggies.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/__shdCleanJaggies/__shdCleanJaggies.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/__shdCleanJaggies/__shdCleanJaggies.yy
+[06-02-2022 12:59:59] Par: "folders/Scripts/Misc/Imported/Clean Shapes/(System)" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/shaders/__shdCleanJaggies/__shdCleanJaggies.yy"
+[06-02-2022 12:59:59] Found Shader: __shdCleanJaggies
+[06-02-2022 12:59:59] Checking __shdCleanJaggies.vsh
+[06-02-2022 12:59:59] Checking __shdCleanJaggies.fsh
+[06-02-2022 12:59:59] Checking __shdCleanAntialias.yy
+[06-02-2022 12:59:59] Trash file: __shdCleanAntialias.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking shdStripeTest.yy
+[06-02-2022 12:59:59] Trash file: shdStripeTest.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sounds
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites
+[06-02-2022 12:59:59] Checking sprSky
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprSky
+[06-02-2022 12:59:59] Checking sprPlayerCrouch
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprPlayerCrouch
+[06-02-2022 12:59:59] Checking sprPlayer
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprPlayer
+[06-02-2022 12:59:59] Checking sprMatrix
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprMatrix
+[06-02-2022 12:59:59] Checking sprCircle
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprCircle
+[06-02-2022 12:59:59] Checking sprBlock
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprBlock
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprBlock
+[06-02-2022 12:59:59] Checking sprBlock.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprBlock/sprBlock.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprBlock/sprBlock.yy
+[06-02-2022 12:59:59] Par: "folders/Sprites" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprBlock/sprBlock.yy"
+[06-02-2022 12:59:59] Found Sprite: sprBlock
+[06-02-2022 12:59:59] Checking layers
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprBlock/layers
+[06-02-2022 12:59:59] Checking 1a108672-16c0-4ee8-a293-19999196977b.png
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprBlock/layers
+[06-02-2022 12:59:59] Checking 1a108672-16c0-4ee8-a293-19999196977b
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprBlock/layers/1a108672-16c0-4ee8-a293-19999196977b
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprBlock/layers/1a108672-16c0-4ee8-a293-19999196977b
+[06-02-2022 12:59:59] Checking 01e42310-d206-46f9-ae6e-fdaf32f44b9b.png
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprCircle
+[06-02-2022 12:59:59] Checking sprCircle.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprCircle/sprCircle.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprCircle/sprCircle.yy
+[06-02-2022 12:59:59] Par: "folders/Sprites" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprCircle/sprCircle.yy"
+[06-02-2022 12:59:59] Found Sprite: sprCircle
+[06-02-2022 12:59:59] Checking layers
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprCircle/layers
+[06-02-2022 12:59:59] Checking dd3b1e98-b540-45d9-b43a-6beb5ab41b58.png
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprCircle/layers
+[06-02-2022 12:59:59] Checking dd3b1e98-b540-45d9-b43a-6beb5ab41b58
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprCircle/layers/dd3b1e98-b540-45d9-b43a-6beb5ab41b58
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprCircle/layers/dd3b1e98-b540-45d9-b43a-6beb5ab41b58
+[06-02-2022 12:59:59] Checking 411e482b-3b68-40b7-aa10-8a78b53dee03.png
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprMatrix
+[06-02-2022 12:59:59] Checking sprMatrix.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprMatrix/sprMatrix.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprMatrix/sprMatrix.yy
+[06-02-2022 12:59:59] Par: "folders/Sprites/Tilesets" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprMatrix/sprMatrix.yy"
+[06-02-2022 12:59:59] Found Sprite: sprMatrix
+[06-02-2022 12:59:59] Checking layers
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprMatrix/layers
+[06-02-2022 12:59:59] Checking 70bd36ec-df0a-4d57-b0fc-85e1e3f15f32.png
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprMatrix/layers
+[06-02-2022 12:59:59] Checking 70bd36ec-df0a-4d57-b0fc-85e1e3f15f32
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprMatrix/layers/70bd36ec-df0a-4d57-b0fc-85e1e3f15f32
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprMatrix/layers/70bd36ec-df0a-4d57-b0fc-85e1e3f15f32
+[06-02-2022 12:59:59] Checking 22666fe9-fb60-47c5-b243-23f8ac524e8b.png
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprPlayer
+[06-02-2022 12:59:59] Checking sprPlayer.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprPlayer/sprPlayer.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprPlayer/sprPlayer.yy
+[06-02-2022 12:59:59] Par: "folders/Sprites/Player" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprPlayer/sprPlayer.yy"
+[06-02-2022 12:59:59] Found Sprite: sprPlayer
+[06-02-2022 12:59:59] Checking layers
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprPlayer/layers
+[06-02-2022 12:59:59] Checking 6eaf8436-011e-43ba-9ef3-d558e25fdc87.png
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprPlayer/layers
+[06-02-2022 12:59:59] Checking 6eaf8436-011e-43ba-9ef3-d558e25fdc87
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprPlayer/layers/6eaf8436-011e-43ba-9ef3-d558e25fdc87
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprPlayer/layers/6eaf8436-011e-43ba-9ef3-d558e25fdc87
+[06-02-2022 12:59:59] Checking 269a8792-a927-4826-be58-b9be69e8667b.png
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprPlayerCrouch
+[06-02-2022 12:59:59] Checking sprPlayerCrouch.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprPlayerCrouch/sprPlayerCrouch.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprPlayerCrouch/sprPlayerCrouch.yy
+[06-02-2022 12:59:59] Par: "folders/Sprites/Player" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprPlayerCrouch/sprPlayerCrouch.yy"
+[06-02-2022 12:59:59] Found Sprite: sprPlayerCrouch
+[06-02-2022 12:59:59] Checking sprPlayer.yy
+[06-02-2022 12:59:59] Trash file: sprPlayer.yy, will be moved to ___yyp_maker_trash
+[06-02-2022 12:59:59] Checking layers
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprPlayerCrouch/layers
+[06-02-2022 12:59:59] Checking 6eaf8436-011e-43ba-9ef3-d558e25fdc87.png
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprPlayerCrouch/layers
+[06-02-2022 12:59:59] Checking 6eaf8436-011e-43ba-9ef3-d558e25fdc87
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprPlayerCrouch/layers/6eaf8436-011e-43ba-9ef3-d558e25fdc87
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprPlayerCrouch/layers/6eaf8436-011e-43ba-9ef3-d558e25fdc87
+[06-02-2022 12:59:59] Checking 269a8792-a927-4826-be58-b9be69e8667b.png
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprSky
+[06-02-2022 12:59:59] Checking sprSky.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprSky/sprSky.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprSky/sprSky.yy
+[06-02-2022 12:59:59] Par: "folders/Sprites/Background" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprSky/sprSky.yy"
+[06-02-2022 12:59:59] Found Sprite: sprSky
+[06-02-2022 12:59:59] Checking layers
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprSky/layers
+[06-02-2022 12:59:59] Checking 2b7c482f-959e-4ac8-ac63-a22fe3a8257a.png
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprSky/layers
+[06-02-2022 12:59:59] Checking 2b7c482f-959e-4ac8-ac63-a22fe3a8257a
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprSky/layers/2b7c482f-959e-4ac8-ac63-a22fe3a8257a
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/sprites/sprSky/layers/2b7c482f-959e-4ac8-ac63-a22fe3a8257a
+[06-02-2022 12:59:59] Checking 2bf97058-2077-4b5d-9996-4fe9a4bbbbb9.png
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/tilesets
+[06-02-2022 12:59:59] Checking tsMatrix
+[06-02-2022 12:59:59] Directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/tilesets/tsMatrix
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/tilesets/tsMatrix
+[06-02-2022 12:59:59] Checking tsMatrix.yy
+[06-02-2022 12:59:59] Parsing C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/tilesets/tsMatrix/tsMatrix.yy
+[06-02-2022 12:59:59] Reading C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/tilesets/tsMatrix/tsMatrix.yy
+[06-02-2022 12:59:59] Par: "folders/Tile Sets" at dir: "C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/tilesets/tsMatrix/tsMatrix.yy"
+[06-02-2022 12:59:59] Found TileSet: tsMatrix
+[06-02-2022 12:59:59] Checking output_tileset.png
+[06-02-2022 12:59:59] Current parent directory: C:/Users/talha/Documents/GitHub/Gamemaker-Source-Control/Projects/Equinox/timelines
+[06-02-2022 12:59:59] Moving files to trash...
+[06-02-2022 12:59:59] Files yeeted successfully!
+[06-02-2022 12:59:59] Generating YYP...
+[06-02-2022 12:59:59] Equinox.yyp created successfully!
